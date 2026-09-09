@@ -57,14 +57,39 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "monocytes",
+    "inflammation_damage"
+   ],
+   "approach": [
+    "human_samples",
+    "transcriptomics"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Healthy adults watched films depicting animal cruelty or positive human-animal interactions during fMRI while autonomic activity and monocyte gene expression were measured, and vicarious trauma produced prolonged sympathetic arousal and pro-inflammatory monocyte gene changes linked to altered brain network coupling.",
+  "key_finding": "Watching vicarious trauma sustained sympathetic arousal for 40 minutes and upregulated pro-inflammatory (IL1B, CXCL8) while reducing anti-inflammatory (TGFB1) monocyte gene expression, with disrupted frontoparietal-hippocampal coupling predicting the CXCL8 rise.",
+  "free_keywords": [
+   "vicarious trauma",
+   "fMRI",
+   "sympathetic arousal",
+   "IL1B",
+   "CXCL8",
+   "TGFB1",
+   "frontoparietal network",
+   "default mode network"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.55,
+   "notes": "Neuroimmune/fMRI paper outside the taxonomy's core scope; fMRI has no matching approach id, and the gene-expression method (RNA-seq vs. targeted panel) is unspecified, so 'transcriptomics' is a best guess.",
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -142,14 +167,35 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "review"
+   "topic": [
+    "lung"
+   ],
+   "approach": [
+    "single_cell_spatial",
+    "human_samples"
+   ],
+   "type": [
+    "review"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "This perspective reviewed multi-omic and single-cell approaches for studying lung cell biology, summarizing ATS 2024 workshop discussions on cell atlases, novel human lung cell types, and applications to lung development, injury, and repair.",
+  "key_finding": "Argued for harmonizing cell-type definitions and developing more robust analytical pipelines across single-cell lung atlases.",
+  "free_keywords": [
+   "lung cell atlas",
+   "multiomics",
+   "ATS workshop",
+   "cell-type harmonization",
+   "lung injury and repair"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.75,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -221,6 +267,11 @@
     "type": "fulltext",
     "label": "Free full text (PMC)",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13043291/"
+   },
+   {
+    "type": "preprint",
+    "label": "Preprint (Research Square)",
+    "url": "https://doi.org/10.21203/rs.3.rs-6977440/v1"
    }
   ],
   "has_pdf": false,
@@ -228,17 +279,45 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "macrophages",
+    "cancer_immunity",
+    "chemokines_migration",
+    "dendritic_cells"
+   ],
+   "approach": [
+    "single_cell_spatial",
+    "mouse_models",
+    "intervention"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Single-cell and spatial transcriptomics of lung tumors revealed that chemokine-expressing resident interstitial macrophage subsets either promoted tertiary lymphoid structures and tumor control or recruited pro-tumor macrophages, and CCR5 blockade with maraviroc improved dendritic cell-mediated antitumor immunity during vaccination.",
+  "key_finding": "Cxcl13/Cxcl9/Cxcl10-expressing CD206hi interstitial macrophages drove tertiary lymphoid structures and tumor suppression, while Ccl2+ macrophages recruited pro-tumor recMacs, and maraviroc-mediated CCR5 blockade curbed immunosuppressive moDC migration to enhance antitumor immunity.",
+  "free_keywords": [
+   "CD206",
+   "Ly6c2+Fn1+Vcan+ macrophages",
+   "tertiary lymphoid structures",
+   "maraviroc",
+   "CCR5",
+   "lung adenocarcinoma",
+   "Xenium"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.9,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "note": "An author correction was published in Nat Immunol 27(6):1306 (2026), doi:10.1038/s41590-026-02525-3."
+  "note": "An author correction was published in Nat Immunol 27(6):1306 (2026), doi:10.1038/s41590-026-02525-3.",
+  "preprint_doi": "10.21203/rs.3.rs-6977440/v1"
  },
  {
   "id": "li2026alveolar",
@@ -311,14 +390,39 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "macrophages",
+    "lung",
+    "inflammation_damage",
+    "monocytes"
+   ],
+   "approach": [
+    "single_cell_spatial",
+    "human_samples"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Single-cell RNA sequencing of bronchoalveolar lavage fluid from cystic fibrosis and healthy subjects identified 12 alveolar macrophage subtypes and found CDKN1A- and LDLR-expressing macrophages upregulated in CF, linking cholesterol metabolism and macrophage-monocyte interactions to persistent lung inflammation.",
+  "key_finding": "CF airway macrophages showed increased CDKN1A and LDLR expression, implicating altered cholesterol metabolism in macrophage-monocyte crosstalk that drives chronic CF lung inflammation.",
+  "free_keywords": [
+   "cystic fibrosis",
+   "BAL fluid",
+   "CDKN1A",
+   "LDLR",
+   "cholesterol metabolism",
+   "scRNA-seq"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -390,14 +494,40 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "macrophages",
+    "lung",
+    "chemokines_migration"
+   ],
+   "approach": [
+    "single_cell_spatial",
+    "transcriptomics",
+    "mouse_models"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Transcriptomic and Xenium spatial profiling of murine lung interstitial macrophage subsets showed CD206hi and CD206lo subsets have distinct cytokine, receptor, and innate-immune gene programs mapping to bronchovascular, interstitial, and peripheral lung niches near T and B cells.",
+  "key_finding": "CD206hi and CD206lo interstitial macrophage subsets occupy distinct anatomical niches with differential integrin, metallopeptidase, and chemokine expression tied to local T and B cell positioning.",
+  "free_keywords": [
+   "Xenium",
+   "interstitial macrophage",
+   "CD206",
+   "complement",
+   "Toll-like receptors",
+   "C-type lectins",
+   "bronchovascular bundle"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -509,14 +639,40 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "macrophages",
+    "other_immune_cells",
+    "fibrosis_repair",
+    "inflammation_damage"
+   ],
+   "approach": [
+    "imaging",
+    "mouse_models"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Live imaging of peritoneal injury in mice showed sensory-neuron-activated mast cells transfer 1-micron biomolecular condensate granules containing MARCO and over 200 proteins to large peritoneal macrophages via cytonemes, triggering macrophage aggregation and a repair-like phenotype.",
+  "key_finding": "Mast-cell-derived membraneless condensate granules carrying MARCO were delivered to macrophages via cytonemes, driving rapid macrophage aggregation at injury sites and inducing a wound-repair phenotype.",
+  "free_keywords": [
+   "mast cells",
+   "large peritoneal macrophages",
+   "MARCO",
+   "biomolecular condensates",
+   "cytonemes",
+   "lattice light sheet microscopy",
+   "sensory neurons"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -568,85 +724,34 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "commentary"
+   "topic": [
+    "macrophages",
+    "cross_species"
+   ],
+   "approach": [
+    "human_samples",
+    "mouse_models"
+   ],
+   "type": [
+    "commentary"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
-  "date_added": "2026-09-09",
-  "source": "pubmed"
- },
- {
-  "id": "jakubzick2025dichotomy",
-  "title": "The Dichotomy of Tumor Control by Recruited and Resident Tumor-Associated Macrophages",
-  "authors": [
-   "Jakubzick, C.",
-   "Ghosh, S.",
-   "Li, X.",
-   "Rawat, K.",
-   "Dighal, A.",
-   "Kalinowski, S.",
-   "Knolling, F.",
-   "Ringelberg, C."
+  "summary": "This piece discussed the heterogeneity, similarities, and species differences of alveolar macrophages between humans and mice, based on the title alone since no abstract was available.",
+  "key_finding": null,
+  "free_keywords": [
+   "alveolar macrophages",
+   "human-mouse comparison",
+   "macrophage heterogeneity"
   ],
-  "authors_short": [
-   "Jakubzick C",
-   "Ghosh S",
-   "Li X",
-   "Rawat K",
-   "Dighal A",
-   "Kalinowski S",
-   "Knolling F",
-   "Ringelberg C"
-  ],
-  "authors_truncated": false,
-  "year": 2025,
-  "date": "2025-07-04",
-  "status": "preprint",
-  "kind": "preprint",
-  "journal": "Res Sq",
-  "journal_full": "Research square",
-  "volume": null,
-  "issue": null,
-  "pages": null,
-  "doi": "10.21203/rs.3.rs-6977440/v1",
-  "pmid": "40630529",
-  "pmcid": "PMC12236905",
-  "openalex_id": "https://openalex.org/W4412034278",
-  "abstract": "Tumor-associated macrophages (TAMs) play dual roles in cancer, either promoting or suppressing tumor progression, complicating therapeutic approaches. TAMs include recruited macrophages (recMacs), derived from circulating monocytes, and tissue-resident interstitial macrophages (IMs). We recently identified a heterogeneous population of chemokine-expressing IMs, including subsets that support tertiary lymphoid structure (TLS) formation during lung inflammation. Here, we show that IMs can be either pro- or anti-tumorigenic, depending on the subset. Using Pf4 Cx3cr1 mice to deplete CD206hi IMs expressing Cxcl13, Cxcl9, and Cxcl10, we demonstrate their essential role in TLS formation, lymphocyte recruitment, and tumor suppression in melanoma and lung adenocarcinoma. In contrast, Ccl2-expressing IMs promote tumor growth by recruiting pro-tumorigenic recMacs. Spatial transcriptomics confirmed the distinct localization and chemokine profiles of these subsets. Finally, CCR5 blockade with the FDA-approved inhibitor Maraviroc during neoantigen vaccination improved tumor control by preventing the migration of immunosuppressive, antigen-presenting recMacs (moDCs). These findings support the development of macrophage-targeted therapies by identifying pro-tumorigenic subsets and recMac trafficking as actionable targets, while preserving macrophage populations that sustain anti-tumor immunity.",
-  "abstract_source": "pubmed",
-  "cited_by_count": 0,
-  "oa_url": "https://www.researchsquare.com/article/rs-6977440/latest.pdf",
-  "landing_url": "https://pubmed.ncbi.nlm.nih.gov/40630529/",
-  "keywords": [],
-  "links": [
-   {
-    "type": "publisher",
-    "label": "Publisher",
-    "url": "https://doi.org/10.21203/rs.3.rs-6977440/v1"
-   },
-   {
-    "type": "fulltext",
-    "label": "Free full text (PMC)",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12236905/"
-   }
-  ],
-  "has_pdf": false,
-  "citation": "Jakubzick C, Ghosh S, Li X, Rawat K, Dighal A, Kalinowski S, et al. The Dichotomy of Tumor Control by Recruited and Resident Tumor-Associated Macrophages. Res Sq. 2025. doi:10.21203/rs.3.rs-6977440/v1",
-  "citation_original": null,
-  "commentaries": [],
-  "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.35,
+   "notes": "No abstract available; tags inferred from title only.",
+   "classified_at": "2026-09-09T06:13:30Z"
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -701,14 +806,36 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "methods"
+   "topic": [
+    "other_immune_cells"
+   ],
+   "approach": [
+    "flow_cytometry",
+    "methods_protocol"
+   ],
+   "type": [
+    "methods"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "This protocol described facial vein venipuncture with a lancet as a rapid, minimally invasive method for repeated murine blood collection, demonstrated for flow cytometric phenotyping of transgenic and reporter mice.",
+  "key_finding": null,
+  "free_keywords": [
+   "venipuncture",
+   "blood collection",
+   "lancet",
+   "transgenic mice",
+   "tdTomato reporter",
+   "phenotyping"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.5,
+   "notes": "General blood-collection technique paper; no controlled-vocabulary topic term fits well, so 'other_immune_cells' was used as the closest available option.",
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -813,14 +940,38 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "cancer_immunity",
+    "other_immune_cells"
+   ],
+   "approach": [
+    "mouse_models",
+    "intervention"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Anti-PD-L2 antibody treatment failed in young but was effective against melanoma in aged mice, increasing tumor interferon-gamma production in an IL-17-dependent manner, revealing age-dependent mechanisms of immune checkpoint blockade efficacy.",
+  "key_finding": "Anti-PD-L2 immunotherapy controlled melanoma in aged, but not young, mice through an IL-17-dependent increase in tumor-infiltrating interferon-gamma.",
+  "free_keywords": [
+   "PD-L2",
+   "immune checkpoint blockade",
+   "aging",
+   "IL-17",
+   "interferon-gamma",
+   "melanoma",
+   "B16"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -919,14 +1070,40 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "macrophages",
+    "dendritic_cells",
+    "cross_species"
+   ],
+   "approach": [
+    "human_samples",
+    "mouse_models",
+    "flow_cytometry"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Comparing human and mouse serous cavity mononuclear phagocytes showed GATA6+ macrophages were rare in human peritoneum, with most human peritoneal macrophages resembling an earlier mouse CD206+LYVE1+ stage, and IRF4-dependent mouse macrophages aligning with human DC2-like cells.",
+  "key_finding": "Human peritoneal macrophages rarely expressed GATA6 and instead resembled an earlier mouse CD206+LYVE1+ differentiation stage, while DC2-like cells were especially abundant in humans compared with mice.",
+  "free_keywords": [
+   "GATA6",
+   "IRF4",
+   "peritoneal macrophages",
+   "CD206",
+   "LYVE1",
+   "cDC2",
+   "serous cavity"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -998,14 +1175,39 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "natural_antibodies",
+    "allergy_type2",
+    "antigen_presentation",
+    "inflammation_damage"
+   ],
+   "approach": [
+    "mouse_models"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "In mouse models of allergic airway disease, natural antibodies from B1 cells were required for DAMP-induced but not PAMP-induced type 2 immunity, licensing antigen-presenting cells to prime Th2 responses and drive eosinophilia.",
+  "key_finding": "Mice lacking B cells or natural antibodies showed reduced eosinophilia and Th2 priming specifically in a DAMP-driven (alum/uric acid) allergy model, and replenishing natural antibodies restored eosinophilia.",
+  "free_keywords": [
+   "B1 cells",
+   "IgM",
+   "DAMPs",
+   "alum",
+   "uric acid",
+   "eosinophilia",
+   "Th2 priming"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -1080,14 +1282,38 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "macrophages",
+    "chemokines_migration",
+    "lung"
+   ],
+   "approach": [
+    "transcriptomics",
+    "mouse_models"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Transcriptional profiling identified ten conserved chemokine-expressing interstitial macrophage subsets across tissues and species, and depleting CD206hi interstitial macrophages in mice reduced inflammatory cell recruitment, tertiary lymphoid structure formation, and germinal center B cells.",
+  "key_finding": "Depletion of CD206hi interstitial macrophages diminished tertiary lymphoid structure formation and germinal center B cell responses during allergen- and infection-driven lung inflammation.",
+  "free_keywords": [
+   "interstitial macrophages",
+   "chemokine subsets",
+   "tertiary lymphoid structures",
+   "germinal center B cells",
+   "Pf4-Cre",
+   "Cx3cr1"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -1240,14 +1466,41 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "macrophages",
+    "monocytes",
+    "dendritic_cells"
+   ],
+   "approach": [
+    "transcriptomics",
+    "single_cell_spatial",
+    "computational",
+    "consortium"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Network-based metabolic analysis of large ImmGen and Tabula Muris datasets across 38 mouse tissues identified nine metabolic gene subnetworks distinguishing mononuclear phagocyte populations, revealing active cholesterol synthesis in migratory dendritic cells and glutathione synthesis in macrophages.",
+  "key_finding": "Cholesterol synthesis genes were selectively active in migratory dendritic cells, while glutathione synthesis supporting cysteinyl leukotriene production was prominent in peritoneal and lung macrophages.",
+  "free_keywords": [
+   "ImmGen",
+   "Tabula Muris",
+   "GAM clustering",
+   "immunometabolism",
+   "cholesterol synthesis",
+   "glutathione",
+   "network analysis"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -1326,14 +1579,39 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "dendritic_cells",
+    "monocytes",
+    "chemokines_migration",
+    "antigen_presentation"
+   ],
+   "approach": [
+    "single_cell_spatial",
+    "mouse_models"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Single-cell profiling and chimeric mouse models showed that antigen-bearing migratory dendritic cells use CCR7 while monocytes instead follow CCL5-secreting migratory DCs via CCR5 to reach lymph nodes, revealing a distinct CCL5-CCR5 trafficking axis.",
+  "key_finding": "Monocytes migrate to draining lymph nodes via CCR5 by following CCL5 secreted by migratory dendritic cells, a distinct pathway from the CCR7-dependent route used by the dendritic cells themselves.",
+  "free_keywords": [
+   "CCL5",
+   "CCR5",
+   "CCR7",
+   "migratory dendritic cells",
+   "lymph node trafficking",
+   "Batf3"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -1394,14 +1672,36 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "commentary"
+   "topic": [
+    "macrophages",
+    "allergy_type2",
+    "infection"
+   ],
+   "approach": [
+    "mouse_models"
+   ],
+   "type": [
+    "commentary"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "This commentary discussed a study showing that Th2 cytokines drive monocyte differentiation into tissue-resident pleural macrophages in mice resistant to the filarial parasite Litomosoides sigmodontis.",
+  "key_finding": null,
+  "free_keywords": [
+   "pleural macrophages",
+   "Th2 cytokines",
+   "filariasis",
+   "Litomosoides sigmodontis",
+   "monocyte differentiation"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.6,
+   "notes": "Commentary on Finlay et al.; approach tag reflects the discussed study's mouse infection model, not original work by these authors.",
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -1462,14 +1762,35 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "dendritic_cells",
+    "antigen_presentation"
+   ],
+   "approach": [
+    "mouse_models"
+   ],
+   "type": [
+    "commentary"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "This brief commentary highlighted a study showing that perforin-2 facilitates translocation of endocytosed antigen into the cytosol of cross-presenting dendritic cells, enabling MHC class I cross-presentation to CD8+ T cells.",
+  "key_finding": null,
+  "free_keywords": [
+   "perforin-2",
+   "cross-presentation",
+   "MHC class I",
+   "endocytosis",
+   "CD8 T cells"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.6,
+   "notes": "One-sentence Science Perspective abstract about another group's finding; overrode the existing 'empirical' type prior to 'commentary' since this piece has no original data of its own. Approach tag reflects the discussed study, not work by these authors.",
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -1541,14 +1862,35 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "commentary"
+   "topic": [
+    "macrophages",
+    "infection",
+    "lung"
+   ],
+   "approach": [
+    "mouse_models"
+   ],
+   "type": [
+    "commentary"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Based on the title alone (no abstract available), this piece addressed whether recruitment of new monocytes versus training of resident cells underlies lasting influenza-induced changes in alveolar macrophage function.",
+  "key_finding": null,
+  "free_keywords": [
+   "alveolar macrophages",
+   "influenza",
+   "trained immunity",
+   "monocyte recruitment"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.3,
+   "notes": "No abstract available; tags inferred from title only. Kept the existing 'commentary' type prior, though the title reads like it could be an original research report.",
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -1615,14 +1957,37 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "cancer_immunity",
+    "antigen_presentation",
+    "other_immune_cells"
+   ],
+   "approach": [
+    "mouse_models"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Using congenic and neoantigen mouse models, this study found that both dominant and subdominant antigens elicit cytotoxic T cell immunity when linked to cells with a low immunogenicity threshold, challenging classical immunodominance assumptions.",
+  "key_finding": "The congenic marker CD45.1 became immunogenic only when linked to low-immunogenicity cell types, and both dominant and subdominant antigens triggered CTL responses in low-immunogenic-threshold environments.",
+  "free_keywords": [
+   "immunodominance",
+   "CD45.1",
+   "congenic antigens",
+   "cytotoxic T cells",
+   "neoantigens",
+   "cold tumors"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.8,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -1706,14 +2071,36 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "lung",
+    "infection",
+    "other_immune_cells"
+   ],
+   "approach": [
+    "consortium"
+   ],
+   "type": [
+    "review"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "This American Thoracic Society workshop report reviewed the cellular networks of airway and lung immunity, covering host defense against respiratory pathogens, tolerance to inhaled antigens, and priorities for advancing lung immunology research and mucosal vaccine design.",
+  "key_finding": null,
+  "free_keywords": [
+   "ATS workshop",
+   "mucosal immunity",
+   "airway tolerance",
+   "respiratory pathogens",
+   "mucosal vaccine design"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.75,
+   "notes": "Overrode the existing 'empirical' type prior to 'review' since this is an official society workshop report synthesizing the field rather than reporting new experimental data.",
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -1781,14 +2168,38 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "macrophages",
+    "monocytes",
+    "lung"
+   ],
+   "approach": [
+    "single_cell_spatial",
+    "human_samples"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Single-cell RNA sequencing of over 113,000 human bronchoalveolar lavage cells identified four IFI27/APOC2-defined alveolar macrophage superclusters with at least eight functional subclusters, with chemokine and interferon subclusters expanding in COVID-19 samples.",
+  "key_finding": "Four conserved alveolar macrophage superclusters, each with distinct functional subclusters, were found across healthy and cystic fibrosis donors, with chemokine and interferon subclusters increased in COVID-19 patients.",
+  "free_keywords": [
+   "IFI27",
+   "APOC2",
+   "BALF",
+   "alveolar macrophage superclusters",
+   "TotalSeq",
+   "COVID-19"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -1857,14 +2268,35 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "natural_antibodies",
+    "cancer_immunity"
+   ],
+   "approach": [
+    "mouse_models"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Using new mouse models of early tumorigenesis, this study showed that natural antibodies are required for immune elimination of neoantigen-expressing precancerous cells and for limiting tumor burden in chemically and virally induced cancer models.",
+  "key_finding": "Neoantigen-expressing cells persisted in natural-antibody-deficient mice but were eliminated in wild-type mice, and restoring the natural antibody repertoire recovered immune clearance of transformed cells.",
+  "free_keywords": [
+   "natural antibodies",
+   "cancer immunosurveillance",
+   "neoantigens",
+   "precancerous cells",
+   "tumorigenesis"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -1932,14 +2364,35 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "review"
+   "topic": [
+    "macrophages",
+    "lung"
+   ],
+   "approach": [
+    "single_cell_spatial"
+   ],
+   "type": [
+    "review"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "This review described how single-cell RNA sequencing and spatial transcriptomics have clarified the identity, development, and niche-specific functions of alveolar, interstitial, and recruited lung macrophages in homeostasis, disease, cancer, and aging.",
+  "key_finding": null,
+  "free_keywords": [
+   "alveolar macrophages",
+   "interstitial macrophages",
+   "recruited macrophages",
+   "lung niches",
+   "scRNA-seq"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.8,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -1997,14 +2450,33 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "commentary"
+   "topic": [
+    "macrophages",
+    "cancer_immunity"
+   ],
+   "approach": [
+    "intervention"
+   ],
+   "type": [
+    "commentary"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "This commentary discussed strategies for therapeutically targeting tissue-resident macrophages in cancer, based on the title alone since no abstract was available.",
+  "key_finding": null,
+  "free_keywords": [
+   "tumor-associated macrophages",
+   "macrophage-targeted therapy",
+   "resident macrophages"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.35,
+   "notes": "No abstract available; tags inferred from title only.",
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -2082,14 +2554,38 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "natural_antibodies",
+    "cancer_immunity",
+    "dendritic_cells",
+    "other_immune_cells"
+   ],
+   "approach": [
+    "mouse_models"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Using multiple B cell-deficient mouse strains, this study showed natural antibodies are critical for early anti-tumor immunosurveillance, and that muMT mice appear unaffected only due to a compensatory plasmacytoid dendritic cell-interferon-NK cell mechanism.",
+  "key_finding": "IgHEL MD4 and CD19-Cre-DTA B cell/antibody-deficient mice showed three- to five-fold higher tumor burden than wild type, whereas muMT mice were protected by a compensatory type I interferon-pDC-NK cell pathway.",
+  "free_keywords": [
+   "natural antibodies",
+   "muMT mice",
+   "plasmacytoid dendritic cells",
+   "NK cells",
+   "type I interferon",
+   "cancer immunosurveillance"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -2168,14 +2664,38 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "monocytes",
+    "antigen_presentation",
+    "cancer_immunity"
+   ],
+   "approach": [
+    "mouse_models",
+    "intervention",
+    "human_samples"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "In mice, lymph node monocytes suppressed Poly I:C-induced dendritic cell-mediated cytotoxic T cell responses via IL-10 and suppressor CD4 T cells, and blocking IL-10 improved a Poly I:C-based melanoma immunotherapy.",
+  "key_finding": "Neutralizing IL-10 counteracted the monocyte-mediated brake on Poly I:C-induced cytotoxic T cell responses, significantly reducing tumors in a metastatic melanoma vaccination model.",
+  "free_keywords": [
+   "Poly I:C",
+   "IL-10",
+   "suppressor CD4 T cells",
+   "lymph node monocytes",
+   "melanoma immunotherapy"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -2219,14 +2739,34 @@
   "citation_original": "Jakubzick C, Redente EF, Martin TR, and Riches DW. Innate Immunity. Chapter: Murray and Nadels Textbook of Respiratory Medicine. 2020",
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "chapter"
+   "topic": [
+    "lung",
+    "macrophages",
+    "other_immune_cells"
+   ],
+   "approach": [
+    "mouse_models"
+   ],
+   "type": [
+    "chapter"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "This textbook chapter reviewed innate immunity in the respiratory tract, based on the title alone since no abstract was available.",
+  "key_finding": null,
+  "free_keywords": [
+   "innate immunity",
+   "respiratory medicine",
+   "textbook chapter"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.25,
+   "notes": "No abstract available for this book chapter; topic and approach tags are low-confidence guesses based on title and the lab's general research focus.",
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "old site"
  },
@@ -2308,14 +2848,37 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "macrophages",
+    "lung"
+   ],
+   "approach": [
+    "human_samples",
+    "imaging"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Design-based stereology of human lung lobes quantified interstitial and airspace macrophage numbers and locations, finding most interstitial macrophages in alveolar septa and significantly greater interstitial macrophage density in chronic smokers than nonsmokers.",
+  "key_finding": "Interstitial macrophage number and density were 36-56% greater in the lungs of chronic cigarette smokers than nonsmokers, with macrophages concentrated in the alveolar septa.",
+  "free_keywords": [
+   "stereology",
+   "interstitial macrophages",
+   "airspace macrophages",
+   "cigarette smoking",
+   "CD206",
+   "alveolar septa"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -2401,14 +2964,40 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "macrophages",
+    "monocytes",
+    "dendritic_cells",
+    "cross_species"
+   ],
+   "approach": [
+    "transcriptomics",
+    "human_samples",
+    "mouse_models"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "RNA sequencing of 24 human and mouse lung, lymph node, blood, and spleen mononuclear phagocyte subtypes built a cross-species gene expression compendium, finding only 13-23% overlap in top marker genes between corresponding human and mouse subtypes.",
+  "key_finding": "Only 13-23% of top marker genes were shared between corresponding human and mouse mononuclear phagocyte subtypes, though CD88 reliably distinguished monocytes/macrophages from dendritic cells in both species.",
+  "free_keywords": [
+   "cross-species",
+   "RNA sequencing",
+   "CD88",
+   "marker genes",
+   "mononuclear phagocytes",
+   "lymph node"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -2485,14 +3074,33 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "commentary"
+   "topic": [
+    "monocytes"
+   ],
+   "approach": [
+    "mouse_models"
+   ],
+   "type": [
+    "commentary"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "This editorial introduced a special issue on monocyte heterogeneity and function, covering their roles in cancer, cardiovascular disease, chronic inflammation, and fibrosis, based on the title and topic list alone.",
+  "key_finding": null,
+  "free_keywords": [
+   "monocyte heterogeneity",
+   "special issue",
+   "cardiovascular disease",
+   "fibrosis"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.3,
+   "notes": "No substantive abstract available; the approach tag is a low-confidence placeholder since this editorial reports no original methods of its own.",
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -2572,14 +3180,40 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "macrophages",
+    "fibrosis_repair",
+    "inflammation_damage",
+    "cross_species"
+   ],
+   "approach": [
+    "transcriptomics",
+    "mouse_models",
+    "flow_cytometry"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Mice fed high-fat diets with added cholesterol developed steatohepatitis-like liver pathology, and RNA sequencing of sorted Kupffer cells and infiltrating macrophages showed cholesterol reprogrammed macrophages toward a tissue-repair, fibrotic phenotype.",
+  "key_finding": "Dietary cholesterol, more than fat alone, induced a distinct tissue-repair transcriptional phenotype in Kupffer cells and infiltrating macrophages and drove liver fibrosis resembling human NASH.",
+  "free_keywords": [
+   "NASH",
+   "Kupffer cells",
+   "oxidized LDL",
+   "dietary cholesterol",
+   "liver fibrosis",
+   "RNA-seq"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -2676,14 +3310,35 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "lung"
+   ],
+   "approach": [
+    "flow_cytometry",
+    "methods_protocol"
+   ],
+   "type": [
+    "methods"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "An American Thoracic Society workshop reviewed technical challenges in pulmonary flow cytometry and issued recommendations to improve accuracy and reproducibility of immune cell phenotyping in lung research.",
+  "key_finding": "The workshop identified key sources of technical variability in pulmonary flow cytometry and proposed standards to improve cross-laboratory reproducibility.",
+  "free_keywords": [
+   "ATS workshop",
+   "reproducibility",
+   "gating strategy",
+   "pulmonary immunology",
+   "consensus guidelines"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.75,
+   "notes": "Classified as 'methods' (consensus/guidelines report) rather than the recorded prior 'empirical'.",
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -2755,14 +3410,39 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "methods"
+   "topic": [
+    "macrophages",
+    "monocytes",
+    "dendritic_cells",
+    "lung"
+   ],
+   "approach": [
+    "flow_cytometry",
+    "methods_protocol",
+    "mouse_models"
+   ],
+   "type": [
+    "methods"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "This methods chapter described protocols for identifying and isolating mouse lung and lymph node mononuclear phagocytes, including macrophages, dendritic cells and monocytes, by flow cytometry and cell sorting in steady state and inflammation.",
+  "key_finding": null,
+  "free_keywords": [
+   "mononuclear phagocytes",
+   "alveolar macrophages",
+   "interstitial macrophages",
+   "cell sorting",
+   "protocol"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.9,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -2833,14 +3513,39 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "methods"
+   "topic": [
+    "macrophages",
+    "monocytes",
+    "dendritic_cells",
+    "lung"
+   ],
+   "approach": [
+    "flow_cytometry",
+    "methods_protocol",
+    "human_samples"
+   ],
+   "type": [
+    "methods"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "This methods chapter presented a consistent flow cytometry strategy to identify and isolate macrophage, dendritic cell and monocyte populations from over 100 non-diseased human lungs and their draining lymph nodes.",
+  "key_finding": "Human lungs consistently contained five extravascular mononuclear phagocyte populations and lymph nodes contained three, independent of donor age or sex, and blood CD141+ dendritic cells were not observed in the lung.",
+  "free_keywords": [
+   "human lung",
+   "flow cytometry protocol",
+   "CD141",
+   "alveolar macrophages",
+   "lymph nodes"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": "Cross-species comparison to mouse mononuclear phagocytes is discussed but the topic axis was capped at the four core cell-type/lung tags.",
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -2912,14 +3617,38 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "methods"
+   "topic": [
+    "macrophages",
+    "lung"
+   ],
+   "approach": [
+    "flow_cytometry",
+    "methods_protocol",
+    "mouse_models"
+   ],
+   "type": [
+    "methods"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "This methods chapter compared three digestion enzymes and staining strategies for extracting and identifying three interstitial macrophage subtypes from mouse lungs, finding Liberase TM most effective, especially for the IM3 subset.",
+  "key_finding": "Liberase TM digestion recovered interstitial macrophage subtypes, particularly IM3, more effectively than elastase or collagenase D.",
+  "free_keywords": [
+   "interstitial macrophages",
+   "Liberase TM",
+   "collagenase",
+   "MerTK",
+   "Tim4",
+   "enzymatic digestion"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -3008,14 +3737,40 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "macrophages",
+    "fibrosis_repair",
+    "lung",
+    "cell_death_clearance"
+   ],
+   "approach": [
+    "mouse_models",
+    "transcriptomics",
+    "human_samples"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Inducible deletion of the anti-apoptotic protein c-FLIP in CD11bhi lung macrophages made them susceptible to cell death, and eliminating these monocyte-derived macrophages after bleomycin injury protected mice from pulmonary fibrosis.",
+  "key_finding": "Eliminating CD11bhi macrophages present 7-14 days after bleomycin injury, via c-FLIP deletion, was sufficient to prevent lung fibrosis, and human IPF macrophages expressed similar profibrotic chemokines.",
+  "free_keywords": [
+   "c-FLIP",
+   "CD11bhi macrophages",
+   "bleomycin",
+   "idiopathic pulmonary fibrosis",
+   "apoptosis",
+   "RNA-seq"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.9,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -3097,14 +3852,38 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "natural_antibodies",
+    "antigen_presentation",
+    "cancer_immunity",
+    "monocytes"
+   ],
+   "approach": [
+    "mouse_models"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Using neoantigen-expressing cell and cancer models in mice, natural IgM antibodies were shown to form immune complexes that license surveying monocytes to present neoantigens to CD4 T cells, triggering dendritic cell-driven cytotoxic T cell responses.",
+  "key_finding": "Natural IgM was essential for initiating recognition of neoantigen-expressing cells; disrupting any step of the IgM-monocyte-CD4 T cell-dendritic cell-CD8 T cell chain allowed the cells to escape immune surveillance.",
+  "free_keywords": [
+   "natural IgM",
+   "neoantigens",
+   "Batf3+ dendritic cells",
+   "CD40L",
+   "immune surveillance",
+   "cancer models"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -3163,14 +3942,33 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
+   "topic": [
+    "monocytes",
+    "macrophages",
+    "antigen_presentation"
+   ],
    "approach": [],
-   "type": "review"
+   "type": [
+    "review"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "This review discussed emerging concepts in monocyte biology, covering how emigrating monocytes mature into tissue macrophage classes and their newly recognized roles as antigen-presenting cells contributing to adaptive immunity.",
+  "key_finding": null,
+  "free_keywords": [
+   "monocyte differentiation",
+   "tissue macrophages",
+   "antigen presentation",
+   "adaptive immunity"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -3258,14 +4056,39 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "macrophages",
+    "lung"
+   ],
+   "approach": [
+    "transcriptomics",
+    "flow_cytometry",
+    "mouse_models",
+    "imaging"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Flow cytometry and transcriptional profiling of steady-state mouse lungs identified three phenotypically and transcriptionally distinct interstitial macrophage subsets, located in the bronchial but not alveolar interstitium, alongside alveolar macrophages, dendritic cells and monocytes.",
+  "key_finding": "Three interstitial macrophage subsets (IM1-IM3) were distinguished by CD206, CD11c and MHC II expression and were also found in other nonlymphoid organs, suggesting conserved functions across tissues.",
+  "free_keywords": [
+   "interstitial macrophages",
+   "CX3CR1",
+   "MerTK",
+   "CD206",
+   "bronchial interstitium",
+   "steady state"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.8,
+   "notes": "Imaging/localization approach inferred from the described anatomic location of interstitial macrophage subtypes, not explicitly named as a microscopy method in the abstract.",
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -3357,14 +4180,37 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "macrophages",
+    "lung",
+    "inflammation_damage"
+   ],
+   "approach": [
+    "transcriptomics",
+    "mouse_models"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "RNA sequencing and metabolomics of resident versus monocyte-derived alveolar macrophages during acute lung injury in mice showed that cellular origin, not shared environment, dictates distinct inflammatory and metabolic programming.",
+  "key_finding": "Resident alveolar macrophages relied on TCA-cycle/amino-acid metabolism and proliferated locally, while recruited macrophages were glycolytic, arginine-metabolizing and pro-inflammatory, despite sharing the same inflamed lung environment.",
+  "free_keywords": [
+   "acute lung injury",
+   "resident vs recruited macrophages",
+   "immunometabolism",
+   "glycolysis",
+   "metabolomics"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.8,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -3442,14 +4288,35 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
+   "topic": [
+    "dendritic_cells",
+    "lung",
+    "fibrosis_repair",
+    "antigen_presentation"
+   ],
    "approach": [],
-   "type": "review"
+   "type": [
+    "review"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "This review summarized dendritic cell development, trafficking and antigen-presenting function in the lung and discussed their potential pathogenic roles in rare lung diseases including Langerhans cell histiocytosis, sarcoidosis, hypersensitivity pneumonitis and pulmonary fibrosis.",
+  "key_finding": null,
+  "free_keywords": [
+   "Langerhans cell histiocytosis",
+   "sarcoidosis",
+   "hypersensitivity pneumonitis",
+   "pulmonary fibrosis",
+   "DC trafficking"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -3516,14 +4383,40 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "macrophages",
+    "lung",
+    "monocytes",
+    "dendritic_cells"
+   ],
+   "approach": [
+    "methods_protocol",
+    "mouse_models",
+    "flow_cytometry"
+   ],
+   "type": [
+    "methods"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Using reporter mice, this study evaluated the specificity and efficiency of four Cre driver lines commonly used to target lung macrophages, finding that none were macrophage-specific but that pulse-wait dosing improved interstitial macrophage targeting.",
+  "key_finding": "Csf1r-Cre targeted all leukocytes and LysM-Cre also targeted dendritic cells, neutrophils, monocytes and lung epithelium, while CX3CR1-ERCre and CD68-rtTA targeted interstitial but not alveolar macrophages.",
+  "free_keywords": [
+   "Cre-loxP",
+   "LysM-Cre",
+   "Csf1r-Cre",
+   "CX3CR1-ERCre",
+   "CD68-rtTA",
+   "transgenic targeting"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": "Classified as 'methods' (Cre-line specificity/technique evaluation) rather than the recorded prior 'empirical'.",
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -3627,14 +4520,38 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "macrophages",
+    "monocytes",
+    "dendritic_cells",
+    "lung"
+   ],
+   "approach": [
+    "flow_cytometry",
+    "human_samples"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Multiparameter flow cytometry of intravascular- versus intrabronchial-antibody-labeled cells from 72 whole non-diseased human lungs identified five distinct extravascular pulmonary mononuclear phagocyte populations, phenotypically different from blood.",
+  "key_finding": "Five pulmonary mononuclear phagocyte populations, including macrophages, monocyte-derived cells and dendritic cells, were phenotypically distinct from their blood counterparts, and dendritic cells differed most between intravascular and extravascular labeling.",
+  "free_keywords": [
+   "intravascular labeling",
+   "human lung",
+   "mononuclear phagocyte system",
+   "lung-draining lymph nodes",
+   "cadaveric donors"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -3713,14 +4630,38 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "monocytes",
+    "cell_death_clearance",
+    "antigen_presentation"
+   ],
+   "approach": [
+    "mouse_models",
+    "imaging"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Ly6C+ monocytes were shown to efferocytose dying cells and cross-present cell-associated antigen to CD8 T cells, a function enhanced by TLR7 but not TLR4 stimulation, a role previously attributed mainly to Batf3+ dendritic cells.",
+  "key_finding": "TLR7 ligation, but not TLR4 ligation, enhanced cross-presentation of efferocytosed antigen by Ly6C+ monocytes to CD8+ T cells.",
+  "free_keywords": [
+   "Ly6C+ monocytes",
+   "efferocytosis",
+   "cross-presentation",
+   "TLR7",
+   "TLR4",
+   "CD8 T cells"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -3778,14 +4719,31 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
+   "topic": [
+    "macrophages",
+    "lung"
+   ],
    "approach": [],
-   "type": "commentary"
+   "type": [
+    "commentary"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "This commentary discussed whether stem cell-derived alveolar macrophages could be used to functionally rescue lung diseases; tags were inferred from the title since no abstract was available.",
+  "key_finding": null,
+  "free_keywords": [
+   "stem cell-derived macrophages",
+   "cell therapy",
+   "alveolar macrophage transplantation"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.4,
+   "notes": "No abstract available; tags inferred from title only.",
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -3870,14 +4828,38 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "inflammation_damage",
+    "monocytes",
+    "other_immune_cells"
+   ],
+   "approach": [
+    "mouse_models",
+    "flow_cytometry"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "G2A-deficient mice developed worse dextran sulfate sodium colitis than wild-type mice, driven by excess pro-inflammatory monocytes and eosinophils, and this was reversed by administering IFN-gamma, which promoted monocyte maturation to a less inflammatory state.",
+  "key_finding": "Depleting monocytes or eosinophils abolished the excess colitis in G2A-deficient mice, and exogenous IFN-gamma reduced their colitic inflammation to wild-type levels.",
+  "free_keywords": [
+   "G2A",
+   "lysophosphatidylcholine",
+   "colitis",
+   "IFN-gamma",
+   "eosinophils",
+   "DSS model"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.8,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -3944,14 +4926,34 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
+   "topic": [
+    "cell_death_clearance",
+    "macrophages",
+    "monocytes",
+    "dendritic_cells"
+   ],
    "approach": [],
-   "type": "review"
+   "type": [
+    "review"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "This conceptual essay examined how neutrophils, monocytes, macrophages and myeloid dendritic cells are cleared from the circulation and tissues in health and disease, concluding that the mechanisms of myeloid cell clearance remain poorly understood.",
+  "key_finding": null,
+  "free_keywords": [
+   "myeloid cell clearance",
+   "efferocytosis",
+   "cell turnover",
+   "conceptual review"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.75,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -4039,14 +5041,40 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "infection",
+    "monocytes",
+    "macrophages",
+    "other_immune_cells"
+   ],
+   "approach": [
+    "mouse_models",
+    "human_samples",
+    "intervention"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Pioglitazone, a PPAR-gamma agonist, restored mitochondrial reactive oxygen species production in NADPH oxidase-deficient (gp91phox-/-) mouse and human chronic granulomatous disease phagocytes, enabling improved killing of Staphylococcus aureus.",
+  "key_finding": "Pioglitazone treatment restored mitochondrial ROS production and significantly improved killing of Staphylococcus aureus in gp91phox-deficient mouse and human CGD phagocytes despite the absence of the NADPH oxidase.",
+  "free_keywords": [
+   "chronic granulomatous disease",
+   "pioglitazone",
+   "PPAR-gamma agonist",
+   "mitochondrial ROS",
+   "Staphylococcus aureus",
+   "NADPH oxidase"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.8,
+   "notes": "The other_immune_cells tag covers neutrophils, the primary CGD-relevant phagocyte.",
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -4096,14 +5124,31 @@
   "citation_original": "Redente EF, Jakubzick C, Martin TR, and Riches DW. Innate Immunity. Chapter: Murray and Nadels Textbook of Respiratory Medicine. 2015",
   "commentaries": [],
   "tags": {
-   "topic": [],
+   "topic": [
+    "lung",
+    "other_immune_cells"
+   ],
    "approach": [],
-   "type": "chapter"
+   "type": [
+    "chapter"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "This textbook chapter reviewed innate immunity in the respiratory tract for Murray and Nadel's Textbook of Respiratory Medicine; tags were inferred from the title since no abstract or keywords were available.",
+  "key_finding": null,
+  "free_keywords": [
+   "innate immunity",
+   "textbook chapter",
+   "respiratory medicine"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.35,
+   "notes": "No abstract or keywords available; tagged from title only.",
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "old site"
  },
@@ -4194,14 +5239,37 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "dendritic_cells",
+    "chemokines_migration",
+    "antigen_presentation",
+    "inflammation_damage"
+   ],
+   "approach": [
+    "mouse_models"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Collecting lymphatic vessels were shown to be permeable, letting lymph-borne antigens reach adjacent adipose tissue macrophages and dendritic cells, which then migrated to draining lymph nodes to support T cell responses and lymph node expansion during inflammation.",
+  "key_finding": "Adipose tissue dendritic cells that acquired antigen through permeable collecting lymphatic vessels were required to sustain sufficient antigen-bearing dendritic cells in expanding, inflammation-reactive lymph nodes.",
+  "free_keywords": [
+   "collecting lymphatic vessels",
+   "adipose tissue",
+   "lymph node expansion",
+   "antigen transport",
+   "recall T cells"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.8,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -4284,14 +5352,35 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "dendritic_cells",
+    "antigen_presentation"
+   ],
+   "approach": [
+    "mouse_models"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Using three mouse transplantation models, Batf3-dependent dendritic cells, rather than other antigen-presenting cells, were shown to drive rejection of grafts mismatched for minor histocompatibility antigens even without pathogen-associated molecular patterns.",
+  "key_finding": "Batf3-dependent dendritic cells were required to elicit rejection of minor histocompatibility antigen-mismatched grafts, including skin transplants, independent of pathogen-associated signals.",
+  "free_keywords": [
+   "Batf3",
+   "minor histocompatibility antigens",
+   "graft rejection",
+   "skin transplant",
+   "APC subtype"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -4370,14 +5459,36 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "macrophages",
+    "lung"
+   ],
+   "approach": [
+    "transcriptomics",
+    "mouse_models"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Transcriptome analysis of coexisting embryonic-derived and postnatal donor-derived alveolar macrophages in the same mouse showed over 98% gene expression correlation, with environment largely dictating programming except for a small set of origin-linked genes such as Marco.",
+  "key_finding": "Marco was the most differentially expressed gene distinguishing embryonic from postnatal-derived alveolar macrophages, consistent with its known enhancer activity specific to embryonic-derived tissue macrophages.",
+  "free_keywords": [
+   "alveolar macrophages",
+   "Marco",
+   "embryonic origin",
+   "self-renewal",
+   "bone marrow chimera"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -4454,14 +5565,35 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
+   "topic": [
+    "dendritic_cells",
+    "monocytes",
+    "macrophages",
+    "cross_species"
+   ],
    "approach": [],
-   "type": "review"
+   "type": [
+    "review"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "A group of mononuclear phagocyte biologists proposed a unified nomenclature classifying dendritic cells, monocytes and macrophages primarily by ontogeny and secondarily by location, function and phenotype, applicable across tissues and species.",
+  "key_finding": null,
+  "free_keywords": [
+   "nomenclature",
+   "ontogeny",
+   "mononuclear phagocyte system",
+   "classification",
+   "opinion article"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.9,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -4538,14 +5670,37 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "dendritic_cells",
+    "antigen_presentation",
+    "lung"
+   ],
+   "approach": [
+    "mouse_models"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "CD103+ and CD11b+ dendritic cell subsets required distinct TLR ligands, TLR3 versus TLR7 agonists respectively, for cis-activation needed to induce cytotoxic CD8 T cell responses, independent of their ability to support T cell proliferation.",
+  "key_finding": "CD11b+ dendritic cells induced cytotoxic T cells only with a TLR7 agonist while CD103+ dendritic cells required TLR3 ligation, showing that PAMP-specific cis-activation, not lineage alone, determines cross-priming of cytotoxicity.",
+  "free_keywords": [
+   "CD103+ dendritic cells",
+   "CD11b+ dendritic cells",
+   "TLR3",
+   "TLR7",
+   "cis-activation",
+   "cytotoxic T cells"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -4653,13 +5808,31 @@
   "commentaries": [],
   "tags": {
    "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "approach": [
+    "mouse_models",
+    "methods_protocol"
+   ],
+   "type": [
+    "methods"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Comparing trio versus pairwise breeding of laboratory mice in static caging, this study found comparable pup survival and growth between formats, arguing against mandated elimination of trio breeding for animal welfare reasons.",
+  "key_finding": "Trio and pairwise breeding formats produced statistically similar litter survival and growth outcomes.",
+  "free_keywords": [
+   "mouse breeding",
+   "trio breeding",
+   "animal husbandry",
+   "Guide for Care and Use of Laboratory Animals"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.4,
+   "notes": "Not an immunology study; it is an animal husbandry/breeding-practices paper. No taxonomy topic value fits well; 'other_immune_cells' was used as the least inaccurate option since study mice came partly from immune/autoimmune-relevant colonies. Consider excluding this paper from topic-based browsing or adding a 'general/methods' topic value.",
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -4744,14 +5917,35 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "allergy_type2",
+    "other_immune_cells"
+   ],
+   "approach": [
+    "mouse_models"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Adoptively transferred V-delta-4+ gamma-delta T cells from antigen-tolerized mice suppressed allergic IgE responses in an antigen-specific manner despite their receptors not being antigen-specific, apparently by acquiring antigen directly from tolerized splenic cells.",
+  "key_finding": "V-delta-4+ gamma-delta T cells acquired antigen via direct contact with antigen-loaded splenic non-T cells in vivo, which conferred antigen-specific suppression of the allergic IgE response.",
+  "free_keywords": [
+   "gamma delta T cells",
+   "IgE regulation",
+   "antigen tolerance",
+   "inhaled allergen",
+   "Vdelta4"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.8,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -4812,14 +6006,33 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
+   "topic": [
+    "dendritic_cells",
+    "lung",
+    "antigen_presentation"
+   ],
    "approach": [],
-   "type": "review"
+   "type": [
+    "review"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "This review discussed how pulmonary dendritic cell subsets develop, sample tissue and acquire antigen to orchestrate immunity or tolerance in the lung-draining lymph node, and how this understanding might improve pulmonary vaccines and therapeutics.",
+  "key_finding": null,
+  "free_keywords": [
+   "pulmonary dendritic cells",
+   "antigen acquisition",
+   "vaccine strategies",
+   "lung-draining lymph node"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -4994,14 +6207,37 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "other_immune_cells"
+   ],
+   "approach": [
+    "transcriptomics",
+    "computational",
+    "consortium"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Using ImmGen gene-expression data across mouse immune lineages, a new algorithm called Ontogenet identified stage-specific transcriptional regulators of hematopoietic differentiation, including 175 previously unrecognized candidate regulators and their target genes.",
+  "key_finding": "The Ontogenet algorithm identified ETV5 as a regulator of gamma-delta T cell differentiation among 175 novel candidate hematopoietic transcriptional regulators.",
+  "free_keywords": [
+   "ImmGen",
+   "Ontogenet",
+   "hematopoiesis",
+   "ETV5",
+   "gene regulatory network",
+   "gamma delta T cells"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -5186,14 +6422,36 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "other_immune_cells"
+   ],
+   "approach": [
+    "transcriptomics",
+    "flow_cytometry",
+    "consortium"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Immunological Genome Project expression data across thymic developmental stages revealed that alpha-beta T cell commitment involved gradual early changes, a global housekeeping-gene shutdown at the double-positive stage linked to c-Myc, and lineage-specific reactivation after selection.",
+  "key_finding": "Few genes distinguished commitment to the CD4+ versus CD8+ T cell lineage, a similarity that persisted into peripheral T cells and their activation.",
+  "free_keywords": [
+   "ImmGen",
+   "thymocyte development",
+   "c-Myc",
+   "CD4/CD8 lineage commitment",
+   "mass cytometry"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.8,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -5292,14 +6550,38 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "monocytes",
+    "chemokines_migration",
+    "lung",
+    "antigen_presentation"
+   ],
+   "approach": [
+    "mouse_models",
+    "transcriptomics"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Ly-6C+ monocytes were shown to traffic constitutively into skin, lung and lymph nodes without differentiating into macrophages or dendritic cells, instead acquiring and carrying antigen to draining lymph nodes in a function redundant with dendritic cells.",
+  "key_finding": "Recruited monocytes transported antigen to lymph nodes without differentiating into resident lung macrophages or dendritic cells, challenging the view that monocytes default to becoming tissue macrophages.",
+  "free_keywords": [
+   "Ly-6C+ monocytes",
+   "monocyte trafficking",
+   "parabiosis",
+   "antigen transport",
+   "COX-2"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.9,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -5384,14 +6666,39 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "macrophages",
+    "lung",
+    "inflammation_damage",
+    "infection"
+   ],
+   "approach": [
+    "mouse_models",
+    "flow_cytometry",
+    "intervention"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Profiled PPARgamma expression across mouse tissue macrophages and found lung and spleen macrophages selectively expressed it, with macrophage PPARgamma required for resolving inflammation and for host defense against pneumococcal lung infection.",
+  "key_finding": "PPARgamma-deficient lung macrophages failed to resolve inflammation and mice had accelerated mortality with impaired bacterial clearance after Streptococcus pneumoniae infection.",
+  "free_keywords": [
+   "PPARgamma",
+   "Ly-6Chi monocytes",
+   "red pulp macrophages",
+   "Streptococcus pneumoniae",
+   "resolution of inflammation"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -5488,14 +6795,40 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "macrophages",
+    "dendritic_cells"
+   ],
+   "approach": [
+    "transcriptomics",
+    "consortium",
+    "computational"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Compared gene-expression profiles of tissue macrophages from multiple mouse organs and identified a small core set of transcripts and transcriptional regulators that universally define mature macrophage identity versus dendritic cells.",
+  "key_finding": "MerTK, FcgammaR1 (CD64) and a cluster of newly identified transcripts, regulated by factors including C/EBP-alpha and Bach1, distinguished tissue macrophages from dendritic cells across organs.",
+  "free_keywords": [
+   "ImmGen",
+   "MerTK",
+   "CD64",
+   "C/EBP-alpha",
+   "Bach1",
+   "Gata6",
+   "microglia",
+   "Kupffer cells"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.8,
+   "notes": "ImmGen consortium dataset paper; tissue macrophage identity core signature.",
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -5576,14 +6909,39 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "dendritic_cells",
+    "antigen_presentation",
+    "cell_death_clearance",
+    "lung"
+   ],
+   "approach": [
+    "mouse_models",
+    "flow_cytometry"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Showed that only CD103+ pulmonary dendritic cells, not CD11bhi DCs, captured apoptotic-cell-associated antigen and cross-presented it to CD8 T cells, a function enhanced by TLR3 ligation and lost in Batf3-deficient mice.",
+  "key_finding": "CD103+ DCs selectively acquired and transported apoptotic-cell antigen to draining lymph nodes and cross-presented it to CD8 T cells, requiring the Batf3-dependent DC lineage.",
+  "free_keywords": [
+   "CD103+ DC",
+   "efferocytosis",
+   "cross-presentation",
+   "TLR3",
+   "Batf3",
+   "CD8 T cell"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -5658,14 +7016,40 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "macrophages",
+    "cell_death_clearance",
+    "lung",
+    "inflammation_damage"
+   ],
+   "approach": [
+    "mouse_models",
+    "flow_cytometry",
+    "intervention"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Found that during resolution of acute lung injury from influenza or LPS, resident alveolar macrophages persisted while recruited macrophages were eliminated by Fas-induced, caspase-8-dependent apoptosis that was required for injury resolution.",
+  "key_finding": "Fas-activating antibodies depleted recruited macrophages and accelerated resolution, whereas Fas blockade or caspase-8 inhibition prevented their apoptosis and delayed resolution of acute lung injury.",
+  "free_keywords": [
+   "acute lung injury",
+   "Fas",
+   "caspase-8",
+   "influenza A",
+   "LPS",
+   "bone marrow chimera"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -5721,14 +7105,37 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "methods"
+   "topic": [
+    "dendritic_cells",
+    "lung",
+    "chemokines_migration"
+   ],
+   "approach": [
+    "methods_protocol",
+    "mouse_models",
+    "flow_cytometry"
+   ],
+   "type": [
+    "methods"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Described optimized protocols using fluorescent OVA and latex beads to label and track pulmonary dendritic cell migration from the airway to mediastinal lymph nodes without inducing confounding inflammation.",
+  "key_finding": null,
+  "free_keywords": [
+   "OVA",
+   "latex beads",
+   "mediastinal lymph node",
+   "cell tracking protocol"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.8,
+   "notes": "Book chapter whose main contribution is a protocol; classified as methods rather than chapter.",
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -5811,14 +7218,39 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "other_immune_cells",
+    "chemokines_migration"
+   ],
+   "approach": [
+    "mouse_models",
+    "flow_cytometry"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Tracked regulatory T cell migration in an islet allograft model and found that Treg cells moved sequentially from blood to graft to draining lymph nodes, a route required for them to suppress alloimmunity.",
+  "key_finding": "Treg cell migration from allograft to draining lymph nodes, dependent on CCR2, CCR5 and CCR7, was required for TGF-beta- and IL-10-dependent suppression of alloimmune T cell responses.",
+  "free_keywords": [
+   "regulatory T cells",
+   "islet allograft",
+   "CCR2",
+   "CCR5",
+   "CCR7",
+   "alloimmunity",
+   "TGF-beta",
+   "IL-10"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.65,
+   "notes": "Focus is on Treg cells rather than mononuclear phagocytes; dendritic cell migration is a downstream readout, not the main topic.",
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -5909,14 +7341,41 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "dendritic_cells",
+    "monocytes",
+    "chemokines_migration",
+    "infection"
+   ],
+   "approach": [
+    "mouse_models",
+    "flow_cytometry"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Traced the developmental origin of intestinal lamina propria dendritic cells and found that monocytes gave rise only to CX3CR1+ DCs, while pre-DCs from common DC progenitors gave rise to CD103+ DCs that transported Salmonella to mesenteric lymph nodes.",
+  "key_finding": "CD103+CX3CR1- lamina propria DCs, derived from pre-DCs rather than monocytes, constitutively expressed CCR7 and were the first DC subset to carry Salmonella to draining mesenteric lymph nodes.",
+  "free_keywords": [
+   "lamina propria",
+   "CX3CR1",
+   "CD103",
+   "pre-DC",
+   "Salmonella",
+   "M-CSFR",
+   "Flt3",
+   "GM-CSFR"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -5983,14 +7442,34 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
+   "topic": [
+    "monocytes",
+    "chemokines_migration"
+   ],
    "approach": [],
-   "type": "review"
+   "type": [
+    "review"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Reviewed how chemokine receptors, especially CCR2 and CX3CR1, regulate monocyte subset mobilization, survival and recruitment to atherosclerotic plaques, and discussed their potential as therapeutic targets in cardiovascular disease.",
+  "key_finding": "Combined blockade of CCR2, CX3CR1 and CCR5 in mice essentially abolished atherosclerosis, highlighting these receptors as candidate therapeutic targets.",
+  "free_keywords": [
+   "atherosclerosis",
+   "CCR2",
+   "CX3CR1",
+   "CCR5",
+   "monocyte heterogeneity",
+   "cardiovascular disease"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.7,
+   "notes": "Pure literature review with no primary experimental approach of its own, so no approach tags were assigned.",
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -6057,14 +7536,33 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
+   "topic": [
+    "monocytes",
+    "antigen_presentation",
+    "dendritic_cells"
+   ],
    "approach": [],
-   "type": "review"
+   "type": [
+    "review"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Reviewed evidence that blood monocytes and their differentiated progeny acquire and present antigen, contributing to T-dependent immune responses and to cross-presentation even when they are not the final antigen-presenting cell.",
+  "key_finding": null,
+  "free_keywords": [
+   "blood dendritic cells",
+   "cross-priming",
+   "monocyte differentiation",
+   "T-dependent immunity"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.65,
+   "notes": "Pure literature review with no primary experimental approach of its own, so no approach tags were assigned.",
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -6136,14 +7634,39 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "monocytes",
+    "dendritic_cells",
+    "chemokines_migration",
+    "lung"
+   ],
+   "approach": [
+    "mouse_models",
+    "flow_cytometry"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Showed that Ly-6ChighCCR2high monocytes preferentially repopulated CD103+ pulmonary dendritic cells while Ly-6ClowCCR2low monocytes gave rise to CD11bhigh DCs, with CX3CR1 needed for normal CD11bhigh DC numbers.",
+  "key_finding": "The two blood monocyte subsets gave rise to distinct pulmonary dendritic cell populations via CCR2- and CX3CR1-dependent mechanisms, respectively.",
+  "free_keywords": [
+   "Ly-6C",
+   "CCR2",
+   "CX3CR1",
+   "CD103+ DC",
+   "CD11bhigh DC",
+   "bcl-2"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -6212,14 +7735,39 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "methods"
+   "topic": [
+    "dendritic_cells",
+    "lung",
+    "antigen_presentation"
+   ],
+   "approach": [
+    "methods_protocol",
+    "mouse_models",
+    "flow_cytometry"
+   ],
+   "type": [
+    "methods"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Compared fluorescent OVA, latex beads and CFSE for tracking pulmonary dendritic cell migration and found that antigen physical form differentially affected which DC subset acquired it and whether CD4 or CD8 T cells were activated.",
+  "key_finding": "Soluble versus particulate antigen was differentially acquired by CD11bhiCD103- versus CD11bloCD103+langerin+ DCs, skewing the resulting CD4 versus CD8 T cell response; CFSE itself induced confounding airway inflammation.",
+  "free_keywords": [
+   "CFSE",
+   "OVA",
+   "latex beads",
+   "CD103+ DC",
+   "CD11bhi DC",
+   "langerin"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -6292,14 +7840,37 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "dendritic_cells",
+    "lung",
+    "chemokines_migration"
+   ],
+   "approach": [
+    "mouse_models",
+    "flow_cytometry"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Used a lysozyme M-Cre reporter mouse to show that tissue-derived migratory dendritic cells make up only a minor fraction of lymph node DCs at steady state, becoming prominent only after an inflammatory stimulus.",
+  "key_finding": "Nonlymphoid tissue-derived DCs formed a major lymph node DC population only after inflammation, not during normal steady-state homeostasis.",
+  "free_keywords": [
+   "lysozyme M-Cre",
+   "reporter mouse",
+   "steady state",
+   "afferent lymphatics",
+   "GFP"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.8,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -6383,14 +7954,38 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "monocytes",
+    "chemokines_migration",
+    "inflammation_damage"
+   ],
+   "approach": [
+    "mouse_models",
+    "flow_cytometry"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Traced how the two mouse monocyte subsets use different chemokine receptors to accumulate in atherosclerotic plaques of apoE-deficient mice, finding that CCR2+Ly-6Chi monocytes unexpectedly also required CX3CR1 in addition to CCR2 and CCR5.",
+  "key_finding": "CCR2+Ly-6Chi monocytes required CX3CR1 as well as CCR2 and CCR5 to enter plaques, while CCR2- monocytes relied partly on CCR5 but not CX3CR1.",
+  "free_keywords": [
+   "atherosclerosis",
+   "apoE-deficient mice",
+   "CCR2",
+   "CCR5",
+   "CX3CR1",
+   "plaque"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -6464,14 +8059,37 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "fibrosis_repair",
+    "chemokines_migration"
+   ],
+   "approach": [
+    "human_samples",
+    "transcriptomics"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Found that fibroblasts cultured from idiopathic pulmonary fibrosis/UIP lung biopsies, unlike normal fibroblasts, expressed CCR7 and migrated and proliferated in response to its ligand CCL21 via a pertussis-toxin-sensitive MAPK pathway.",
+  "key_finding": "CCL21 stimulated migration and proliferation specifically of IPF/UIP fibroblasts through CCR7 and downstream ERK/RSK signaling, an effect absent in normal lung fibroblasts.",
+  "free_keywords": [
+   "idiopathic pulmonary fibrosis",
+   "UIP",
+   "CCR7",
+   "CCL21",
+   "ERK",
+   "pertussis toxin"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.8,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -6546,14 +8164,38 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "fibrosis_repair",
+    "chemokines_migration"
+   ],
+   "approach": [
+    "mouse_models",
+    "human_samples",
+    "intervention"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Adoptively transferred human interstitial pneumonia fibroblasts into immunodeficient mice to model pulmonary fibrosis and showed that neutralizing antibodies against CCL21 or CCR7 significantly reduced the resulting lung fibrosis.",
+  "key_finding": "Immunoneutralization of CCL21 or CCR7 significantly attenuated pulmonary fibrosis induced by adoptively transferred IPF/UIP or NSIP fibroblasts in SCID/beige mice.",
+  "free_keywords": [
+   "adoptive transfer",
+   "SCID/beige mice",
+   "CCL21",
+   "CCR7",
+   "hydroxyproline",
+   "NSIP"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -6644,14 +8286,38 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "fibrosis_repair",
+    "chemokines_migration"
+   ],
+   "approach": [
+    "human_samples",
+    "imaging"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Examined CCR7 and CXCR4 chemokine receptor and ligand expression in surgical lung biopsies from patients with idiopathic interstitial pneumonias and found CCR7 protein selectively elevated in usual interstitial pneumonia.",
+  "key_finding": "CCR7 transcript and protein were significantly elevated in UIP biopsies relative to NSIP or RBILD, and CCR7-positive interstitial cells were CD45+ leukocytes rather than fibroblasts or stem cells.",
+  "free_keywords": [
+   "CCR7",
+   "CXCR4",
+   "CCL19",
+   "CCL21",
+   "CXCL12",
+   "usual interstitial pneumonia",
+   "surgical lung biopsy"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.8,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -6724,14 +8390,36 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "monocytes",
+    "antigen_presentation"
+   ],
+   "approach": [
+    "mouse_models",
+    "flow_cytometry"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Showed that immature Gr-1hi bone marrow monocytes acquire antigen released by neutrophils and B cells in the marrow and retain it intracellularly to present to T cells only after later maturing into peripheral monocyte-derived dendritic cells.",
+  "key_finding": "Bone marrow monocytes sampled cell-associated antigen from neutrophils and B cells in situ and later presented it to T cells after differentiating and migrating to lymph nodes.",
+  "free_keywords": [
+   "Gr-1",
+   "bone marrow monocytes",
+   "microspheres",
+   "GM-CSF",
+   "antigen sampling"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.8,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -6797,14 +8485,39 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "dendritic_cells",
+    "macrophages",
+    "lung",
+    "chemokines_migration"
+   ],
+   "approach": [
+    "mouse_models",
+    "flow_cytometry"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Showed that alveolar macrophages captured most intranasal latex particles but rarely migrated to draining lymph nodes, and that depleting macrophages boosted airway DC recruitment and 20-fold greater particle transport to lymph nodes via CCR7 and CCR8.",
+  "key_finding": "Macrophage depletion increased airway DC recruitment and boosted DC-mediated antigen transport to draining lymph nodes 20-fold, revealing macrophage suppression of DC-mediated trafficking.",
+  "free_keywords": [
+   "latex particles",
+   "alveolar macrophage depletion",
+   "CCR7",
+   "CCR8",
+   "MRP1",
+   "airway DC"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -6868,14 +8581,37 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "review"
+   "topic": [
+    "fibrosis_repair",
+    "allergy_type2"
+   ],
+   "approach": [
+    "human_samples",
+    "mouse_models",
+    "intervention"
+   ],
+   "type": [
+    "review"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Reviewed the group's findings that IL-4 and IL-13 receptor subunits were overexpressed in idiopathic interstitial pneumonia and that an IL-13-Pseudomonas exotoxin immunotoxin (IL13-PE) attenuated fibrosis in mouse models by killing IL-4/IL-13-responsive cells.",
+  "key_finding": "Intranasal IL13-PE selectively targeted IL-4Ralpha- and IL-13Ralpha2-expressing lung cells and significantly attenuated fibrotic responses in murine pulmonary fibrosis models.",
+  "free_keywords": [
+   "IL13-PE",
+   "Pseudomonas exotoxin",
+   "IL-4Ralpha",
+   "IL-13Ralpha2",
+   "idiopathic interstitial pneumonia"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.6,
+   "notes": "Reads as a self-review synthesizing the group's own experimental program; classified as review per prior tag, though it also reports primary data.",
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -6949,14 +8685,35 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "fibrosis_repair",
+    "allergy_type2"
+   ],
+   "approach": [
+    "mouse_models"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Compared FITC-induced lung fibrosis in IL-4- and IL-13-deficient mice and found that IL-13, but not IL-4, was required for fibrosis, acting directly on fibroblasts to reduce collagen synthesis when absent.",
+  "key_finding": "IL-13-deficient and IL-4/IL-13 double-deficient mice, but not IL-4-deficient mice, were protected from FITC-induced fibrosis because their fibroblasts had reduced basal and stimulated collagen production.",
+  "free_keywords": [
+   "FITC-induced fibrosis",
+   "IL-4 knockout",
+   "IL-13 knockout",
+   "collagen synthesis",
+   "eosinophilia"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.85,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -7043,14 +8800,38 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "fibrosis_repair",
+    "allergy_type2"
+   ],
+   "approach": [
+    "human_samples",
+    "imaging"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Analyzed surgical lung biopsies from patients with idiopathic interstitial pneumonias and found that IL-4 and IL-13 receptor subunits were more frequently and strongly expressed in usual interstitial pneumonia than in other subtypes or normal lung.",
+  "key_finding": "IL-13Ralpha2, IL-13Ralpha1 and IL-4Ralpha were expressed in a greater proportion of UIP biopsies than NSIP or RBILD, with strong staining in UIP fibroblastic foci.",
+  "free_keywords": [
+   "surgical lung biopsy",
+   "IL-4Ralpha",
+   "IL-13Ralpha1",
+   "IL-13Ralpha2",
+   "fibroblastic foci",
+   "UIP",
+   "NSIP"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.8,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -7137,14 +8918,36 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "fibrosis_repair",
+    "allergy_type2"
+   ],
+   "approach": [
+    "human_samples",
+    "intervention"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Cultured primary human pulmonary fibroblasts from interstitial pneumonia biopsies and found that those from usual interstitial pneumonia had the highest IL-4/IL-13 receptor expression and were most susceptible to killing by an IL-13-Pseudomonas exotoxin immunotoxin.",
+  "key_finding": "IL13-PE inhibited proliferation of usual interstitial pneumonia fibroblasts more strongly than other IIP or normal fibroblasts, in an IL-4Ralpha- and IL-13Ralpha2-dependent manner.",
+  "free_keywords": [
+   "IL13-PE",
+   "fibroblast proliferation",
+   "IL-13Ralpha2",
+   "usual interstitial pneumonia",
+   "surgical lung biopsy"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.8,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -7226,14 +9029,36 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "fibrosis_repair",
+    "chemokines_migration"
+   ],
+   "approach": [
+    "human_samples",
+    "transcriptomics"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Found that CCL7 was more highly expressed in lung biopsies and cultured fibroblasts from usual interstitial pneumonia patients than from other interstitial pneumonias or controls, and that CCL5 further increased CCL7 production by UIP fibroblasts.",
+  "key_finding": "CCL7 gene and protein expression was significantly higher in UIP biopsies and fibroblast lines than in NSIP, RBILD, or non-IIP samples.",
+  "free_keywords": [
+   "CCL7",
+   "CCL5",
+   "gene array",
+   "usual interstitial pneumonia",
+   "TaqMan"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.8,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -7306,14 +9131,39 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "macrophages",
+    "chemokines_migration",
+    "infection",
+    "allergy_type2"
+   ],
+   "approach": [
+    "mouse_models",
+    "intervention"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Examined the CCR4 ligands CCL17 and CCL22 during Schistosoma mansoni egg-induced pulmonary granuloma formation and found that neutralizing CCL22, and to a lesser extent CCL17, reduced granuloma size and eosinophilia in mice.",
+  "key_finding": "Immunoneutralization of CCL22 significantly decreased CCR4 expression, eosinophil content, granuloma size and hydroxyproline content, while anti-CCL17 mainly reduced hydroxyproline and boosted several Th2 and pro-inflammatory cytokines.",
+  "free_keywords": [
+   "Schistosoma mansoni",
+   "CCL17",
+   "CCL22",
+   "CCR4",
+   "pulmonary granuloma",
+   "eosinophils"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.8,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -7386,14 +9236,37 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "fibrosis_repair",
+    "allergy_type2",
+    "infection"
+   ],
+   "approach": [
+    "mouse_models",
+    "intervention"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Compared IL-13 responsiveness of fibroblasts from normal lung and from Th1-type (PPD bead) versus Th2-type (Schistosoma egg antigen bead) pulmonary granulomas, finding that only Th2-type fibroblasts showed enhanced collagen synthesis and proliferation with IL-13.",
+  "key_finding": "IL-13 increased collagen production and proliferation specifically in Th2-type granuloma fibroblasts, and the IL13-PE immunotoxin selectively suppressed Th1- and Th2-type but not normal fibroblasts.",
+  "free_keywords": [
+   "Th1/Th2 granuloma",
+   "IL13-PE",
+   "IL-13Ralpha2",
+   "Schistosoma mansoni",
+   "purified peptide derivative"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.8,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -7463,14 +9336,37 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "fibrosis_repair",
+    "allergy_type2"
+   ],
+   "approach": [
+    "mouse_models",
+    "intervention",
+    "flow_cytometry"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Tested an IL-13-Pseudomonas exotoxin immunotoxin (IL13-PE) in bleomycin-induced pulmonary fibrosis in mice and found that late intranasal treatment reduced IL-4/IL-13 receptor-positive mononuclear cells and macrophages and attenuated established fibrosis.",
+  "key_finding": "IL13-PE given late (days 21-28) after bleomycin challenge, but not earlier, significantly reduced histological and biochemical measures of established pulmonary fibrosis.",
+  "free_keywords": [
+   "bleomycin",
+   "IL13-PE",
+   "IL-4Ralpha",
+   "IL-13Ralpha2",
+   "immunotoxin"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.8,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -7549,14 +9445,37 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "allergy_type2",
+    "infection",
+    "fibrosis_repair"
+   ],
+   "approach": [
+    "mouse_models",
+    "intervention"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Compared Stat6-deficient and wild-type mice in a chronic Aspergillus fumigatus asthma model and found that Stat6 loss reduced early goblet cell hyperplasia and airway hyperresponsiveness, but chronic fibrosis and late hyperresponsiveness still developed independent of Stat6.",
+  "key_finding": "Stat6-deficient mice still developed airway hyperresponsiveness and peribronchial fibrosis at later time points, and IL13-PE treatment abolished hyperresponsiveness but not fibrosis in these mice, showing chronic disease becomes IL-13-dependent but Stat6-independent.",
+  "free_keywords": [
+   "Stat6 knockout",
+   "Aspergillus fumigatus",
+   "goblet cell hyperplasia",
+   "IL13-PE",
+   "airway hyperresponsiveness"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.8,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -7627,14 +9546,37 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "fibrosis_repair",
+    "allergy_type2",
+    "infection"
+   ],
+   "approach": [
+    "mouse_models",
+    "intervention"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Treated mice with an IL-13-Pseudomonas exotoxin fusion protein (IL13-PE) during Schistosoma mansoni egg-induced pulmonary granuloma formation and showed that it durably arrested granuloma growth and reduced lung collagen deposition.",
+  "key_finding": "IL13-PE treatment lowered IL-4/IL-13 gene expression, granuloma size and collagen content, with therapeutic effects still evident at day 16 despite stopping treatment at day 8.",
+  "free_keywords": [
+   "Schistosoma mansoni",
+   "IL13-PE",
+   "Pseudomonas exotoxin",
+   "pulmonary granuloma",
+   "collagen"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.8,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -7702,14 +9644,37 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "allergy_type2",
+    "infection",
+    "fibrosis_repair"
+   ],
+   "approach": [
+    "mouse_models",
+    "intervention"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Immunoneutralized IL-13 or IL-4 at different stages of chronic Aspergillus fumigatus-induced asthma in mice and found that late IL-13 blockade durably reduced airway hyperresponsiveness, collagen deposition and goblet cell hyperplasia more effectively than IL-4 blockade.",
+  "key_finding": "IL-13 immunoneutralization between days 14-30 or 30-38 produced lasting reductions in airway hyperresponsiveness, collagen and goblet cell hyperplasia that persisted after treatment stopped, unlike IL-4 blockade.",
+  "free_keywords": [
+   "Aspergillus fumigatus",
+   "IL-13 immunoneutralization",
+   "goblet cell hyperplasia",
+   "chronic asthma",
+   "IFN-gamma"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.8,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  },
@@ -7777,14 +9742,37 @@
   "citation_original": null,
   "commentaries": [],
   "tags": {
-   "topic": [],
-   "approach": [],
-   "type": "empirical"
+   "topic": [
+    "allergy_type2",
+    "infection",
+    "fibrosis_repair"
+   ],
+   "approach": [
+    "mouse_models",
+    "intervention"
+   ],
+   "type": [
+    "empirical"
+   ]
   },
-  "summary": "",
-  "key_finding": "",
-  "free_keywords": [],
-  "classification": null,
+  "summary": "Treated Aspergillus fumigatus-sensitized mice with intranasal IL-13-Pseudomonas exotoxin (IL13-PE) during chronic fungal-induced allergic airway disease and found the highest dose reduced airway hyperreactivity, goblet cell hyperplasia and peribronchial fibrosis.",
+  "key_finding": "200 ng doses of IL13-PE significantly reduced all measured features of chronic fungal-induced allergic airway disease and lowered IL-4Ralpha/IL-13Ralpha1 expression while raising IFN-gamma.",
+  "free_keywords": [
+   "Aspergillus fumigatus",
+   "IL13-PE",
+   "goblet cell hyperplasia",
+   "peribronchial fibrosis",
+   "conidia"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
+   "input_mode": "abstract",
+   "confidence": 0.8,
+   "notes": null,
+   "classified_at": "2026-09-09T06:13:30Z"
+  },
   "date_added": "2026-09-09",
   "source": "pubmed"
  }
