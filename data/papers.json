@@ -3357,15 +3357,13 @@
   "source": "pubmed"
  },
  {
-  "id": "atif2018isolation",
-  "title": "Isolation and Identification of Interstitial Macrophages from the Lungs Using Different Digestion Enzymes and Staining Strategies",
+  "id": "gibbings2018isolation",
+  "title": "Isolation and Characterization of Mononuclear Phagocytes in the Mouse Lung and Lymph Nodes",
   "authors": [
-   "Atif, S. M.",
    "Gibbings, S. L.",
    "Jakubzick, C. V."
   ],
   "authors_short": [
-   "Atif SM",
    "Gibbings SL",
    "Jakubzick CV"
   ],
@@ -3376,56 +3374,60 @@
   "kind": "chapter",
   "journal": "Methods Mol Biol",
   "journal_full": "Methods in molecular biology (Clifton, N.J.)",
-  "volume": "1784",
+  "volume": "1809",
   "issue": null,
-  "pages": "69-76",
-  "doi": "10.1007/978-1-4939-7837-3_6",
-  "pmid": "29761388",
-  "pmcid": "PMC6233879",
-  "openalex_id": "https://openalex.org/W2803700809",
-  "abstract": "Interstitial macrophages (IMs) are present in multiple organs. Although there is limited knowledge of the unique functional role IM subtypes play, macrophages, in general, are known for their contribution in homeostatic tissue maintenance and inflammation such as clearing pathogens and debris and secreting inflammatory mediators and growth factors. IM subtypes have been identified in the heart, skin, and gut, and more recently we identified three distinct IMs in the lung. IMs express on their surface high levels of MerTK, CD64, and CD11b, with differences in CD11c, CD206, and MHC II expression, and referred to the three pulmonary IM subtypes as IM1 (CD11cloCD206+MHCIIlo), IM2 (CD11cloCD206+MHCIIhi), and IM3 (CD11chiCD206loMHCIIhi). In this chapter, we highlight how to extract IMs from the lung using three different digestion enzymes: elastase, collagenase D, and Liberase TM. Of these three commonly used enzymes, Liberase TM was the most effective at IM extraction, particularly IM3. Furthermore, alternative staining strategies to identify IMs were examined, which included CD64, MerTK, F4/80, and Tim4. Thus, future studies highlighting the functional role of IM subtypes will help further our understanding of how tissue homeostasis is maintained and inflammatory conditions are induced and resolved.",
+  "pages": "33-44",
+  "doi": "10.1007/978-1-4939-8570-8_3",
+  "pmid": "29987780",
+  "pmcid": "PMC6262824",
+  "openalex_id": "https://openalex.org/W2866202549",
+  "abstract": "There is a diverse population of mononuclear phagocytes (MPs) in the lungs, comprised of macrophages, dendritic cells (DCs), and monocytes. The existence of these various cell types suggests that there is a clear division of labor and delicate balance between the MPs under steady-state and inflammatory conditions. Here we describe how to identify pulmonary MPs using flow cytometry and how to isolate them via cell sorting. In steady-state conditions, murine lungs contain a uniform population of alveolar macrophages (AMs), three distinct interstitial macrophage (IM) populations, three DC subtypes, and a small number of tissue-trafficking monocytes. During an inflammatory response, the monocyte population is more abundant and complex since it acquires either macrophage-like or DC-like features. All in all, studying how these cell types interact with each other, structural cells, and other leukocytes within the environment will be important to understanding their role in maintaining homeostasis and during the development of disease.",
   "abstract_source": "pubmed",
-  "cited_by_count": 20,
-  "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6233879",
-  "landing_url": "https://pubmed.ncbi.nlm.nih.gov/29761388/",
+  "cited_by_count": 22,
+  "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6262824",
+  "landing_url": "https://pubmed.ncbi.nlm.nih.gov/29987780/",
   "keywords": [
-   "Alveolar macrophages",
-   "Dendritic cells",
-   "Interstitial macrophages",
+   "Dendritic cell",
+   "Flow cytometry",
+   "Interstitial",
    "Lung",
-   "Monocytes",
-   "Mononuclear phagocytes",
+   "Macrophage",
+   "Monocyte",
+   "Mononuclear phagocyte",
    "Pulmonary",
    "Animals",
-   "CD11b Antigen",
-   "CD11c Antigen",
-   "Cell Culture Techniques",
-   "Collagenases",
-   "Gene Expression Regulation",
+   "Biomarkers",
+   "Cell Separation",
+   "Flow Cytometry",
+   "Immunophenotyping",
+   "Leukocytes, Mononuclear",
+   "Lymph Nodes",
    "Macrophages, Alveolar",
-   "Membrane Proteins",
    "Mice",
-   "Pancreatic Elastase"
+   "Monocytes",
+   "Phagocytes"
   ],
   "links": [
    {
     "type": "publisher",
     "label": "Publisher",
-    "url": "https://doi.org/10.1007/978-1-4939-7837-3_6"
+    "url": "https://doi.org/10.1007/978-1-4939-8570-8_3"
    },
    {
     "type": "fulltext",
     "label": "Free full text (PMC)",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6233879/"
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6262824/"
    }
   ],
   "has_pdf": false,
-  "citation": "Atif SM, Gibbings SL, Jakubzick CV. Isolation and Identification of Interstitial Macrophages from the Lungs Using Different Digestion Enzymes and Staining Strategies. Methods Mol Biol. 2018;1784:69-76. doi:10.1007/978-1-4939-7837-3_6",
+  "citation": "Gibbings SL, Jakubzick CV. Isolation and Characterization of Mononuclear Phagocytes in the Mouse Lung and Lymph Nodes. Methods Mol Biol. 2018;1809:33-44. doi:10.1007/978-1-4939-8570-8_3",
   "citation_original": null,
   "commentaries": [],
   "tags": {
    "topic": [
     "macrophages",
+    "monocytes",
+    "dendritic_cells",
     "lung"
    ],
    "approach": [
@@ -3437,22 +3439,21 @@
     "methods"
    ]
   },
-  "summary": "This methods chapter compared three digestion enzymes and staining strategies for extracting and identifying three interstitial macrophage subtypes from mouse lungs, finding Liberase TM most effective, especially for the IM3 subset.",
-  "key_finding": "Liberase TM digestion recovered interstitial macrophage subtypes, particularly IM3, more effectively than elastase or collagenase D.",
+  "summary": "This methods chapter described protocols for identifying and isolating mouse lung and lymph node mononuclear phagocytes, including macrophages, dendritic cells and monocytes, by flow cytometry and cell sorting in steady state and inflammation.",
+  "key_finding": null,
   "free_keywords": [
+   "mononuclear phagocytes",
+   "alveolar macrophages",
    "interstitial macrophages",
-   "Liberase TM",
-   "collagenase",
-   "MerTK",
-   "Tim4",
-   "enzymatic digestion"
+   "cell sorting",
+   "protocol"
   ],
   "classification": {
    "taxonomy_version": "1.0.0",
    "prompt_version": "1.0.0",
    "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
    "input_mode": "abstract",
-   "confidence": 0.85,
+   "confidence": 0.9,
    "notes": null,
    "classified_at": "2026-09-09T06:13:30Z"
   },
@@ -3565,13 +3566,15 @@
   "citations_refreshed": "2026-09-09"
  },
  {
-  "id": "gibbings2018isolation",
-  "title": "Isolation and Characterization of Mononuclear Phagocytes in the Mouse Lung and Lymph Nodes",
+  "id": "atif2018isolation",
+  "title": "Isolation and Identification of Interstitial Macrophages from the Lungs Using Different Digestion Enzymes and Staining Strategies",
   "authors": [
+   "Atif, S. M.",
    "Gibbings, S. L.",
    "Jakubzick, C. V."
   ],
   "authors_short": [
+   "Atif SM",
    "Gibbings SL",
    "Jakubzick CV"
   ],
@@ -3582,60 +3585,56 @@
   "kind": "chapter",
   "journal": "Methods Mol Biol",
   "journal_full": "Methods in molecular biology (Clifton, N.J.)",
-  "volume": "1809",
+  "volume": "1784",
   "issue": null,
-  "pages": "33-44",
-  "doi": "10.1007/978-1-4939-8570-8_3",
-  "pmid": "29987780",
-  "pmcid": "PMC6262824",
-  "openalex_id": "https://openalex.org/W2866202549",
-  "abstract": "There is a diverse population of mononuclear phagocytes (MPs) in the lungs, comprised of macrophages, dendritic cells (DCs), and monocytes. The existence of these various cell types suggests that there is a clear division of labor and delicate balance between the MPs under steady-state and inflammatory conditions. Here we describe how to identify pulmonary MPs using flow cytometry and how to isolate them via cell sorting. In steady-state conditions, murine lungs contain a uniform population of alveolar macrophages (AMs), three distinct interstitial macrophage (IM) populations, three DC subtypes, and a small number of tissue-trafficking monocytes. During an inflammatory response, the monocyte population is more abundant and complex since it acquires either macrophage-like or DC-like features. All in all, studying how these cell types interact with each other, structural cells, and other leukocytes within the environment will be important to understanding their role in maintaining homeostasis and during the development of disease.",
+  "pages": "69-76",
+  "doi": "10.1007/978-1-4939-7837-3_6",
+  "pmid": "29761388",
+  "pmcid": "PMC6233879",
+  "openalex_id": "https://openalex.org/W2803700809",
+  "abstract": "Interstitial macrophages (IMs) are present in multiple organs. Although there is limited knowledge of the unique functional role IM subtypes play, macrophages, in general, are known for their contribution in homeostatic tissue maintenance and inflammation such as clearing pathogens and debris and secreting inflammatory mediators and growth factors. IM subtypes have been identified in the heart, skin, and gut, and more recently we identified three distinct IMs in the lung. IMs express on their surface high levels of MerTK, CD64, and CD11b, with differences in CD11c, CD206, and MHC II expression, and referred to the three pulmonary IM subtypes as IM1 (CD11cloCD206+MHCIIlo), IM2 (CD11cloCD206+MHCIIhi), and IM3 (CD11chiCD206loMHCIIhi). In this chapter, we highlight how to extract IMs from the lung using three different digestion enzymes: elastase, collagenase D, and Liberase TM. Of these three commonly used enzymes, Liberase TM was the most effective at IM extraction, particularly IM3. Furthermore, alternative staining strategies to identify IMs were examined, which included CD64, MerTK, F4/80, and Tim4. Thus, future studies highlighting the functional role of IM subtypes will help further our understanding of how tissue homeostasis is maintained and inflammatory conditions are induced and resolved.",
   "abstract_source": "pubmed",
-  "cited_by_count": 22,
-  "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6262824",
-  "landing_url": "https://pubmed.ncbi.nlm.nih.gov/29987780/",
+  "cited_by_count": 20,
+  "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6233879",
+  "landing_url": "https://pubmed.ncbi.nlm.nih.gov/29761388/",
   "keywords": [
-   "Dendritic cell",
-   "Flow cytometry",
-   "Interstitial",
+   "Alveolar macrophages",
+   "Dendritic cells",
+   "Interstitial macrophages",
    "Lung",
-   "Macrophage",
-   "Monocyte",
-   "Mononuclear phagocyte",
+   "Monocytes",
+   "Mononuclear phagocytes",
    "Pulmonary",
    "Animals",
-   "Biomarkers",
-   "Cell Separation",
-   "Flow Cytometry",
-   "Immunophenotyping",
-   "Leukocytes, Mononuclear",
-   "Lymph Nodes",
+   "CD11b Antigen",
+   "CD11c Antigen",
+   "Cell Culture Techniques",
+   "Collagenases",
+   "Gene Expression Regulation",
    "Macrophages, Alveolar",
+   "Membrane Proteins",
    "Mice",
-   "Monocytes",
-   "Phagocytes"
+   "Pancreatic Elastase"
   ],
   "links": [
    {
     "type": "publisher",
     "label": "Publisher",
-    "url": "https://doi.org/10.1007/978-1-4939-8570-8_3"
+    "url": "https://doi.org/10.1007/978-1-4939-7837-3_6"
    },
    {
     "type": "fulltext",
     "label": "Free full text (PMC)",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6262824/"
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6233879/"
    }
   ],
   "has_pdf": false,
-  "citation": "Gibbings SL, Jakubzick CV. Isolation and Characterization of Mononuclear Phagocytes in the Mouse Lung and Lymph Nodes. Methods Mol Biol. 2018;1809:33-44. doi:10.1007/978-1-4939-8570-8_3",
+  "citation": "Atif SM, Gibbings SL, Jakubzick CV. Isolation and Identification of Interstitial Macrophages from the Lungs Using Different Digestion Enzymes and Staining Strategies. Methods Mol Biol. 2018;1784:69-76. doi:10.1007/978-1-4939-7837-3_6",
   "citation_original": null,
   "commentaries": [],
   "tags": {
    "topic": [
     "macrophages",
-    "monocytes",
-    "dendritic_cells",
     "lung"
    ],
    "approach": [
@@ -3647,21 +3646,22 @@
     "methods"
    ]
   },
-  "summary": "This methods chapter described protocols for identifying and isolating mouse lung and lymph node mononuclear phagocytes, including macrophages, dendritic cells and monocytes, by flow cytometry and cell sorting in steady state and inflammation.",
-  "key_finding": null,
+  "summary": "This methods chapter compared three digestion enzymes and staining strategies for extracting and identifying three interstitial macrophage subtypes from mouse lungs, finding Liberase TM most effective, especially for the IM3 subset.",
+  "key_finding": "Liberase TM digestion recovered interstitial macrophage subtypes, particularly IM3, more effectively than elastase or collagenase D.",
   "free_keywords": [
-   "mononuclear phagocytes",
-   "alveolar macrophages",
    "interstitial macrophages",
-   "cell sorting",
-   "protocol"
+   "Liberase TM",
+   "collagenase",
+   "MerTK",
+   "Tim4",
+   "enzymatic digestion"
   ],
   "classification": {
    "taxonomy_version": "1.0.0",
    "prompt_version": "1.0.0",
    "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
    "input_mode": "abstract",
-   "confidence": 0.9,
+   "confidence": 0.85,
    "notes": null,
    "classified_at": "2026-09-09T06:13:30Z"
   },
@@ -9835,5 +9835,92 @@
   "date_added": "2026-09-09",
   "source": "pubmed",
   "citations_refreshed": "2026-09-09"
+ },
+ {
+  "id": "smith1999carbonic",
+  "title": "Carbonic anhydrase is an ancient enzyme widespread in prokaryotes",
+  "authors": [
+   "Smith, K. S.",
+   "Jakubzick, C.",
+   "Whittam, T. S.",
+   "Ferry, J. G."
+  ],
+  "authors_short": [
+   "Smith KS",
+   "Jakubzick C",
+   "Whittam TS",
+   "Ferry JG"
+  ],
+  "authors_truncated": false,
+  "year": 1999,
+  "date": "1999-12-21",
+  "status": "published",
+  "kind": "article",
+  "journal": "Proc Natl Acad Sci U S A",
+  "journal_full": "Proceedings of the National Academy of Sciences of the United States of America",
+  "volume": "96",
+  "issue": "26",
+  "pages": "15184-9",
+  "doi": "10.1073/pnas.96.26.15184",
+  "pmid": "10611359",
+  "pmcid": "PMC24794",
+  "openalex_id": "https://openalex.org/W2002584091",
+  "abstract": "Carbonic anhydrases catalyze the reversible hydration of CO(2) and are ubiquitous in highly evolved eukaryotes. The recent identification of a third class of carbonic anhydrase (gamma class) in a methanoarchaeon and our present finding that the beta class also extends into thermophilic species from the Archaea domain led us to initiate a systematic search for these enzymes in metabolically and phylogenetically diverse prokaryotes. Here we show that carbonic anhydrase is widespread in the Archaea and Bacteria domains, and is an ancient enzyme. The occurrence in chemolithoautotrophic species occupying deep branches of the universal phylogenetic tree suggests a role for this enzyme in the proposed autotrophic origin of life. The presence of the beta and gamma classes in metabolically diverse species spanning the Archaea and Bacteria domains demonstrates that carbonic anhydrases have a far more extensive and fundamental role in prokaryotic biology than previously recognized.",
+  "abstract_source": "pubmed",
+  "cited_by_count": 434,
+  "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/24794",
+  "landing_url": "https://pubmed.ncbi.nlm.nih.gov/10611359/",
+  "keywords": [
+   "Archaea",
+   "Bacteria",
+   "Carbonic Anhydrases",
+   "Evolution, Molecular",
+   "Phylogeny",
+   "Prokaryotic Cells"
+  ],
+  "links": [
+   {
+    "type": "publisher",
+    "label": "Publisher",
+    "url": "https://doi.org/10.1073/pnas.96.26.15184"
+   },
+   {
+    "type": "fulltext",
+    "label": "Free full text (PMC)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC24794/"
+   }
+  ],
+  "has_pdf": false,
+  "citation": "Smith KS, Jakubzick C, Whittam TS, Ferry JG. Carbonic anhydrase is an ancient enzyme widespread in prokaryotes. Proc Natl Acad Sci U S A. 1999;96(26):15184-9. doi:10.1073/pnas.96.26.15184",
+  "citation_original": null,
+  "commentaries": [],
+  "tags": {
+   "topic": [],
+   "approach": [
+    "computational"
+   ],
+   "type": [
+    "empirical"
+   ]
+  },
+  "summary": "Phylogenetic and biochemical analysis showed that carbonic anhydrase is widespread among prokaryotes, with genes from all three carbonic anhydrase classes present and independently distributed across Archaea and Bacteria.",
+  "key_finding": "",
+  "free_keywords": [
+   "carbonic anhydrase",
+   "prokaryotes",
+   "Archaea",
+   "phylogeny"
+  ],
+  "classification": {
+   "taxonomy_version": "1.0.0",
+   "prompt_version": "1.0.0",
+   "model": "hand-tagged (pre-immunology paper, no topic applies)",
+   "input_mode": "abstract",
+   "confidence": 0.9,
+   "notes": "Undergraduate/early work outside the lab's immunology vocabulary.",
+   "classified_at": "2026-09-09"
+  },
+  "date_added": "2026-09-09",
+  "source": "pubmed"
  }
 ]

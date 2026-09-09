@@ -15,8 +15,8 @@ Medicine at Dartmouth), built September 2026 by duplicating the CANlab site (git
   at rest, yellow→orange when activated. Brand accent is Dartmouth green (`--accent*` in app.css); amber is only the glow.
 - Papers: only papers with Claudia Jakubzick as an author. Source = PubMed query `Jakubzick C[Author]` (90 records as of
   2026-09-09) merged with OpenAlex author A5036506329 for citations/OA links, plus two textbook chapters from the old site.
-  Excluded: ImmGen consortium papers (listed statically at the bottom of publications.html), an author correction, and
-  PubMed 10611359 (1999 carbonic-anhydrase PNAS paper, a different C. Jakubzick unless the PI confirms). OpenAlex-only
+  Excluded: ImmGen consortium papers (listed statically at the bottom of publications.html) and an author correction.
+  The 1999 carbonic-anhydrase PNAS paper (PMID 10611359) is included at the owner's request. OpenAlex-only
   items (conference abstracts, bioRxiv preprints of published papers) are not records.
 - Content came from the old WordPress site geiselmed.dartmouth.edu/jakubzick (research text kept nearly verbatim, member
   bios, photos, DEI statement, contact) and Geisel/Guarini news pages. Xin Li graduated in 2025 (Strohbehn Medal) and is
