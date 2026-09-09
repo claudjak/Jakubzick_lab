@@ -1,7 +1,7 @@
 # Jakubzick Lab website
 
 The website of the Jakubzick Laboratory (Claudia Jakubzick, Department of Microbiology and Immunology, Geisel School of
-Medicine at Dartmouth): **https://torwager.github.io/jakubzicklab/**
+Medicine at Dartmouth): **https://claudjak.github.io/Jakubzick_lab/**
 
 It replaces the WordPress site at geiselmed.dartmouth.edu/jakubzick and keeps its content (research program, people,
 publications, contact), restyled after the [CANlab](https://torwager.github.io/canlab/) and
@@ -39,7 +39,7 @@ python -m pipeline.news --no-llm                      # news search without the 
 1. **Pages**: Settings → Pages → Source "GitHub Actions". The daily workflow deploys `site/`.
 2. **Secrets** (Settings → Secrets and variables → Actions): `ANTHROPIC_API_KEY` or `OPENAI_API_KEY` (tagging and the news filter; without a key the daily search still runs and queues untagged candidates), optionally `OPENALEX_API_KEY` and `NCBI_API_KEY`. Variables: `JLAB_CONTACT_EMAIL` (polite-pool email for OpenAlex/PubMed), `JLAB_LLM_MODEL` (default `claude-sonnet-5` / `gpt-5-mini`).
 3. **Analytics** (optional): create a site in Cloudflare Web Analytics and paste the token into `cfAnalyticsToken` in `site/assets/config.js`.
-4. **Search engines**: submit `https://torwager.github.io/jakubzicklab/sitemap.xml` in Google Search Console.
+4. **Search engines**: submit `https://claudjak.github.io/Jakubzick_lab/sitemap.xml` in Google Search Console.
 
 ## Provenance
 

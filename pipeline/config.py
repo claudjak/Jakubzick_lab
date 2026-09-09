@@ -16,7 +16,7 @@ SCREENED = DATA / "screened.json"        # everything the daily search has alrea
 SITE = ROOT / "site"
 SITE_DATA = SITE / "data"
 
-SITE_URL = os.environ.get("JLAB_SITE_URL", "https://torwager.github.io/jakubzicklab")
+SITE_URL = os.environ.get("JLAB_SITE_URL", "https://claudjak.github.io/Jakubzick_lab")
 CONTACT_EMAIL = os.environ.get("JLAB_CONTACT_EMAIL", "")
 TOOL_NAME = "jakubzicklab-site"
 NCBI_API_KEY = os.environ.get("NCBI_API_KEY")
