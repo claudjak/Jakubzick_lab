@@ -1,0 +1,343 @@
+[
+ {
+  "id": "claudia-jakubzick",
+  "name": "Claudia Jakubzick",
+  "role": "Principal Investigator",
+  "title": "Professor of Microbiology and Immunology, Geisel School of Medicine at Dartmouth",
+  "section": "Principal Investigator",
+  "current": true,
+  "img": "claudia-jakubzick.jpg",
+  "bio": [
+   "Claudia Jakubzick is Professor of Microbiology and Immunology at the Geisel School of Medicine at Dartmouth, where she has directed the Jakubzick Laboratory since 2019. She received a BS in Microbiology from the University of Florida (1998) and a PhD in Immunology from the University of Michigan (2003), working with Drs. Steven Kunkel and Cory Hogaboam on IL-13 in pulmonary fibrosis. She trained as a postdoctoral fellow with Dr. Gwendalyn Randolph at the Mount Sinai School of Medicine (2004–2008), where she studied monocyte and dendritic cell trafficking, and became an Instructor there in 2009.",
+   "From 2010 to 2019 she was on the faculty of National Jewish Health and the University of Colorado (Assistant Professor 2010–2017, Associate Professor 2017–2019), moving to Dartmouth as Associate Professor in 2019 and becoming Professor in 2024. Her lab studies the mononuclear phagocyte system, defining tissue-resident macrophage, monocyte and dendritic cell subsets across mouse and human tissues, and has uncovered a role for natural antibody-producing B cells in the early recognition of neoantigen-expressing cells and cancer immune surveillance.",
+   "She is a member of the Immunological Genome Project (ImmGen) consortium, has served on the American Association of Immunologists Minority Affairs Committee since 2016, and organized the 2022 Keystone conference \"Myeloid Cells: Functions in Infections, Cancer and Beyond\" with Martin Guilliams and Venizelos Papayannopoulos. Her honors include the Zucker Award for Women in Science and the Dartmouth Research Excellence Award for Senior Faculty in Foundational Science. Outside the lab she enjoys funny movies, blind tasting wine and chocolate, cooking, and time at the beach."
+  ],
+  "education": [
+   [
+    "1995–1998",
+    "University of Florida",
+    "BS, Microbiology"
+   ],
+   [
+    "1999–2003",
+    "University of Michigan",
+    "PhD, Immunology (Drs. S. Kunkel and C. Hogaboam)"
+   ],
+   [
+    "2004–2008",
+    "Mount Sinai School of Medicine",
+    "Postdoctoral fellow (Dr. Gwendalyn Randolph)"
+   ]
+  ],
+  "links": [
+   {
+    "label": "Google Scholar",
+    "url": "https://scholar.google.com/citations?user=Cqas744AAAAJ"
+   },
+   {
+    "label": "ORCID",
+    "url": "https://orcid.org/0000-0002-3731-0198"
+   },
+   {
+    "label": "Geisel faculty page",
+    "url": "https://geiselmed.dartmouth.edu/faculty/facultydb/view.php/?uid=7204"
+   },
+   {
+    "label": "Dartmouth MCB program",
+    "url": "https://graduate.dartmouth.edu/mcb/people/claudia-jakubzick"
+   },
+   {
+    "label": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Claudia_V._Jakubzick"
+   }
+  ],
+  "source_url": "https://geiselmed.dartmouth.edu/jakubzick/profile/claudia-jakubzick-phd/"
+ },
+ {
+  "id": "aishwarya-dighal",
+  "name": "Aishwarya Dighal",
+  "role": "Postdoctoral Fellow",
+  "section": "Postdoctoral Fellows",
+  "current": true,
+  "img": "aishwarya-dighal.jpg",
+  "bio": [
+   "Aishwarya, born in a small town of West Bengal, India, completed her PhD in Immunology at the Institute of Post-Graduate Medical Education and Research (IPGME&R), University of Calcutta (2023), after an MSc in Zoology (Immunology and Genetics) and a BSc from Presidency College, University of Calcutta. Her research was focused on the immunology of intracellular parasitic disease initially and later on pediatric leukemia, and she worked as a Research Associate at the Tata Translational Cancer Research Centre, Tata Medical Center, Kolkata (2022–2024) before moving to the United States and joining the Jakubzick lab at Dartmouth in 2024.",
+   "Aishwarya's primary research project is to elucidate the role of natural antibodies (NAbs) in damage-associated molecular pattern (DAMP)-mediated immune activation against neoantigens and cancer. The project further aims to delineate the contribution of innate B1 cells and NAbs in licensing antigen-presenting cells (APCs) and cancer immunoediting.",
+   "Apart from research, Aishwarya loves to travel, explore new places, cook, sing, and spend quality time with family and friends."
+  ],
+  "links": [],
+  "source_url": "https://geiselmed.dartmouth.edu/jakubzick/profile/aishwarya-dighal-phd/"
+ },
+ {
+  "id": "soubhik-ghosh",
+  "name": "Soubhik Ghosh",
+  "role": "Postdoctoral Fellow",
+  "section": "Postdoctoral Fellows",
+  "current": true,
+  "img": "soubhik-ghosh.jpg",
+  "bio": [
+   "Soubhik was born in Kolkata, India, where he earned his PhD in Infection Immunology from the Department of Zoology, University of Calcutta (2023), following an MSc in Zoology (Immunology and Genetics) and a BSc from Ashutosh College. His PhD work was focused on T cell immunology (Th9, Th17, Treg) in malaria infection.",
+   "He moved to the United States and joined the Jakubzick Lab at Dartmouth's Geisel School of Medicine just after his PhD. His main research project is focused on the role of lung interstitial macrophages and recruited macrophages in melanoma and adenocarcinoma; he is the lead author of the lab's 2026 Nature Immunology paper on chemokine-defined macrophage niches in tumors. He also participates in the project on the importance of natural antibodies for immune activation against neoantigens.",
+   "Outside research, Soubhik loves to travel to new places, enjoys cooking, and cycles the roads around Hanover. He is a nature and animal lover and adores the fall, spring and snowy winters of the Upper Valley."
+  ],
+  "links": [
+   {
+    "label": "Google Scholar",
+    "url": "https://scholar.google.com/citations?user=6Q6UmhwAAAAJ"
+   }
+  ],
+  "source_url": "https://geiselmed.dartmouth.edu/jakubzick/profile/soubhik-ghosh-phd/"
+ },
+ {
+  "id": "reza-hosseini",
+  "name": "Reza Hosseini",
+  "role": "Postdoctoral Fellow",
+  "section": "Postdoctoral Fellows",
+  "current": true,
+  "img": "reza-hosseini.jpg",
+  "bio": [
+   "Reza was born in Miandoab, West Azerbaijan, Iran. He holds a PhD in Medical Immunology from Isfahan University of Medical Sciences (2022), an MSc in Medical Immunology from Tehran University of Medical Sciences (2017) and a BSc in Medical Laboratory Sciences from Urmia University of Medical Sciences (2014). During his MSc he produced polyclonal antibodies against HER2 subdomains, mapped monoclonal antibodies and studied their effects on breast cancer cells; his PhD focused on cancer-released HER2-carrying extracellular vesicles and their impact on immune responses and therapeutic monoclonal antibodies.",
+   "Following his PhD, Reza spent nearly two years as a Senior Researcher at the Cancer Research Center of Shahid Beheshti University of Medical Sciences (2022–2024), gaining clinical insight by working closely with cancer patients. As a postdoctoral fellow in the Jakubzick lab he studies the role of natural antibodies (NAbs) and macrophages in shaping immune responses against cancer and other diseases.",
+   "Outside of his scientific work, Reza enjoys spending time with his wife and daughter, watching movies, and following football."
+  ],
+  "links": [
+   {
+    "label": "Google Scholar",
+    "url": "https://scholar.google.com/citations?user=jT2UaA8AAAAJ"
+   }
+  ],
+  "source_url": "https://geiselmed.dartmouth.edu/jakubzick/profile/reza-hosseini-phd/"
+ },
+ {
+  "id": "xin-li",
+  "name": "Xin Li",
+  "role": "Graduate Student, 2019–2025 (PhD)",
+  "section": "Former Graduate Students",
+  "current": false,
+  "img": "xin-li.jpg",
+  "bio": [
+   "Xin Li completed a PhD in Immunology at Dartmouth in the Jakubzick lab (2019–2025), after a BS in experimental medicine from Peking University (2016) and an MS in microbiology and immunology from the University of Southern California (2019). Xin's dissertation, \"Macrophage Heterogeneity and Function in the Lung\", used in silico and in vivo approaches to work out the division of labor within the myeloid population in homeostasis and immune responses, and was the basis of the lab's 2024 Nature Immunology paper defining ten interstitial macrophage subsets in mouse and human tissues by their chemokine expression.",
+   "Xin received the 2025 John W. Strohbehn Medal for Excellence in Biomedical Research, Dartmouth's award to a graduating PhD student, with sixteen publications including five as first author, and moved to a postdoctoral position in Weiping Zou's laboratory at the University of Michigan to study cancer immunotherapies."
+  ],
+  "links": [
+   {
+    "label": "Dissertation (Dartmouth Digital Commons)",
+    "url": "https://digitalcommons.dartmouth.edu/dissertations/381/"
+   },
+   {
+    "label": "Strohbehn Medal (Guarini news)",
+    "url": "https://graduate.dartmouth.edu/news/2025/06/dr-xin-li-awarded-2025-john-w-strohbehn-medal-excellence-biomedical-research"
+   }
+  ],
+  "source_url": "https://geiselmed.dartmouth.edu/jakubzick/profile/xin-li/"
+ },
+ {
+  "id": "steph-kalinowski",
+  "name": "Steph Kalinowski",
+  "role": "Lab Technician",
+  "section": "Staff",
+  "current": true,
+  "img": "steph-kalinowski.jpg",
+  "bio": [
+   "Steph is from Southborough, Massachusetts, and moved to the Dartmouth area after finishing a BSc in Biomedical Sciences at Auburn University (2023), where she was on the pre-med track with a minor in anthropology.",
+   "In the lab Steph helps in many facets to keep things running smoothly: she is mainly responsible for genotyping, phenotyping, imaging, irradiating and ordering, and is always willing to help in whatever way is needed. She is first author of the lab's JoVE protocol on facial vein venipuncture for murine blood collection.",
+   "When she is not in the lab Steph loves being outside, hiking and skiing. She plans to attend medical school."
+  ],
+  "links": [],
+  "source_url": "https://geiselmed.dartmouth.edu/jakubzick/profile/steph-kalinowski/"
+ },
+ {
+  "id": "kavita-rawat",
+  "name": "Kavita Rawat",
+  "role": "Research Scientist, 2020–2023",
+  "section": "Former Postdocs and Research Scientists",
+  "current": false,
+  "img": null,
+  "bio": [
+   "Research Scientist in the lab from 2020 to 2023; now a Senior Scientist at the Washington University School of Medicine in St. Louis. First author of the lab's eLife 2021 paper redefining natural antibodies as contributors to anti-tumor immunity."
+  ],
+  "links": [
+   {
+    "label": "Pachynski Lab, WashU",
+    "url": "https://sites.wustl.edu/pachynskilab/people-page-page/kavita-rawat-phd/"
+   }
+  ]
+ },
+ {
+  "id": "arlind-mara",
+  "name": "Arlind B. Mara",
+  "role": "Postdoctoral Fellow, 2022–2023",
+  "section": "Former Postdocs and Research Scientists",
+  "current": false,
+  "img": null,
+  "bio": [
+   "Postdoctoral fellow from 2022 to 2023; now an investigator at the USDA Plum Island Animal Disease Center."
+  ],
+  "links": [
+   {
+    "label": "ORCID",
+    "url": "https://orcid.org/0000-0001-9823-5243"
+   },
+   {
+    "label": "Personal site",
+    "url": "https://arlind-mara.com/"
+   }
+  ]
+ },
+ {
+  "id": "anita-tewari",
+  "name": "Anita Tewari",
+  "role": "Postdoctoral Fellow, 2018–2022",
+  "section": "Former Postdocs and Research Scientists",
+  "current": false,
+  "img": null,
+  "bio": [
+   "Postdoctoral fellow (DVM, PhD) from 2018 to 2022; now Assistant Professor of Veterinary Public Health and Epidemiology at the Veterinary College Rewa, Nanaji Deshmukh Veterinary Science University."
+  ],
+  "links": [
+   {
+    "label": "ResearchGate",
+    "url": "https://www.researchgate.net/profile/Anita-Tewari"
+   }
+  ]
+ },
+ {
+  "id": "shaikh-atif",
+  "name": "Shaikh Atif",
+  "role": "Postdoctoral Fellow, 2014–2018",
+  "section": "Former Postdocs and Research Scientists",
+  "current": false,
+  "img": null,
+  "bio": [
+   "Postdoctoral fellow from 2014 to 2018. Instructor in Medicine (Allergy and Clinical Immunology) at the University of Colorado Anschutz Medical Campus from 2019, and Assistant Professor in the Division of Allergy, Asthma and Clinical Immunology there since 2022."
+  ],
+  "links": [
+   {
+    "label": "Google Scholar",
+    "url": "https://scholar.google.com/citations?user=mKjiTaYAAAAJ"
+   },
+   {
+    "label": "CU Anschutz faculty profile",
+    "url": "https://som.cuanschutz.edu/Profiles/Faculty/Profile/27949"
+   }
+  ]
+ },
+ {
+  "id": "rajni-goyal",
+  "name": "Rajni Goyal",
+  "role": "Postdoctoral Fellow, 2014–2016",
+  "section": "Former Postdocs and Research Scientists",
+  "current": false,
+  "img": null,
+  "bio": [
+   "Postdoctoral fellow from 2014 to 2016."
+  ],
+  "links": []
+ },
+ {
+  "id": "miglena-prabagar",
+  "name": "Miglena Prabagar",
+  "role": "Postdoctoral Fellow, 2014–2016",
+  "section": "Former Postdocs and Research Scientists",
+  "current": false,
+  "img": null,
+  "bio": [
+   "Postdoctoral fellow from 2014 to 2016; Team Leader at Invivotek since 2021."
+  ],
+  "links": []
+ },
+ {
+  "id": "chinaza-nnam",
+  "name": "Chinaza Nnam",
+  "role": "Graduate Student, 2021–2023",
+  "section": "Former Graduate Students",
+  "current": false,
+  "img": null,
+  "bio": [
+   "Graduate student in the lab from 2021 to 2023."
+  ],
+  "links": []
+ },
+ {
+  "id": "faye-camp",
+  "name": "Faye Camp",
+  "role": "MSTP Student, 2017–2019",
+  "section": "Former Graduate Students",
+  "current": false,
+  "img": null,
+  "bio": [
+   "Medical Scientist Training Program student in the lab from 2017 to 2019."
+  ],
+  "links": []
+ },
+ {
+  "id": "sandy-larson",
+  "name": "Sandy Larson",
+  "role": "Graduate Student, 2014–2018",
+  "section": "Former Graduate Students",
+  "current": false,
+  "img": null,
+  "bio": [
+   "Graduate student from 2014 to 2018 (PhD); since 2020 an innate immunologist and Scientific Investigator at GSK."
+  ],
+  "links": [
+   {
+    "label": "Google Scholar",
+    "url": "https://scholar.google.com/citations?user=bTx3r28AAAAJ"
+   }
+  ]
+ },
+ {
+  "id": "ashley-desch",
+  "name": "Ashley Nicole Desch",
+  "role": "Graduate Student, 2011–2014",
+  "section": "Former Graduate Students",
+  "current": false,
+  "img": null,
+  "bio": [
+   "Graduate student from 2011 to 2014. Postdoc at the Broad Institute of MIT and Harvard with Dr. Xavier from 2014, Scientist at the Broad in 2018, and Senior Scientist at Janssen Pharmaceuticals (Johnson & Johnson) since 2019."
+  ],
+  "links": [
+   {
+    "label": "Google Scholar",
+    "url": "https://scholar.google.com/citations?user=tRNhHecAAAAJ"
+   }
+  ]
+ },
+ {
+  "id": "william-king",
+  "name": "William T. King",
+  "role": "Technician, 2022–2023",
+  "section": "Former Staff",
+  "current": false,
+  "img": null,
+  "bio": [
+   "Technician (MS) from 2022 to 2023; now a Research Assistant with the Higgs Lab in the Department of Biochemistry at the Geisel School of Medicine at Dartmouth."
+  ],
+  "links": []
+ },
+ {
+  "id": "elsa-jakubzick",
+  "name": "Elsa Jakubzick",
+  "role": "Lab Manager, 2019–2023",
+  "section": "Former Staff",
+  "current": false,
+  "img": null,
+  "bio": [
+   "Lab Manager (BS) from 2019 to 2023."
+  ],
+  "links": []
+ },
+ {
+  "id": "sophie-gibbings",
+  "name": "Sophie Gibbings",
+  "role": "Technician, 2012–2019",
+  "section": "Former Staff",
+  "current": false,
+  "img": null,
+  "bio": [
+   "Technician from 2012 to 2019 and first author on six of the lab's twelve manuscripts in that period, including the methods chapters on isolating mononuclear phagocytes from mouse and human lung and lymph node."
+  ],
+  "links": []
+ }
+]

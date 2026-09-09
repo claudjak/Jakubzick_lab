@@ -1,0 +1,48 @@
+{
+ "taxonomy_version": "1.0.0",
+ "notes": "Controlled vocabulary for tagging Jakubzick Lab publications (immunology: mononuclear phagocytes, lung immunity, natural antibodies, cancer). Tags are assigned from the abstract (and full text where available). 'topic' and 'approach' are multi-valued; 'type' is single-valued. Chip colour = axis colour.",
+ "axes": [
+  {"id": "topic", "label": "Topic", "multi": true, "required": true,
+   "color": {"hue": "violet", "light": {"bg": "#EDE9FE", "fg": "#5B21B6"}, "dark": {"bg": "#2E1065", "fg": "#C4B5FD"}},
+   "values": [
+    {"id": "macrophages", "label": "Macrophages", "def": "Tissue-resident or recruited macrophages: alveolar, interstitial, serous-cavity, tumor-associated or other macrophages, their subsets, origin, niches or function."},
+    {"id": "monocytes", "label": "Monocytes", "def": "Classical or non-classical blood monocytes, monocyte subsets, monocyte-derived cells, their trafficking, differentiation or antigen-presenting function."},
+    {"id": "dendritic_cells", "label": "Dendritic cells", "def": "Conventional (DC1, DC2), plasmacytoid or monocyte-derived dendritic cells, migratory DCs, Langerhans cells, their subsets, migration or function."},
+    {"id": "antigen_presentation", "label": "Antigen presentation & T cell priming", "def": "Antigen acquisition, cross-presentation, cis-activation, licensing of antigen-presenting cells, priming of CD4 or CD8 T cells, T cell responses or tolerance."},
+    {"id": "lung", "label": "Lung immunity", "def": "Immune cells of the lung and airways, lung-draining lymph nodes, or lung diseases (asthma, fibrosis, cystic fibrosis, COPD, lung infection)."},
+    {"id": "cancer_immunity", "label": "Cancer immunity", "def": "Tumor immunology: immune surveillance of neoantigen-expressing cells, tumor-associated myeloid cells, immunotherapy, cancer vaccines, melanoma or adenocarcinoma models."},
+    {"id": "natural_antibodies", "label": "Natural antibodies & B cells", "def": "Natural IgM/IgG, B1 cells, antibody-repertoire-deficient mice, or B cells and antibodies in immune surveillance or inflammation."},
+    {"id": "chemokines_migration", "label": "Chemokines & cell migration", "def": "Chemokines and their receptors (CCR2, CCR5, CCR7, CX3CR1, CCL5, CCL21 ...), leukocyte trafficking, migration to lymph nodes, or recruitment into tissues."},
+    {"id": "fibrosis_repair", "label": "Fibrosis & tissue repair", "def": "Pulmonary fibrosis, fibroblasts, wound repair, tissue remodelling, or the reparative programs of myeloid cells."},
+    {"id": "allergy_type2", "label": "Allergy & type 2 immunity", "def": "Asthma, allergic airway disease, IL-4/IL-13/Stat6 signalling, Th2 responses, IgE or eosinophils."},
+    {"id": "infection", "label": "Infection", "def": "Viral, bacterial, fungal or parasitic infection (influenza, Schistosoma, Aspergillus ...), host defence or vaccines against pathogens."},
+    {"id": "inflammation_damage", "label": "Inflammation & sterile injury", "def": "Sterile inflammation, damage-associated molecular patterns (DAMPs), inflammasome, colitis, steatohepatitis, or resolution of inflammation."},
+    {"id": "cell_death_clearance", "label": "Cell death & efferocytosis", "def": "Apoptosis, efferocytosis, clearance of dead cells, myeloid cell turnover, or death-receptor signalling (Fas, c-FLIP)."},
+    {"id": "cross_species", "label": "Mouse–human homology", "def": "Cross-species comparison of immune cell subsets, human tissue immune cells, or translation of mouse findings to humans."},
+    {"id": "other_immune_cells", "label": "Other immune cells", "def": "The paper's focus is on cells other than mononuclear phagocytes and B cells: T cell subsets, NK cells, neutrophils, mast cells, stromal cells, or immune-system-wide profiling."}
+   ]},
+  {"id": "approach", "label": "Approach", "multi": true, "required": true,
+   "color": {"hue": "teal", "light": {"bg": "#E3EBF3", "fg": "#2F5A86"}, "dark": {"bg": "#1E2C3D", "fg": "#A9C4E0"}},
+   "values": [
+    {"id": "single_cell_spatial", "label": "Single-cell & spatial omics", "def": "Single-cell RNA sequencing, CITE-seq, spatial transcriptomics (Xenium, Visium), or single-cell multi-omics."},
+    {"id": "transcriptomics", "label": "Bulk transcriptomics", "def": "Microarray or bulk RNA-seq expression profiling, including ImmGen datasets."},
+    {"id": "flow_cytometry", "label": "Flow cytometry", "def": "Flow cytometry or cell sorting is a central method (phenotyping, gating strategies, isolation of subsets)."},
+    {"id": "mouse_models", "label": "Mouse models", "def": "In vivo experiments in mice: knockout or transgenic strains, lineage tracing, adoptive transfer, cell depletion, bone-marrow chimeras or disease models."},
+    {"id": "human_samples", "label": "Human tissue samples", "def": "Analysis of human lung, lymph node, blood, fluid or tumor samples."},
+    {"id": "imaging", "label": "Microscopy & imaging", "def": "Confocal or intravital microscopy, histology, stereology, time-lapse imaging, or imaging-based localization of cells."},
+    {"id": "intervention", "label": "Therapeutic intervention", "def": "Drugs, blocking or neutralizing antibodies, immunotoxins, vaccines, checkpoint or chemokine-receptor blockade tested as a treatment."},
+    {"id": "computational", "label": "Computational analysis", "def": "Network analysis, gene-regulatory inference, machine learning or other bioinformatic analysis is a major contribution."},
+    {"id": "methods_protocol", "label": "Methods & protocols", "def": "The paper describes or optimizes a protocol, a technique, standards or guidelines (e.g., cell isolation, flow cytometry reproducibility, venipuncture)."},
+    {"id": "consortium", "label": "Consortium (ImmGen)", "def": "A consortium paper, e.g. from the Immunological Genome Project or an official society workshop report."}
+   ]},
+  {"id": "type", "label": "Article type", "multi": false, "required": true,
+   "color": {"hue": "slate", "light": {"bg": "#E7EAEE", "fg": "#3B4552"}, "dark": {"bg": "#232A35", "fg": "#B8C0CC"}},
+   "values": [
+    {"id": "empirical", "label": "Empirical", "def": "Original research reporting new experimental data."},
+    {"id": "review", "label": "Review", "def": "Review, perspective or nomenclature proposal synthesizing the literature."},
+    {"id": "methods", "label": "Methods", "def": "A protocol, methods paper or video article."},
+    {"id": "commentary", "label": "Commentary", "def": "Editorial, comment, preview, letter or news-and-views piece about others' work."},
+    {"id": "chapter", "label": "Book chapter", "def": "A chapter in an edited book or textbook."}
+   ]}
+ ]
+}

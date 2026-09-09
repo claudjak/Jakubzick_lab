@@ -1,0 +1,46 @@
+{
+ "intro": "The Jakubzick lab mainly focuses on understanding mononuclear phagocytes (MPs) in homeostasis and inflammatory conditions. However, sometimes science leads us into exciting new research areas, such as understanding the role of natural antibody-producing B cells in cancer and their effects on innate and adaptive immunity.",
+ "overview": {
+  "title": "The mononuclear phagocyte system",
+  "paragraphs": [
+   "The mononuclear phagocyte system plays a fundamental role in both innate and adaptive immunity. It includes three broad classes: macrophages, such as alveolar macrophages (AMs), Langerhans cells (LCs) and interstitial macrophages (IMs); circulating monocytes; and dendritic cells (DCs), defined by two main types (DC1 and DC2), although DC2 subdivides.",
+   "All these MP classes reside in multiple organs. RNA sequencing, single-cell technology and lineage-tracing mouse models have helped define a clear division of labor among the MP classes, demonstrating little to no functional redundancy. This means that specific interactions among these cell types are critical for the optimal immune response against viral, bacterial, fungal and parasitic infections.",
+   "Although most of our understanding of MPs has been investigated in mice, a complete understanding of MP subtypes and their functional role in humans is needed and will provide fundamental advances in immunotherapy, including the ability to induce immune responses that specifically attack cancer cells; prevent or reverse autoimmune responses that lead to tissue rejection and autoimmune disorders, including lupus, rheumatoid arthritis, allergies, asthma and more; and design more effective vaccines for influenza, malaria and other diseases by investigating antigen-presenting cells in an unstudied tissue, human skin-draining lymph nodes. Currently there are significant gaps in knowledge of how MP subtypes function in human organs, and our lab aims to address them."
+  ]
+ },
+ "themes": [
+  {
+   "id": "cross-species",
+   "title": "Mononuclear phagocytes across species",
+   "question": "Which macrophage, monocyte and dendritic cell subsets exist in human tissues, how do they map onto the mouse, and which conserved genes drive their function?",
+   "paragraphs": [
+    "Identifying and characterizing mononuclear phagocyte cross-species homologies, and the key genes conserved across species that are involved in their function, permits both basic and translational advances: a more accurate picture of which MP subtypes to pursue in a given human application, how to identify these cell types in humans, and which specific genes or proteins to target in treatment development.",
+    "Using single-cell RNA sequencing, spatial transcriptomics and careful tissue preservation, the lab has defined ten interstitial macrophage subsets in both mouse and human lung and other tissues, each with a distinct chemokine profile that recruits particular immune cells into its niche, and has mapped the homologies between human and mouse pulmonary and serous-cavity macrophages and dendritic cells. Depleting individual subsets in mice reveals what each niche contributes to allergic airway disease, infection and tumor immunity."
+   ],
+   "image": "fig-scrnaseq-tsne.jpg",
+   "image_caption": "scRNA-seq of mouse skin and skin-draining lymph nodes, human skin-draining lymph nodes, and human lung and lung-draining lymph nodes; clustered cell types per tissue."
+  },
+  {
+   "id": "yin-yang",
+   "title": "The yin and yang of mononuclear phagocytes in inflammation and cancer",
+   "question": "Which macrophages and monocytes accelerate an immune response, which ones put on the brakes, and how can we tip the balance in a tumor?",
+   "paragraphs": [
+    "Like T cells (T reg and T eff), MPs coordinate the accelerators and brakes of an adaptive immune response. One of our studies examines how lymph node antigen-presenting monocytes and DCs regulate the immune response against a neoantigen conjugated to a TLR3 ligand.",
+    "In tumors, the lab has shown that macrophages that look alike are functionally distinct: chemokine-defined macrophage niches organize tumor immunity in space, with some populations promoting anti-tumor responses while others support tumor growth through reparative programs. Blocking the suppressive niche's chemokine signal with maraviroc, an FDA-approved drug, markedly enhances anti-tumor immunity in cancer-vaccine models, pointing to targeted strategies that spare the helpful macrophages. This work is supported by the National Heart, Lung, and Blood Institute."
+   ],
+   "image": "fig-am-dc-morphology.jpg",
+   "image_caption": "Human alveolar macrophage lamellipodia and ruffling (green box) and human lung dendritic cells with classical filopodia and bifurcations (red boxes), from time-lapse video."
+  },
+  {
+   "id": "natural-antibodies",
+   "title": "Natural antibodies and B cells in cancer immune surveillance",
+   "question": "How are neoantigen-expressing cells recognized and eliminated before there is any danger signal, and what role do B cells and their natural antibodies play?",
+   "paragraphs": [
+    "What led us to initially believe that B cells might play a role in early tumorigenesis was observations from two well-established models, which we think of as unconventional neoantigen-expressing cell models. The first is the rejection of male cells in syngeneic female mice, due to the Y-chromosome antigens that are foreign to female mice. The second is not H-Y antigen based: with adoptive transfer of MHC-matched 129 female cells into C57BL/6 female mice, the 129 cells are rejected, owing to allelic variations outside the MHC locus. What these two models have in common is that MHC class I expression is normal, and there is no clustering of cells that results in hypoxic conditions or release of DAMPs, which are required to promote the elimination of precancerous cells as depicted in the elimination phase of cancer immunoediting. So we asked: how are these neoantigen-expressing cells identified and eliminated without DAMPs or PAMPs?",
+    "Antigen-bearing DCs require licensing by either DAMPs or PAMPs to present foreign or altered self-antigens in an immunogenic way (Desch et al., 2014). The only other mechanism we are aware of that can elicit an immune response to self-antigens without DAMPs or PAMPs is antibodies. Natural antibodies are present prior to the body's encounter with cognate antigen. Examining the rejection of male cells in female mice using an antibody-repertoire-deficient mouse, we observed that neither male cells nor MHC-matched 129 female cells were rejected (Atif et al., 2018), revealing an undiscovered mechanism for the early recognition of neoantigen-expressing cells by B cell-derived natural antibodies.",
+    "We are now examining how natural antibodies elicit innate and adaptive immunity in the early stages of tumorigenesis, in vivo, using three different B cell-deficient mouse strains, transgenic T cells and natural antibody reconstitution. We continue to find that intact natural antibody-producing B cell function is necessary for the early recognition and elimination of neoantigen-expressing cells: like myeloid, T and NK cells, natural antibodies are a significant part of cancer immunosurveillance."
+   ],
+   "image": null
+  }
+ ]
+}

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>News | Jakubzick Lab</title>
+<meta name="description" content="News from the Jakubzick Lab at Dartmouth: announcements, new papers and coverage of the lab's work.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..600,0..100;1,9..144,300..600,0..100&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<meta property="og:site_name" content="Jakubzick Lab">
+<meta property="og:title" content="News | Jakubzick Lab">
+<meta property="og:description" content="Announcements, new papers and coverage of the Jakubzick Lab's work.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://torwager.github.io/jakubzicklab/news.html">
+<meta property="og:image" content="https://torwager.github.io/jakubzicklab/assets/og.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://torwager.github.io/jakubzicklab/assets/og.jpg">
+<link rel="canonical" href="https://torwager.github.io/jakubzicklab/news.html">
+<link rel="icon" href="assets/favicon.svg?v=1" type="image/svg+xml"><link rel="alternate icon" href="assets/favicon-32.png?v=1" sizes="32x32"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=1">
+<link rel="stylesheet" href="assets/app.css?v=1">
+<style>
+  .news-grid { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 2rem; align-items: start; }
+  @media (max-width: 960px) { .news-grid { grid-template-columns: 1fr; } .news-side { order: -1; } }
+  .news-side { position: sticky; top: 92px; display: grid; gap: 1rem; }
+  .pane { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
+  .pane-h { font-size: .74rem; letter-spacing: .12em; text-transform: uppercase; color: var(--accent-deep); font-weight: 600; margin-bottom: .6rem; }
+  .pane .post { padding: 0; border: none; background: none; }
+  .pane .post h3 { font-size: 1.05rem; }
+  .pane .post .body { font-size: .88rem; }
+  .pane .post .body img { max-width: 100%; }
+  .np { padding: .55rem 0; border-top: 1px solid var(--line); font-size: .86rem; line-height: 1.35; }
+  .np:first-of-type { border-top: none; }
+  .np .t a { color: var(--ink); font-weight: 500; text-decoration: none; }
+  .np .t a:hover { color: var(--steel-deep); }
+  .np .m { color: var(--muted); font-size: .78rem; }
+  .np .badge { margin-left: .3em; }
+</style>
+</head>
+<body>
+<div id="site-header"></div>
+<main class="wrap">
+  <div class="page-head">
+    <p class="eyebrow">News</p>
+    <h1>News and press</h1>
+    <p>Lab announcements, awards, new papers and coverage of our work. Posts written by the lab appear in full; the "In the media" feed is collected automatically every two days from news sources and links to the original outlet.</p>
+  </div>
+  <div class="news-grid">
+    <div>
+      <div class="tabs" role="tablist"><button class="on" data-tab="all" role="tab">All</button><button data-tab="post" role="tab">Lab posts</button><button data-tab="media" role="tab">In the media</button></div>
+      <div class="filter-top"><span class="count" id="count"></span><span class="small muted" id="updated" style="margin-left:auto"></span></div>
+      <div class="news-list" id="list"><div class="spinner">Loading…</div></div>
+    </div>
+    <aside class="news-side">
+      <div class="pane" id="pinned"><div class="pane-h">Pinned</div><div class="spinner">Loading…</div></div>
+      <div class="pane" id="newpapers"><div class="pane-h">New papers</div><div class="spinner">Loading…</div></div>
+    </aside>
+  </div>
+</main>
+<div id="site-footer"></div>
+<script src="assets/config.js?v=1"></script>
+<script src="assets/app.js?v=1"></script>
+<script src="assets/layout.js?v=1"></script>
+<script>
+(async function () {
+  const esc = CL.esc;
+  const posts = await CL.getJSON("data/news_posts.json");
+  let media = { items: [], updated: "" };
+  try { media = await CL.getJSON("data/news.json"); } catch (e) { /* feed not built yet */ }
+  // pinned posts go to the side pane (and stay out of the main feed)
+  const pinnedPosts = posts.filter(p => p.pinned).sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+  document.getElementById("pinned").innerHTML = '<div class="pane-h">Pinned</div>' + (pinnedPosts.length ? pinnedPosts.map(p => `<article class="post" id="${esc(p.id)}" style="margin-bottom:1rem"><span class="date">${CL.fmtDate(p.date)}</span><h3>${esc(p.title)}</h3><div class="body">${p.html}</div></article>`).join("") : '<div class="muted small">Nothing pinned.</div>');
+  try {
+    const np = await CL.getJSON("data/newpapers.json");
+    document.getElementById("newpapers").innerHTML = '<div class="pane-h">New papers</div>' + (np.items.length ? np.items.slice(0, 12).map(r => `<div class="np"><div class="t">${r.pending ? `<span>${esc(r.t)}</span>` : `<a href="papers/${encodeURIComponent(r.id)}.html">${esc(r.t)}</a>`}${r.pending ? '<span class="badge new" title="Found by the daily literature search; awaiting review">new</span>' : ""}</div><div class="m">${esc(r.a)}${r.y ? " (" + r.y + ")" : ""}${r.j ? " · " + esc(r.j) : ""}${r.added ? " · added " + CL.fmtDate(r.added) : ""}</div></div>`).join("") + `<div class="small muted" style="margin-top:.6rem">Updated ${CL.fmtDate(np.updated)} by the daily literature search. <a href="publications.html">All publications</a></div>` : '<div class="muted small">No new papers in the last six months. The daily search adds them here automatically.</div>');
+  } catch (e) { document.getElementById("newpapers").innerHTML = '<div class="pane-h">New papers</div><div class="muted small">Not available yet.</div>'; }
+  const items = posts.filter(p => !p.pinned).map(p => ({ kind: "post", id: p.id, d: p.date, t: p.title, html: p.html, img: p.image, src: p.source_url })).concat((media.items || []).map(m => ({ kind: "media", id: m.id || m.url, d: m.date, t: m.title, url: m.url, source: m.source, snippet: m.snippet, mkind: m.kind })));
+  items.sort((a, b) => (b.d || "").localeCompare(a.d || ""));
+  let tab = "all";
+  function render() {
+    const shown = items.filter(i => tab === "all" || i.kind === tab || (tab === "media" && i.kind === "media"));
+    document.getElementById("count").textContent = `${shown.length} item${shown.length === 1 ? "" : "s"}`;
+    document.getElementById("updated").textContent = media.updated ? `Media feed refreshed ${CL.fmtDate(media.updated)}.` : "";
+    document.getElementById("list").innerHTML = shown.length ? shown.map(i => i.kind === "post" ? `<article class="post${i.img ? " has-img" : ""}" id="${esc(i.id)}">
+        ${i.img ? `<div class="thumb"><img src="assets/img/${esc(i.img)}" alt="" loading="lazy"></div>` : ""}
+        <span class="date">${CL.fmtDate(i.d)}</span>
+        <h3>${esc(i.t)}</h3>
+        <div class="body">${i.html}</div>
+        <span class="src">Posted by the lab${i.src ? ` · <a href="${esc(i.src)}" target="_blank" rel="noopener">original post</a>` : ""}</span>
+      </article>` : `<article class="post">
+        <span class="date">${CL.fmtDate(i.d)}${i.mkind === "podcast" ? " · podcast" : ""}</span>
+        <h3><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.t)} ↗</a></h3>
+        ${i.snippet ? `<div class="body">${esc(i.snippet)}</div>` : ""}
+        <span class="src">${esc(i.source || "")}</span>
+      </article>`).join("") : '<div class="empty">Nothing here yet.</div>';
+    // drop thumbnails duplicated inside the post body
+    document.querySelectorAll(".post.has-img").forEach(p => { const t = p.querySelector(".thumb img"); p.querySelectorAll(".body img").forEach(im => { if (t && im.getAttribute("src") === t.getAttribute("src")) im.remove(); }); });
+  }
+  document.querySelector(".tabs").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return; tab = b.dataset.tab; document.querySelectorAll(".tabs button").forEach(x => x.classList.toggle("on", x === b)); render(); });
+  render();
+  if (location.hash) { const el = document.getElementById(location.hash.slice(1)); if (el) el.scrollIntoView({ block: "start" }); }
+})().catch(e => { document.getElementById("list").innerHTML = `<div class="empty">Could not load (${CL.esc(e.message)}).</div>`; });
+</script>
+</body>
+</html>

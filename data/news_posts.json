@@ -1,0 +1,44 @@
+[
+ {
+  "id": "nih-macrophage-yin-yang-2026",
+  "title": "Targeting the yin and yang of macrophages to strengthen cancer vaccines and anti-tumor immunity",
+  "date": "2026-04-20",
+  "html": "<p>Geisel News reports on the lab's new National Institutes of Health funding to work out which macrophages help coordinate anti-tumor immunity and which ones support tumor growth. Using single-cell sequencing and spatial transcriptomics, the team found that functionally distinct macrophage populations hide inside similar-looking groups; blocking the suppressive niche's chemokine signal with maraviroc, an FDA-approved drug, markedly enhanced anti-tumor immunity in cancer-vaccine models.</p><p>The study, led by postdoctoral fellow Soubhik Ghosh, was published in <i>Nature Immunology</i>: <a href=\"papers/ghosh2026chemokinedefined.html\">Chemokine-defined macrophage niches establish spatial organization of tumor immunity</a>.</p><p><a href=\"https://geiselmed.dartmouth.edu/news/2026/targeting-the-yin-and-yang-of-macrophages-to-strengthen-cancer-vaccines-and-anti-tumor-immunity/\" target=\"_blank\" rel=\"noopener\">Read the Geisel News story ↗</a></p>",
+  "text": "Geisel News on the lab's NIH-funded work showing that chemokine-defined macrophage niches organize tumor immunity, and that blocking the suppressive niche with maraviroc strengthens cancer vaccines.",
+  "image": null,
+  "links": [
+   "https://geiselmed.dartmouth.edu/news/2026/targeting-the-yin-and-yang-of-macrophages-to-strengthen-cancer-vaccines-and-anti-tumor-immunity/"
+  ],
+  "source_url": "https://geiselmed.dartmouth.edu/news/2026/targeting-the-yin-and-yang-of-macrophages-to-strengthen-cancer-vaccines-and-anti-tumor-immunity/",
+  "kind": "press",
+  "pinned": true
+ },
+ {
+  "id": "xin-li-strohbehn-medal-2025",
+  "title": "Xin Li awarded the 2025 John W. Strohbehn Medal for Excellence in Biomedical Research",
+  "date": "2025-06-17",
+  "html": "<p>Congratulations to Dr. Xin Li, who received Dartmouth's 2025 John W. Strohbehn Medal for Excellence in Biomedical Research, awarded to a graduating PhD student for curiosity-driven, rigorous research and commitment to the scientific community. Xin's doctoral work in the lab on macrophage biology produced sixteen publications, five as first author, in journals including <i>Nature Immunology</i>, <i>Immunity</i> and <i>The Journal of Experimental Medicine</i>. Xin has moved to a postdoctoral position in Weiping Zou's laboratory at the University of Michigan to study cancer immunotherapies.</p><p><a href=\"https://graduate.dartmouth.edu/news/2025/06/dr-xin-li-awarded-2025-john-w-strohbehn-medal-excellence-biomedical-research\" target=\"_blank\" rel=\"noopener\">Read the Guarini School announcement ↗</a></p>",
+  "text": "Xin Li received Dartmouth's 2025 Strohbehn Medal for a graduating PhD student and moved to a postdoc at the University of Michigan.",
+  "image": null,
+  "links": [
+   "https://graduate.dartmouth.edu/news/2025/06/dr-xin-li-awarded-2025-john-w-strohbehn-medal-excellence-biomedical-research"
+  ],
+  "source_url": "https://graduate.dartmouth.edu/news/2025/06/dr-xin-li-awarded-2025-john-w-strohbehn-medal-excellence-biomedical-research",
+  "kind": "post",
+  "pinned": false
+ },
+ {
+  "id": "hidden-diversity-innate-immune-cells-2024",
+  "title": "Geisel study reveals hidden diversity of innate immune cells",
+  "date": "2024-05-02",
+  "html": "<p>Geisel News covers the lab's <i>Nature Immunology</i> paper showing that interstitial macrophages, long treated as one population, comprise ten distinct subsets in both mice and humans, each expressing a different set of chemokines that recruit specific immune cells into its local environment. Graduate student Xin Li led the study, in collaboration with Fred Kolling of Dartmouth's Center for Quantitative Biology. Selectively depleting the subsets involved in allergic airway disease in mice significantly diminished inflammation.</p><p>Paper: <a href=\"papers/li2024coordinated.html\">Coordinated chemokine expression defines macrophage subsets across tissues</a>.</p><p><a href=\"https://geiselmed.dartmouth.edu/news/2024/geisel-study-reveals-hidden-diversity-of-innate-immune-cells/\" target=\"_blank\" rel=\"noopener\">Read the Geisel News story ↗</a></p>",
+  "text": "Geisel News on the lab's Nature Immunology paper defining ten interstitial macrophage subsets in mouse and human by their chemokine expression.",
+  "image": null,
+  "links": [
+   "https://geiselmed.dartmouth.edu/news/2024/geisel-study-reveals-hidden-diversity-of-innate-immune-cells/"
+  ],
+  "source_url": "https://geiselmed.dartmouth.edu/news/2024/geisel-study-reveals-hidden-diversity-of-innate-immune-cells/",
+  "kind": "press",
+  "pinned": false
+ }
+]

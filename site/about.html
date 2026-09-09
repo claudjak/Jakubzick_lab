@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About this site | Jakubzick Lab</title>
+<meta name="description" content="How the Jakubzick Lab website is built: the publication database, tagging, the daily literature search, privacy and how to contribute.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..600,0..100;1,9..144,300..600,0..100&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<meta property="og:site_name" content="Jakubzick Lab">
+<meta property="og:title" content="About this site | Jakubzick Lab">
+<meta property="og:description" content="How the Jakubzick Lab website is built and maintained.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://torwager.github.io/jakubzicklab/about.html">
+<meta property="og:image" content="https://torwager.github.io/jakubzicklab/assets/og.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://torwager.github.io/jakubzicklab/assets/og.jpg">
+<link rel="canonical" href="https://torwager.github.io/jakubzicklab/about.html">
+<link rel="icon" href="assets/favicon.svg?v=1" type="image/svg+xml"><link rel="alternate icon" href="assets/favicon-32.png?v=1" sizes="32x32"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=1">
+<link rel="stylesheet" href="assets/app.css?v=1">
+</head>
+<body>
+<div id="site-header"></div>
+<main class="wrap">
+  <div class="page-head"><p class="eyebrow">About</p><h1>About this site</h1></div>
+  <div class="prose">
+    <p>This is the website of the Jakubzick Laboratory in the Department of Microbiology and Immunology at the Geisel School of Medicine at Dartmouth, directed by Claudia Jakubzick. It replaces the lab's earlier site at geiselmed.dartmouth.edu/jakubzick and keeps its content: the research program, the people, the publication list and how to get in touch. It adds a searchable, tagged publication database with reference export, a collaborator map and bibliometrics, and an automated daily search for new papers. The whole site is a static site built from plain JSON data in <a href="https://github.com/torwager/jakubzicklab">one public GitHub repository</a>, and shares its design with the <a href="https://torwager.github.io/canlab/" target="_blank" rel="noopener">CANlab</a> and <a href="https://scienceofplacebo.org" target="_blank" rel="noopener">Science of Placebo</a> sites.</p>
+
+    <h2 id="tags">The publication database and its tags</h2>
+    <ul>
+      <li><b>Records.</b> Every paper, preprint and chapter with Claudia Jakubzick as an author, imported from PubMed (the same list as the lab's PubMed bibliography) and matched to OpenAlex for citation counts and open-access links, plus the book chapters listed on the earlier site. Consortium papers of the Immunological Genome Project, which list the consortium rather than individual authors, are listed separately at the bottom of the publications page.</li>
+      <li><b>Tags.</b> Each paper carries keywords on three axes: <i>topic</i> (macrophages, monocytes, dendritic cells, antigen presentation, lung immunity, cancer immunity, natural antibodies and B cells, chemokines and migration, fibrosis and repair, allergy and type 2 immunity, infection, inflammation and sterile injury, cell death and efferocytosis, mouse–human homology, other immune cells), <i>approach</i> (single-cell and spatial omics, bulk transcriptomics, flow cytometry, mouse models, human samples, imaging, therapeutic intervention, computational analysis, methods and protocols, consortium) and <i>article type</i>. Tags were assigned by a large language model from each paper's title and abstract; each paper page states the model's confidence.</li>
+      <li><b>Corrections.</b> Machine tags will sometimes be wrong. Every paper page has a link to suggest a correction; corrections are applied by hand in the data file and override the model.</li>
+      <li><b>Full text.</b> Papers link to PubMed, to free full text in PubMed Central where it exists, and to the publisher's page.</li>
+    </ul>
+
+    <h2 id="daily">Daily search for new papers and news</h2>
+    <ul>
+      <li>Every day a workflow queries OpenAlex and PubMed for new papers by the lab, tags candidates with the same model and vocabulary, and adds them to a review queue shown on the publications page. Approving a candidate (a one-line edit in the data file) moves it into the database and the RSS feed.</li>
+      <li>Every two days a second workflow collects news stories mentioning the lab and its work and lists them under News.</li>
+      <li>Citation counts are refreshed weekly from OpenAlex.</li>
+    </ul>
+
+    <h2 id="privacy">Privacy and analytics</h2>
+    <p>The site sets no cookies and has no accounts. Traffic may be measured with cookie-free, privacy-preserving analytics that record page views without identifying visitors.</p>
+
+    <h2 id="contribute">Contributing</h2>
+    <ul>
+      <li>Suggest a missing paper, a link to data or code, or a tag correction by <a href="https://github.com/torwager/jakubzicklab/issues/new">opening an issue</a>.</li>
+      <li>Lab members: edit the JSON files under <code>data/</code> in the repository (people, news posts, research themes); the site rebuilds automatically on push.</li>
+      <li>The data files are plain JSON and may be reused with attribution. Code is MIT-licensed. Abstracts remain the copyright of their publishers and are reproduced for indexing and discovery.</li>
+    </ul>
+
+    <h2>Credits</h2>
+    <p>Designed and built by Tor Wager with Claude Code. Fonts: Fraunces, Inter and JetBrains Mono. Search by MiniSearch; network and charts by d3. Bibliographic data from PubMed and OpenAlex. Photographs and figures from the lab.</p>
+  </div>
+</main>
+<div id="site-footer"></div>
+<script src="assets/config.js?v=1"></script>
+<script src="assets/app.js?v=1"></script>
+<script src="assets/layout.js?v=1"></script>
+</body>
+</html>
