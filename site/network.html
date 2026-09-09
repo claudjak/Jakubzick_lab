@@ -70,7 +70,7 @@
 <div id="site-header"></div>
 <main class="wrap">
   <div class="page-head" style="margin-bottom:.6rem"><p class="eyebrow">Collaborator network</p>
-    <p class="intro">Everyone who appears as an author on at least <span id="minp">3</span> of the lab's papers, shown as a map. <b>Co-authorship</b> links two people who have published together (thicker means more shared papers); <b>similarity</b> links people whose papers cover similar topics and methods, judged from the tags and keywords of their papers. Tor Wager is on nearly every paper, so his links are hidden by default; the <b>Show links to Wager</b> button restores them. Nodes are coloured by lab membership: current members in amber, alumni in blue, other collaborators in grey. Drag nodes, zoom with the buttons or the scroll wheel, hover over a node or link for details, and click a node to pin its details while you browse its papers. The keyword menu rebuilds the map from only the papers carrying that tag.</p>
+    <p class="intro">Everyone who appears as an author on at least <span id="minp">3</span> of the lab's papers, shown as a map. <b>Co-authorship</b> links two people who have published together (thicker means more shared papers); <b>similarity</b> links people whose papers cover similar topics and methods, judged from the tags and keywords of their papers. Claudia Jakubzick is on every paper, so her links are hidden by default; the <b>Show links to Jakubzick</b> button restores them. Nodes are coloured by lab membership: current members in amber, alumni in blue, other collaborators in grey. Drag nodes, zoom with the buttons or the scroll wheel, hover over a node or link for details, and click a node to pin its details while you browse its papers. The keyword menu rebuilds the map from only the papers carrying that tag.</p>
   </div>
   <div class="net-wrap">
     <div class="net" id="net">
@@ -231,7 +231,7 @@
     enter.on("mouseenter", (ev, d) => { if (!pinned) { hi(d, null); showNode(d, false); } }).on("mouseleave", () => { if (!pinned) { hi(null, null); idle(); } })
       .on("click", (ev, d) => { ev.stopPropagation(); pin(d); });
     node = enter.merge(node);
-    // Wager's links, when shown, are weak so the map keeps its structure instead of collapsing into a star
+    // The PI's links, when shown, are weak so the map keeps its structure instead of collapsing into a star
     sim.force("link", d3.forceLink(es).id(d => d.id)
       .distance(d => d.wager ? 220 : (mode === "coauthor" ? 130 - Math.min(60, d.w * 8) : 170 - d.w * 90))
       .strength(d => d.wager ? .02 : (mode === "coauthor" ? Math.min(.9, .15 + d.w * .1) : d.w * .8)));

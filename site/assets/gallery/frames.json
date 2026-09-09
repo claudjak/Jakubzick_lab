@@ -1,1 +1,92 @@
-[[{"src": "../img/fig-am-dc-morphology.jpg", "ar": 2.13}, {"src": "../img/jakubzick-logo.png", "ar": 2.0}], [{"src": "../img/fig-scrnaseq-tsne.jpg", "ar": 2.13}, {"src": "../img/lab-photo-2024.jpg", "ar": 1.67}]]
+[
+[
+{
+"src": "g-lab-photo.jpg",
+"ar": 1.67
+},
+{
+"src": "g-logo.jpg",
+"ar": 2.0
+}
+],
+[
+{
+"src": "g-am-dc-morphology.jpg",
+"ar": 3.16
+},
+{
+"src": "g-li2026-bal-umap.jpg",
+"ar": 0.82
+}
+],
+[
+{
+"src": "g-scrnaseq-tsne.jpg",
+"ar": 3.08
+},
+{
+"src": "g-li2022-umap.jpg",
+"ar": 1.24
+}
+],
+[
+{
+"src": "g-li2026-schematic.jpg",
+"ar": 1.47
+},
+{
+"src": "g-li2026-histology.jpg",
+"ar": 2.6
+}
+],
+[
+{
+"src": "g-rawat2021-immunofluorescence.jpg",
+"ar": 1.59
+},
+{
+"src": "g-mara2024-flow.jpg",
+"ar": 2.5
+}
+],
+[
+{
+"src": "g-li2026-am-subtypes.jpg",
+"ar": 2.4
+},
+{
+"src": "g-li2022-pseudotime.jpg",
+"ar": 1.97
+}
+],
+[
+{
+"src": "g-rawat2023-umap.jpg",
+"ar": 3.05
+},
+{
+"src": "g-tewari2021-flow.jpg",
+"ar": 1.52
+}
+],
+[
+{
+"src": "g-mccubbrey2017-gating.jpg",
+"ar": 2.15
+},
+{
+"src": "g-mara2024-eosinophils.jpg",
+"ar": 2.45
+}
+],
+[
+{
+"src": "g-tewari2021-human.jpg",
+"ar": 3.09
+},
+{
+"src": "g-rawat2021-natural-antibodies.jpg",
+"ar": 1.21
+}
+]
+]
