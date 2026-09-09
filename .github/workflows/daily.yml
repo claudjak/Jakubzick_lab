@@ -62,6 +62,8 @@ jobs:
       - name: Build site data and paper pages
         run: python -m pipeline.build_site
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
