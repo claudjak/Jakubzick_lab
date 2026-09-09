@@ -317,7 +317,8 @@
   "date_added": "2026-09-09",
   "source": "pubmed",
   "note": "An author correction was published in Nat Immunol 27(6):1306 (2026), doi:10.1038/s41590-026-02525-3.",
-  "preprint_doi": "10.21203/rs.3.rs-6977440/v1"
+  "preprint_doi": "10.21203/rs.3.rs-6977440/v1",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "li2026alveolar",
@@ -837,7 +838,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "ontiveros2025antipdl",
@@ -1105,7 +1107,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "mara2024natural",
@@ -1315,7 +1318,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "gainullina2023network",
@@ -1502,7 +1506,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "rawat2023producing",
@@ -1703,7 +1708,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "rawat2023channeling",
@@ -1892,7 +1898,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "rawat2023immunogenicity",
@@ -2201,7 +2208,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "rawat2022natural",
@@ -2394,7 +2402,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "li2021targeting",
@@ -2478,7 +2487,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "rawat2021redefining",
@@ -2768,7 +2778,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "old site"
+  "source": "old site",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "hume2020localization",
@@ -2880,7 +2891,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "leach2020transcriptome",
@@ -2999,7 +3011,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "ginhoux2020editorial",
@@ -3102,7 +3115,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "mcgettigan2019dietary",
@@ -3343,13 +3357,15 @@
   "source": "pubmed"
  },
  {
-  "id": "gibbings2018isolation",
-  "title": "Isolation and Characterization of Mononuclear Phagocytes in the Mouse Lung and Lymph Nodes",
+  "id": "atif2018isolation",
+  "title": "Isolation and Identification of Interstitial Macrophages from the Lungs Using Different Digestion Enzymes and Staining Strategies",
   "authors": [
+   "Atif, S. M.",
    "Gibbings, S. L.",
    "Jakubzick, C. V."
   ],
   "authors_short": [
+   "Atif SM",
    "Gibbings SL",
    "Jakubzick CV"
   ],
@@ -3360,60 +3376,56 @@
   "kind": "chapter",
   "journal": "Methods Mol Biol",
   "journal_full": "Methods in molecular biology (Clifton, N.J.)",
-  "volume": "1809",
+  "volume": "1784",
   "issue": null,
-  "pages": "33-44",
-  "doi": "10.1007/978-1-4939-8570-8_3",
-  "pmid": "29987780",
-  "pmcid": "PMC6262824",
-  "openalex_id": "https://openalex.org/W2866202549",
-  "abstract": "There is a diverse population of mononuclear phagocytes (MPs) in the lungs, comprised of macrophages, dendritic cells (DCs), and monocytes. The existence of these various cell types suggests that there is a clear division of labor and delicate balance between the MPs under steady-state and inflammatory conditions. Here we describe how to identify pulmonary MPs using flow cytometry and how to isolate them via cell sorting. In steady-state conditions, murine lungs contain a uniform population of alveolar macrophages (AMs), three distinct interstitial macrophage (IM) populations, three DC subtypes, and a small number of tissue-trafficking monocytes. During an inflammatory response, the monocyte population is more abundant and complex since it acquires either macrophage-like or DC-like features. All in all, studying how these cell types interact with each other, structural cells, and other leukocytes within the environment will be important to understanding their role in maintaining homeostasis and during the development of disease.",
+  "pages": "69-76",
+  "doi": "10.1007/978-1-4939-7837-3_6",
+  "pmid": "29761388",
+  "pmcid": "PMC6233879",
+  "openalex_id": "https://openalex.org/W2803700809",
+  "abstract": "Interstitial macrophages (IMs) are present in multiple organs. Although there is limited knowledge of the unique functional role IM subtypes play, macrophages, in general, are known for their contribution in homeostatic tissue maintenance and inflammation such as clearing pathogens and debris and secreting inflammatory mediators and growth factors. IM subtypes have been identified in the heart, skin, and gut, and more recently we identified three distinct IMs in the lung. IMs express on their surface high levels of MerTK, CD64, and CD11b, with differences in CD11c, CD206, and MHC II expression, and referred to the three pulmonary IM subtypes as IM1 (CD11cloCD206+MHCIIlo), IM2 (CD11cloCD206+MHCIIhi), and IM3 (CD11chiCD206loMHCIIhi). In this chapter, we highlight how to extract IMs from the lung using three different digestion enzymes: elastase, collagenase D, and Liberase TM. Of these three commonly used enzymes, Liberase TM was the most effective at IM extraction, particularly IM3. Furthermore, alternative staining strategies to identify IMs were examined, which included CD64, MerTK, F4/80, and Tim4. Thus, future studies highlighting the functional role of IM subtypes will help further our understanding of how tissue homeostasis is maintained and inflammatory conditions are induced and resolved.",
   "abstract_source": "pubmed",
-  "cited_by_count": 22,
-  "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6262824",
-  "landing_url": "https://pubmed.ncbi.nlm.nih.gov/29987780/",
+  "cited_by_count": 20,
+  "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6233879",
+  "landing_url": "https://pubmed.ncbi.nlm.nih.gov/29761388/",
   "keywords": [
-   "Dendritic cell",
-   "Flow cytometry",
-   "Interstitial",
+   "Alveolar macrophages",
+   "Dendritic cells",
+   "Interstitial macrophages",
    "Lung",
-   "Macrophage",
-   "Monocyte",
-   "Mononuclear phagocyte",
+   "Monocytes",
+   "Mononuclear phagocytes",
    "Pulmonary",
    "Animals",
-   "Biomarkers",
-   "Cell Separation",
-   "Flow Cytometry",
-   "Immunophenotyping",
-   "Leukocytes, Mononuclear",
-   "Lymph Nodes",
+   "CD11b Antigen",
+   "CD11c Antigen",
+   "Cell Culture Techniques",
+   "Collagenases",
+   "Gene Expression Regulation",
    "Macrophages, Alveolar",
+   "Membrane Proteins",
    "Mice",
-   "Monocytes",
-   "Phagocytes"
+   "Pancreatic Elastase"
   ],
   "links": [
    {
     "type": "publisher",
     "label": "Publisher",
-    "url": "https://doi.org/10.1007/978-1-4939-8570-8_3"
+    "url": "https://doi.org/10.1007/978-1-4939-7837-3_6"
    },
    {
     "type": "fulltext",
     "label": "Free full text (PMC)",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6262824/"
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6233879/"
    }
   ],
   "has_pdf": false,
-  "citation": "Gibbings SL, Jakubzick CV. Isolation and Characterization of Mononuclear Phagocytes in the Mouse Lung and Lymph Nodes. Methods Mol Biol. 2018;1809:33-44. doi:10.1007/978-1-4939-8570-8_3",
+  "citation": "Atif SM, Gibbings SL, Jakubzick CV. Isolation and Identification of Interstitial Macrophages from the Lungs Using Different Digestion Enzymes and Staining Strategies. Methods Mol Biol. 2018;1784:69-76. doi:10.1007/978-1-4939-7837-3_6",
   "citation_original": null,
   "commentaries": [],
   "tags": {
    "topic": [
     "macrophages",
-    "monocytes",
-    "dendritic_cells",
     "lung"
    ],
    "approach": [
@@ -3425,26 +3437,28 @@
     "methods"
    ]
   },
-  "summary": "This methods chapter described protocols for identifying and isolating mouse lung and lymph node mononuclear phagocytes, including macrophages, dendritic cells and monocytes, by flow cytometry and cell sorting in steady state and inflammation.",
-  "key_finding": null,
+  "summary": "This methods chapter compared three digestion enzymes and staining strategies for extracting and identifying three interstitial macrophage subtypes from mouse lungs, finding Liberase TM most effective, especially for the IM3 subset.",
+  "key_finding": "Liberase TM digestion recovered interstitial macrophage subtypes, particularly IM3, more effectively than elastase or collagenase D.",
   "free_keywords": [
-   "mononuclear phagocytes",
-   "alveolar macrophages",
    "interstitial macrophages",
-   "cell sorting",
-   "protocol"
+   "Liberase TM",
+   "collagenase",
+   "MerTK",
+   "Tim4",
+   "enzymatic digestion"
   ],
   "classification": {
    "taxonomy_version": "1.0.0",
    "prompt_version": "1.0.0",
    "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
    "input_mode": "abstract",
-   "confidence": 0.9,
+   "confidence": 0.85,
    "notes": null,
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "gibbings2018consistent",
@@ -3547,18 +3561,17 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
-  "id": "atif2018isolation",
-  "title": "Isolation and Identification of Interstitial Macrophages from the Lungs Using Different Digestion Enzymes and Staining Strategies",
+  "id": "gibbings2018isolation",
+  "title": "Isolation and Characterization of Mononuclear Phagocytes in the Mouse Lung and Lymph Nodes",
   "authors": [
-   "Atif, S. M.",
    "Gibbings, S. L.",
    "Jakubzick, C. V."
   ],
   "authors_short": [
-   "Atif SM",
    "Gibbings SL",
    "Jakubzick CV"
   ],
@@ -3569,56 +3582,60 @@
   "kind": "chapter",
   "journal": "Methods Mol Biol",
   "journal_full": "Methods in molecular biology (Clifton, N.J.)",
-  "volume": "1784",
+  "volume": "1809",
   "issue": null,
-  "pages": "69-76",
-  "doi": "10.1007/978-1-4939-7837-3_6",
-  "pmid": "29761388",
-  "pmcid": "PMC6233879",
-  "openalex_id": "https://openalex.org/W2803700809",
-  "abstract": "Interstitial macrophages (IMs) are present in multiple organs. Although there is limited knowledge of the unique functional role IM subtypes play, macrophages, in general, are known for their contribution in homeostatic tissue maintenance and inflammation such as clearing pathogens and debris and secreting inflammatory mediators and growth factors. IM subtypes have been identified in the heart, skin, and gut, and more recently we identified three distinct IMs in the lung. IMs express on their surface high levels of MerTK, CD64, and CD11b, with differences in CD11c, CD206, and MHC II expression, and referred to the three pulmonary IM subtypes as IM1 (CD11cloCD206+MHCIIlo), IM2 (CD11cloCD206+MHCIIhi), and IM3 (CD11chiCD206loMHCIIhi). In this chapter, we highlight how to extract IMs from the lung using three different digestion enzymes: elastase, collagenase D, and Liberase TM. Of these three commonly used enzymes, Liberase TM was the most effective at IM extraction, particularly IM3. Furthermore, alternative staining strategies to identify IMs were examined, which included CD64, MerTK, F4/80, and Tim4. Thus, future studies highlighting the functional role of IM subtypes will help further our understanding of how tissue homeostasis is maintained and inflammatory conditions are induced and resolved.",
+  "pages": "33-44",
+  "doi": "10.1007/978-1-4939-8570-8_3",
+  "pmid": "29987780",
+  "pmcid": "PMC6262824",
+  "openalex_id": "https://openalex.org/W2866202549",
+  "abstract": "There is a diverse population of mononuclear phagocytes (MPs) in the lungs, comprised of macrophages, dendritic cells (DCs), and monocytes. The existence of these various cell types suggests that there is a clear division of labor and delicate balance between the MPs under steady-state and inflammatory conditions. Here we describe how to identify pulmonary MPs using flow cytometry and how to isolate them via cell sorting. In steady-state conditions, murine lungs contain a uniform population of alveolar macrophages (AMs), three distinct interstitial macrophage (IM) populations, three DC subtypes, and a small number of tissue-trafficking monocytes. During an inflammatory response, the monocyte population is more abundant and complex since it acquires either macrophage-like or DC-like features. All in all, studying how these cell types interact with each other, structural cells, and other leukocytes within the environment will be important to understanding their role in maintaining homeostasis and during the development of disease.",
   "abstract_source": "pubmed",
-  "cited_by_count": 20,
-  "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6233879",
-  "landing_url": "https://pubmed.ncbi.nlm.nih.gov/29761388/",
+  "cited_by_count": 22,
+  "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6262824",
+  "landing_url": "https://pubmed.ncbi.nlm.nih.gov/29987780/",
   "keywords": [
-   "Alveolar macrophages",
-   "Dendritic cells",
-   "Interstitial macrophages",
+   "Dendritic cell",
+   "Flow cytometry",
+   "Interstitial",
    "Lung",
-   "Monocytes",
-   "Mononuclear phagocytes",
+   "Macrophage",
+   "Monocyte",
+   "Mononuclear phagocyte",
    "Pulmonary",
    "Animals",
-   "CD11b Antigen",
-   "CD11c Antigen",
-   "Cell Culture Techniques",
-   "Collagenases",
-   "Gene Expression Regulation",
+   "Biomarkers",
+   "Cell Separation",
+   "Flow Cytometry",
+   "Immunophenotyping",
+   "Leukocytes, Mononuclear",
+   "Lymph Nodes",
    "Macrophages, Alveolar",
-   "Membrane Proteins",
    "Mice",
-   "Pancreatic Elastase"
+   "Monocytes",
+   "Phagocytes"
   ],
   "links": [
    {
     "type": "publisher",
     "label": "Publisher",
-    "url": "https://doi.org/10.1007/978-1-4939-7837-3_6"
+    "url": "https://doi.org/10.1007/978-1-4939-8570-8_3"
    },
    {
     "type": "fulltext",
     "label": "Free full text (PMC)",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6233879/"
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6262824/"
    }
   ],
   "has_pdf": false,
-  "citation": "Atif SM, Gibbings SL, Jakubzick CV. Isolation and Identification of Interstitial Macrophages from the Lungs Using Different Digestion Enzymes and Staining Strategies. Methods Mol Biol. 2018;1784:69-76. doi:10.1007/978-1-4939-7837-3_6",
+  "citation": "Gibbings SL, Jakubzick CV. Isolation and Characterization of Mononuclear Phagocytes in the Mouse Lung and Lymph Nodes. Methods Mol Biol. 2018;1809:33-44. doi:10.1007/978-1-4939-8570-8_3",
   "citation_original": null,
   "commentaries": [],
   "tags": {
    "topic": [
     "macrophages",
+    "monocytes",
+    "dendritic_cells",
     "lung"
    ],
    "approach": [
@@ -3630,27 +3647,27 @@
     "methods"
    ]
   },
-  "summary": "This methods chapter compared three digestion enzymes and staining strategies for extracting and identifying three interstitial macrophage subtypes from mouse lungs, finding Liberase TM most effective, especially for the IM3 subset.",
-  "key_finding": "Liberase TM digestion recovered interstitial macrophage subtypes, particularly IM3, more effectively than elastase or collagenase D.",
+  "summary": "This methods chapter described protocols for identifying and isolating mouse lung and lymph node mononuclear phagocytes, including macrophages, dendritic cells and monocytes, by flow cytometry and cell sorting in steady state and inflammation.",
+  "key_finding": null,
   "free_keywords": [
+   "mononuclear phagocytes",
+   "alveolar macrophages",
    "interstitial macrophages",
-   "Liberase TM",
-   "collagenase",
-   "MerTK",
-   "Tim4",
-   "enzymatic digestion"
+   "cell sorting",
+   "protocol"
   ],
   "classification": {
    "taxonomy_version": "1.0.0",
    "prompt_version": "1.0.0",
    "model": "claude-sonnet-5 (Claude Code subagent, abstract)",
    "input_mode": "abstract",
-   "confidence": 0.85,
+   "confidence": 0.9,
    "notes": null,
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "mccubbrey2018deletion",
@@ -3885,7 +3902,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "jakubzick2017monocyte",
@@ -3970,7 +3988,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "gibbings2017three",
@@ -4090,7 +4109,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "mould2017origin",
@@ -4553,7 +4573,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "larson2016monocyte",
@@ -4663,7 +4684,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "jakubzick2016alveolar",
@@ -4745,7 +4767,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "frasch2016signaling",
@@ -4861,7 +4884,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "janssen2016myeloid",
@@ -4955,7 +4979,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "fernandezboyanapalli2015pioglitazone",
@@ -5076,7 +5101,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "redente2015innate",
@@ -5271,7 +5297,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "atif2015cutting",
@@ -5382,7 +5409,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "gibbings2015transcriptome",
@@ -5490,7 +5518,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "guilliams2014dendritic",
@@ -5595,7 +5624,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "desch2014dendritic",
@@ -5702,7 +5732,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "kedl2014general",
@@ -5834,7 +5865,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "huang2013antigenspecific",
@@ -5947,7 +5979,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "desch2013pulmonary",
@@ -6034,7 +6067,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "jojic2013identification",
@@ -6173,7 +6207,7 @@
   "openalex_id": null,
   "abstract": "The differentiation of hematopoietic stem cells into cells of the immune system has been studied extensively in mammals, but the transcriptional circuitry that controls it is still only partially understood. Here, the Immunological Genome Project gene-expression profiles across mouse immune lineages allowed us to systematically analyze these circuits. To analyze this data set we developed Ontogenet, an algorithm for reconstructing lineage-specific regulation from gene-expression profiles across lineages. Using Ontogenet, we found differentiation stage-specific regulators of mouse hematopoiesis and identified many known hematopoietic regulators and 175 previously unknown candidate regulators, as well as their target genes and the cell types in which they act. Among the previously unknown regulators, we emphasize the role of ETV5 in the differentiation of γδ T cells. As the transcriptional programs of human and mouse cells are highly conserved, it is likely that many lessons learned from the mouse model apply to humans.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 71,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/23624555/",
   "keywords": [
@@ -6239,7 +6273,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "mingueneau2013transcriptional",
@@ -6583,7 +6618,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "gautier2012systemic",
@@ -6700,7 +6736,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "gautier2012geneexpression",
@@ -6830,7 +6867,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "desch2011pulmonary",
@@ -6943,7 +6981,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "janssen2011determines",
@@ -7051,7 +7090,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "jakubzick2010methods",
@@ -7137,7 +7177,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "zhang2009regulatory",
@@ -7377,7 +7418,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "gautier2009regulation",
@@ -7471,7 +7513,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "randolph2008antigen",
@@ -7668,7 +7711,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "jakubzick2008optimization",
@@ -7769,7 +7813,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "jakubzick2008lymphmigrating",
@@ -7872,7 +7917,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "tacke2007monocyte",
@@ -8319,7 +8365,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "tacke2006immature",
@@ -8519,7 +8566,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "jakubzick2004therapeutic",
@@ -8613,7 +8661,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "kolodsick2004protection",
@@ -8715,7 +8764,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "jakubzick2004augmented",
@@ -8833,7 +8883,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "jakubzick2004pulmonary",
@@ -8949,7 +9000,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "choi2004enhanced",
@@ -9060,7 +9112,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "jakubzick2004ligands",
@@ -9165,7 +9218,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "jakubzick2003impact",
@@ -9268,7 +9322,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "jakubzick2003therapeutic",
@@ -9368,7 +9423,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "blease2002deficient",
@@ -9477,7 +9533,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "jakubzick2002interleukin",
@@ -9578,7 +9635,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "blease2001therapeutic",
@@ -9676,7 +9734,8 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  },
  {
   "id": "blease2001fusion",
@@ -9774,6 +9833,7 @@
    "classified_at": "2026-09-09T06:13:30Z"
   },
   "date_added": "2026-09-09",
-  "source": "pubmed"
+  "source": "pubmed",
+  "citations_refreshed": "2026-09-09"
  }
 ]
