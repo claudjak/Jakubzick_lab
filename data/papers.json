@@ -320,7 +320,7 @@
   "source": "pubmed",
   "note": "An author correction was published in Nat Immunol 27(6):1306 (2026), doi:10.1038/s41590-026-02525-3.",
   "preprint_doi": "10.21203/rs.3.rs-6977440/v1",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "li2026alveolar",
@@ -845,7 +845,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "ontiveros2025antipdl",
@@ -1115,7 +1115,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "mara2024natural",
@@ -1259,7 +1259,7 @@
   "openalex_id": "https://openalex.org/W4396583562",
   "abstract": "Lung-resident macrophages, which include alveolar macrophages and interstitial macrophages (IMs), exhibit a high degree of diversity, generally attributed to different activation states, and often complicated by the influx of monocytes into the pool of tissue-resident macrophages. To gain a deeper insight into the functional diversity of IMs, here we perform comprehensive transcriptional profiling of resident IMs and reveal ten distinct chemokine-expressing IM subsets at steady state and during inflammation. Similar IM subsets that exhibited coordinated chemokine signatures and differentially expressed genes were observed across various tissues and species, indicating conserved specialized functional roles. Other macrophage types shared specific IM chemokine profiles, while also presenting their own unique chemokine signatures. Depletion of CD206hi IMs in Pf4creR26EYFP+DTR and Pf4creR26EYFPCx3cr1DTR mice led to diminished inflammatory cell recruitment, reduced tertiary lymphoid structure formation and fewer germinal center B cells in models of allergen- and infection-driven inflammation. These observations highlight the specialized roles of IMs, defined by their coordinated chemokine production, in regulating immune cell influx and organizing tertiary lymphoid tissue architecture.",
   "abstract_source": "pubmed",
-  "cited_by_count": 80,
+  "cited_by_count": 81,
   "oa_url": "https://biblio.ugent.be/publication/01JJ9XH7CX6D4AVS2PEB0GC6HW/file/01JJ9XVEK7K05E8G6W16CFDDT4.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/38698086/",
   "keywords": [
@@ -1327,7 +1327,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "gainullina2023network",
@@ -1444,7 +1444,7 @@
   "openalex_id": "https://openalex.org/W4318217624",
   "abstract": "The diversity of mononuclear phagocyte (MNP) subpopulations across tissues is one of the key physiological characteristics of the immune system. Here, we focus on understanding the metabolic variability of MNPs through metabolic network analysis applied to three large-scale transcriptional datasets: we introduce (1) an ImmGen MNP open-source dataset of 337 samples across 26 tissues; (2) a myeloid subset of ImmGen Phase I dataset (202 MNP samples); and (3) a myeloid mouse single-cell RNA sequencing (scRNA-seq) dataset (51,364 cells) assembled based on Tabula Muris Senis. To analyze such large-scale datasets, we develop a network-based computational approach, genes and metabolites (GAM) clustering, for unbiased identification of the key metabolic subnetworks based on transcriptional profiles. We define 9 metabolic subnetworks that encapsulate the metabolic differences within MNP from 38 different tissues. Obtained modules reveal that cholesterol synthesis appears particularly active within the migratory dendritic cells, while glutathione synthesis is essential for cysteinyl leukotriene production by peritoneal and lung macrophages.",
   "abstract_source": "pubmed",
-  "cited_by_count": 31,
+  "cited_by_count": 32,
   "oa_url": "http://www.cell.com/article/S2211124723000578/pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/36708514/",
   "keywords": [
@@ -1515,7 +1515,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "rawat2023producing",
@@ -1718,7 +1718,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "rawat2023channeling",
@@ -1909,7 +1909,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "rawat2023immunogenicity",
@@ -2221,7 +2221,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "rawat2022natural",
@@ -2350,7 +2350,7 @@
   "openalex_id": "https://openalex.org/W4295745405",
   "abstract": "Tissue-resident alveolar and interstitial macrophages and recruited macrophages are critical players in innate immunity and maintenance of lung homeostasis. Until recently, assessing the differential functional contributions of tissue-resident versus recruited macrophages has been challenging because they share overlapping cell surface markers, making it difficult to separate them using conventional methods. This review describes how scRNA-seq and spatial transcriptomics can separate these subpopulations and help unravel the complexity of macrophage biology in homeostasis and disease. First, we provide a guide to identifying and distinguishing lung macrophages from other mononuclear phagocytes in humans and mice. Second, we outline emerging concepts related to the development and function of the various lung macrophages in the alveolar, perivascular, and interstitial niches. Finally, we describe how different tissue states profoundly alter their functions, including acute and chronic lung disease, cancer, and aging.",
   "abstract_source": "pubmed",
-  "cited_by_count": 619,
+  "cited_by_count": 620,
   "oa_url": "http://www.cell.com/article/S1074761322004034/pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/36103853/",
   "keywords": [
@@ -2416,7 +2416,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "li2021targeting",
@@ -2501,7 +2501,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "rawat2021redefining",
@@ -2794,7 +2794,7 @@
   },
   "date_added": "2026-09-09",
   "source": "old site",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "hume2020localization",
@@ -2907,7 +2907,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "leach2020transcriptome",
@@ -2950,7 +2950,7 @@
   "openalex_id": "https://openalex.org/W3097721739",
   "abstract": "The mononuclear phagocyte (MP) system consists of macrophages, monocytes, and dendritic cells (DCs). MP subtypes play distinct functional roles in steady-state and inflammatory conditions. Although murine MPs are well characterized, their pulmonary and lymph node (LN) human homologs remain poorly understood. To address this gap, we have created a gene expression compendium across 24 distinct human and murine lung and LN MPs, along with human blood and murine spleen MPs, to serve as validation datasets. In-depth RNA sequencing identifies corresponding human-mouse MP subtypes and determines marker genes shared and divergent across species. Unexpectedly, only 13%-23% of the top 1,000 marker genes (i.e., genes not shared across species-specific MP subtypes) overlap in corresponding human-mouse MP counterparts. Lastly, CD88 in both species helps distinguish monocytes/macrophages from DCs. Our cross-species expression compendium serves as a resource for future translational studies to investigate beforehand whether pursuing specific MP subtypes or genes will prove fruitful.",
   "abstract_source": "pubmed",
-  "cited_by_count": 75,
+  "cited_by_count": 76,
   "oa_url": "https://doi.org/10.1016/j.celrep.2020.108337",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/33147458/",
   "keywords": [
@@ -3027,7 +3027,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "ginhoux2020editorial",
@@ -3131,7 +3131,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "mcgettigan2019dietary",
@@ -3475,7 +3475,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "gibbings2018consistent",
@@ -3579,7 +3579,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "gibbings2018isolation",
@@ -3684,7 +3684,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "mccubbrey2018deletion",
@@ -3921,7 +3921,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "jakubzick2017monocyte",
@@ -4007,7 +4007,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "gibbings2017three",
@@ -4128,7 +4128,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "mould2017origin",
@@ -4595,7 +4595,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "larson2016monocyte",
@@ -4706,7 +4706,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "jakubzick2016alveolar",
@@ -4789,7 +4789,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "frasch2016signaling",
@@ -4906,7 +4906,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "janssen2016myeloid",
@@ -5001,7 +5001,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "fernandezboyanapalli2015pioglitazone",
@@ -5123,7 +5123,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "redente2015innate",
@@ -5320,7 +5320,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "atif2015cutting",
@@ -5432,7 +5432,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "gibbings2015transcriptome",
@@ -5475,7 +5475,7 @@
   "openalex_id": "https://openalex.org/W1841831106",
   "abstract": "Alveolar macrophages (AMs) reside on the luminal surfaces of the airways and alveoli where they maintain host defense and promote alveolar homeostasis by ingesting inhaled particulates and regulating inflammatory responses. Recent studies have demonstrated that AMs populate the lungs during embryogenesis and self-renew throughout life with minimal replacement by circulating monocytes, except under extreme conditions of depletion or radiation injury. Here we demonstrate that on a global scale, environment appears to dictate AM development and function. Indeed, transcriptome analysis of embryonic host-derived and postnatal donor-derived AMs coexisting within the same mouse demonstrated >98% correlation and overall functional analyses were similar. However, we also identified several genes whose expression was dictated by origin rather than environment. The most differentially expressed gene not altered by environment was Marco, a gene recently demonstrated to have enhancer activity in embryonic-derived but not postnatal-derived tissue macrophages. Overall, we show that under homeostatic conditions, the environment largely dictates the programming and function of AMs, whereas the expression of a small number of genes remains linked to the origin of the cell.",
   "abstract_source": "pubmed",
-  "cited_by_count": 255,
+  "cited_by_count": 254,
   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/4566811",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/26232173/",
   "keywords": [
@@ -5541,7 +5541,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "guilliams2014dendritic",
@@ -5647,7 +5647,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "desch2014dendritic",
@@ -5755,7 +5755,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "kedl2014general",
@@ -5888,7 +5888,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "huang2013antigenspecific",
@@ -6002,7 +6002,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "desch2013pulmonary",
@@ -6090,7 +6090,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "jojic2013identification",
@@ -6296,7 +6296,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "mingueneau2013transcriptional",
@@ -6642,7 +6642,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "gautier2012systemic",
@@ -6760,7 +6760,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "gautier2012geneexpression",
@@ -6821,7 +6821,7 @@
   "openalex_id": "https://openalex.org/W2136188258",
   "abstract": "We assessed gene expression in tissue macrophages from various mouse organs. The diversity in gene expression among different populations of macrophages was considerable. Only a few hundred mRNA transcripts were selectively expressed by macrophages rather than dendritic cells, and many of these were not present in all macrophages. Nonetheless, well-characterized surface markers, including MerTK and FcγR1 (CD64), along with a cluster of previously unidentified transcripts, were distinctly and universally associated with mature tissue macrophages. TCEF3, C/EBP-α, Bach1 and CREG-1 were among the transcriptional regulators predicted to regulate these core macrophage-associated genes. The mRNA encoding other transcription factors, such as Gata6, was associated with single macrophage populations. We further identified how these transcripts and the proteins they encode facilitated distinguishing macrophages from dendritic cells.",
   "abstract_source": "pubmed",
-  "cited_by_count": 1983,
+  "cited_by_count": 1981,
   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3558276",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/23023392/",
   "keywords": [
@@ -6891,7 +6891,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "desch2011pulmonary",
@@ -7005,7 +7005,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "janssen2011determines",
@@ -7114,7 +7114,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "jakubzick2010methods",
@@ -7201,7 +7201,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "zhang2009regulatory",
@@ -7443,7 +7443,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "gautier2009regulation",
@@ -7538,7 +7538,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "randolph2008antigen",
@@ -7737,7 +7737,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "jakubzick2008optimization",
@@ -7770,7 +7770,7 @@
   "openalex_id": "https://openalex.org/W2037990334",
   "abstract": "Dendritic cell migration from the airway to lymph nodes is a key event in the development of airway immunity during infection, allergy, and vaccination. To identify the best approaches to investigate DC migration to lung-draining lymph nodes, we directly compared three methods previously used to track DC migration: airway administration of fluorescent OVA, latex beads, or carboxyfluorescein succinimidyl ester (CFSE). We show that two of the methods employed in optimal conditions-administration of fluorescent OVA or latex particles-have broadly relevant utility in studies of pulmonary DC migration, both in the presence and absence of inflammatory mediators. However, CFSE was of limited value because it induced a robust airway inflammatory response upon instillation. Unexpectedly, antigen-loaded tracers with distinct physical properties differently affected the populations that acquired the tracers and the overall T cell response. Specifically, soluble OVA and OVA formulated as a particulate after conjugation to latex beads were acquired in different proportions in vivo by the two characterized subsets of pulmonary DCs: CD11b(hi)CD103(-) and CD11b(lo)CD103(+)langerin(+) DC populations. Consequently, and in line with recent studies that these two subsets of DCs respectively activate CD4(+) and CD8(+) lymphocyte populations, the physical nature of the antigen delivery vehicle strongly influenced the degree of CD4(+) versus CD8(+) OVA-specific T cell activation. This finding suggests that changes in the physical presentation of the same antigen delivered to the airway during natural immune responses or vaccinations may markedly affect the character of the T cell response that ensues.",
   "abstract_source": "pubmed",
-  "cited_by_count": 97,
+  "cited_by_count": 98,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/18662693/",
   "keywords": [
@@ -7839,7 +7839,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "jakubzick2008lymphmigrating",
@@ -7943,7 +7943,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "tacke2007monocyte",
@@ -8394,7 +8394,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "tacke2006immature",
@@ -8596,7 +8596,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "jakubzick2004therapeutic",
@@ -8691,7 +8691,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "kolodsick2004protection",
@@ -8794,7 +8794,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "jakubzick2004augmented",
@@ -8913,7 +8913,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "jakubzick2004pulmonary",
@@ -9030,7 +9030,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "choi2004enhanced",
@@ -9142,7 +9142,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "jakubzick2004ligands",
@@ -9248,7 +9248,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "jakubzick2003impact",
@@ -9352,7 +9352,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "jakubzick2003therapeutic",
@@ -9453,7 +9453,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "blease2002deficient",
@@ -9563,7 +9563,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "jakubzick2002interleukin",
@@ -9665,7 +9665,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-11"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "blease2001therapeutic",
@@ -9764,7 +9764,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "blease2001fusion",
@@ -9863,7 +9863,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-13"
+  "citations_refreshed": "2026-09-14"
  },
  {
   "id": "smith1999carbonic",
