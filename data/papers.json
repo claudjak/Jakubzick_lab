@@ -320,7 +320,7 @@
   "source": "pubmed",
   "note": "An author correction was published in Nat Immunol 27(6):1306 (2026), doi:10.1038/s41590-026-02525-3.",
   "preprint_doi": "10.21203/rs.3.rs-6977440/v1",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "li2026alveolar",
@@ -845,7 +845,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "ontiveros2025antipdl",
@@ -1115,7 +1115,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "mara2024natural",
@@ -1327,7 +1327,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "gainullina2023network",
@@ -1515,7 +1515,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "rawat2023producing",
@@ -1718,7 +1718,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "rawat2023channeling",
@@ -1909,7 +1909,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "rawat2023immunogenicity",
@@ -2221,7 +2221,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "rawat2022natural",
@@ -2416,7 +2416,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "li2021targeting",
@@ -2501,7 +2501,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "rawat2021redefining",
@@ -2794,7 +2794,7 @@
   },
   "date_added": "2026-09-09",
   "source": "old site",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "hume2020localization",
@@ -2907,7 +2907,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "leach2020transcriptome",
@@ -3027,7 +3027,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "ginhoux2020editorial",
@@ -3131,7 +3131,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "mcgettigan2019dietary",
@@ -3475,7 +3475,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "gibbings2018consistent",
@@ -3579,7 +3579,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "gibbings2018isolation",
@@ -3684,7 +3684,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "mccubbrey2018deletion",
@@ -3848,7 +3848,7 @@
   "openalex_id": "https://openalex.org/W2809971817",
   "abstract": "Early recognition of neoantigen-expressing cells is complex, involving multiple immune cell types. In this study, in vivo, we examined how antigen-presenting cell subtypes coordinate and induce an immunological response against neoantigen-expressing cells, particularly in the absence of a pathogen-associated molecular pattern, which is normally required to license antigen-presenting cells to present foreign or self-antigens as immunogens. Using two reductionist models of neoantigen-expressing cells and two cancer models, we demonstrated that natural IgM is essential for the recognition and initiation of adaptive immunity against neoantigen-expressing cells. Natural IgM antibodies form a cellular immune complex with the neoantigen-expressing cells. This immune complex licenses surveying monocytes to present neoantigens as immunogens to CD4+ T cells. CD4+ T helper cells, in turn, use CD40L to license cross-presenting CD40+ Batf3+ dendritic cells to elicit a cytotoxic T cell response against neoantigen-expressing cells. Any break along this immunological chain reaction results in the escape of neoantigen-expressing cells. This study demonstrates the surprising, essential role of natural IgM as the initiator of a sequential signaling cascade involving multiple immune cell subtypes. This sequence is required to coordinate an adaptive immune response against neoantigen-expressing cells.",
   "abstract_source": "pubmed",
-  "cited_by_count": 34,
+  "cited_by_count": 35,
   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6236687",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/29953261/",
   "keywords": [
@@ -3921,7 +3921,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "jakubzick2017monocyte",
@@ -3952,7 +3952,7 @@
   "openalex_id": "https://openalex.org/W2607819139",
   "abstract": "Monocytes develop in the bone marrow and represent the primary type of mononuclear phagocyte found in the blood. They were long thought of as a source for tissue macrophages, but recent studies indicate more complex roles for monocytes, both within the circulation and after their migration into tissues and lymphoid organs. In this Review, we discuss the newer concepts underlying the maturation of emigrating monocytes into different classes of tissue macrophages, as well as their potential functions, as monocyte-derived cells, in the tissues. In addition, we consider the emerging roles for monocytes in adaptive immunity as antigen-presenting cells.",
   "abstract_source": "pubmed",
-  "cited_by_count": 917,
+  "cited_by_count": 920,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/28436425/",
   "keywords": [
@@ -4007,7 +4007,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "gibbings2017three",
@@ -4128,7 +4128,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "mould2017origin",
@@ -4595,7 +4595,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "larson2016monocyte",
@@ -4706,7 +4706,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "jakubzick2016alveolar",
@@ -4789,7 +4789,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "frasch2016signaling",
@@ -4906,7 +4906,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "janssen2016myeloid",
@@ -5001,7 +5001,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "fernandezboyanapalli2015pioglitazone",
@@ -5123,7 +5123,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "redente2015innate",
@@ -5320,7 +5320,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "atif2015cutting",
@@ -5432,7 +5432,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "gibbings2015transcriptome",
@@ -5541,7 +5541,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "guilliams2014dendritic",
@@ -5584,7 +5584,7 @@
   "openalex_id": "https://openalex.org/W2036564362",
   "abstract": "The mononuclear phagocyte system (MPS) has historically been categorized into monocytes, dendritic cells and macrophages on the basis of functional and phenotypical characteristics. However, considering that these characteristics are often overlapping, the distinction between and classification of these cell types has been challenging. In this Opinion article, we propose a unified nomenclature for the MPS. We suggest that these cells can be classified primarily by their ontogeny and secondarily by their location, function and phenotype. We believe that this system permits a more robust classification during both steady-state and inflammatory conditions, with the benefit of spanning different tissues and across species.",
   "abstract_source": "pubmed",
-  "cited_by_count": 1793,
+  "cited_by_count": 1795,
   "oa_url": "https://www.nature.com/articles/nri3712.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/25033907/",
   "keywords": [
@@ -5647,7 +5647,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "desch2014dendritic",
@@ -5755,7 +5755,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "kedl2014general",
@@ -5888,7 +5888,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "huang2013antigenspecific",
@@ -6002,7 +6002,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "desch2013pulmonary",
@@ -6090,7 +6090,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "jojic2013identification",
@@ -6229,7 +6229,7 @@
   "openalex_id": null,
   "abstract": "The differentiation of hematopoietic stem cells into cells of the immune system has been studied extensively in mammals, but the transcriptional circuitry that controls it is still only partially understood. Here, the Immunological Genome Project gene-expression profiles across mouse immune lineages allowed us to systematically analyze these circuits. To analyze this data set we developed Ontogenet, an algorithm for reconstructing lineage-specific regulation from gene-expression profiles across lineages. Using Ontogenet, we found differentiation stage-specific regulators of mouse hematopoiesis and identified many known hematopoietic regulators and 175 previously unknown candidate regulators, as well as their target genes and the cell types in which they act. Among the previously unknown regulators, we emphasize the role of ETV5 in the differentiation of γδ T cells. As the transcriptional programs of human and mouse cells are highly conserved, it is likely that many lessons learned from the mouse model apply to humans.",
   "abstract_source": "pubmed",
-  "cited_by_count": 71,
+  "cited_by_count": 205,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/23624555/",
   "keywords": [
@@ -6296,7 +6296,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "mingueneau2013transcriptional",
@@ -6574,7 +6574,7 @@
   "openalex_id": "https://openalex.org/W2085695854",
   "abstract": "It is thought that monocytes rapidly differentiate to macrophages or dendritic cells (DCs) upon leaving blood. Here we have shown that Ly-6C⁺ monocytes constitutively trafficked into skin, lung, and lymph nodes (LNs). Entry was unaffected in gnotobiotic mice. Monocytes in resting lung and LN had similar gene expression profiles to blood monocytes but elevated transcripts of a limited number of genes including cyclo-oxygenase-2 (COX-2) and major histocompatibility complex class II (MHCII), induced by monocyte interaction with endothelium. Parabiosis, bromodoxyuridine (BrdU) pulse-chase analysis, and intranasal instillation of tracers indicated that instead of contributing to resident macrophages in the lung, recruited endogenous monocytes acquired antigen for carriage to draining LNs, a function redundant with DCs though differentiation to DCs did not occur. Thus, monocytes can enter steady-state nonlymphoid organs and recirculate to LNs without differentiation to macrophages or DCs, revising a long-held view that monocytes become tissue-resident macrophages by default.",
   "abstract_source": "pubmed",
-  "cited_by_count": 769,
+  "cited_by_count": 771,
   "oa_url": "http://www.cell.com/article/S107476131300335X/pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/24012416/",
   "keywords": [
@@ -6642,7 +6642,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "gautier2012systemic",
@@ -6760,7 +6760,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "gautier2012geneexpression",
@@ -6821,7 +6821,7 @@
   "openalex_id": "https://openalex.org/W2136188258",
   "abstract": "We assessed gene expression in tissue macrophages from various mouse organs. The diversity in gene expression among different populations of macrophages was considerable. Only a few hundred mRNA transcripts were selectively expressed by macrophages rather than dendritic cells, and many of these were not present in all macrophages. Nonetheless, well-characterized surface markers, including MerTK and FcγR1 (CD64), along with a cluster of previously unidentified transcripts, were distinctly and universally associated with mature tissue macrophages. TCEF3, C/EBP-α, Bach1 and CREG-1 were among the transcriptional regulators predicted to regulate these core macrophage-associated genes. The mRNA encoding other transcription factors, such as Gata6, was associated with single macrophage populations. We further identified how these transcripts and the proteins they encode facilitated distinguishing macrophages from dendritic cells.",
   "abstract_source": "pubmed",
-  "cited_by_count": 1983,
+  "cited_by_count": 1986,
   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3558276",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/23023392/",
   "keywords": [
@@ -6891,7 +6891,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "desch2011pulmonary",
@@ -7005,7 +7005,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "janssen2011determines",
@@ -7114,7 +7114,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "jakubzick2010methods",
@@ -7201,7 +7201,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "zhang2009regulatory",
@@ -7443,7 +7443,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "gautier2009regulation",
@@ -7538,7 +7538,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "randolph2008antigen",
@@ -7737,7 +7737,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "jakubzick2008optimization",
@@ -7839,7 +7839,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "jakubzick2008lymphmigrating",
@@ -7876,7 +7876,7 @@
   "openalex_id": "https://openalex.org/W2117677609",
   "abstract": "Observations that dendritic cells (DCs) constitutively enter afferent lymphatic vessels in many organs and that DCs in some tissues, such as the lung, turnover rapidly in the steady state have led to the concept that a major fraction of lymph node DCs are derived from migratory DCs that enter the lymph node through upstream afferent lymphatic vessels. We used the lysozyme M-Cre reporter mouse strain to assess the relationship of lymph node and nonlymphoid organ DCs. Our findings challenge the idea that a substantial proportion of lymph node DCs derive from the upstream tissue during homeostasis. Instead, our analysis suggests that nonlymphoid organ DCs comprise a major population of DCs within lymph nodes only after introduction of an inflammatory stimulus.",
   "abstract_source": "pubmed",
-  "cited_by_count": 217,
+  "cited_by_count": 218,
   "oa_url": "https://rupress.org/jem/article-pdf/205/12/2839/1196516/jem_20081430.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/18981237/",
   "keywords": [
@@ -7943,7 +7943,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "tacke2007monocyte",
@@ -8394,7 +8394,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "tacke2006immature",
@@ -8596,7 +8596,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "jakubzick2004therapeutic",
@@ -8691,7 +8691,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "kolodsick2004protection",
@@ -8794,7 +8794,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "jakubzick2004augmented",
@@ -8913,7 +8913,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "jakubzick2004pulmonary",
@@ -9030,7 +9030,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "choi2004enhanced",
@@ -9142,7 +9142,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "jakubzick2004ligands",
@@ -9248,7 +9248,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "jakubzick2003impact",
@@ -9352,7 +9352,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "jakubzick2003therapeutic",
@@ -9453,7 +9453,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "blease2002deficient",
@@ -9563,7 +9563,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "jakubzick2002interleukin",
@@ -9665,7 +9665,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-16"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "blease2001therapeutic",
@@ -9764,7 +9764,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "blease2001fusion",
@@ -9863,7 +9863,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-09-17"
+  "citations_refreshed": "2026-09-18"
  },
  {
   "id": "smith1999carbonic",
