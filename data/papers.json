@@ -242,7 +242,7 @@
   "openalex_id": "https://openalex.org/W7140115524",
   "abstract": "Macrophages are among the most abundant immune cells in solid tumors, yet how macrophage lineage and spatial organization shape antitumor immunity remains unclear. Here we uncovered a division of labor between tissue-resident CD206hi and CD206lo interstitial macrophage (IM) subsets and Ly6c2+Fn1+Vcan+ recruited macrophages (recMacs) in lung cancer. Using single-cell and spatial transcriptomics, we identified chemokine-expressing IM subsets with opposing functions. Cxcl13+CD206hi IMs, Cxcl9+CD206hi IMs and Cxcl10+CD206hi IMs positioned along bronchovascular regions drove tertiary lymphoid structure formation, lymphocyte recruitment and tumor control, whereas Ccl2+ IMs, localized within tumor regions, recruited protumorigenic Ly6c2+Fn1+Vcan+ recMacs. In addition, Ly6C+CD11b+ monocyte-derived dendritic cells (moDCs) functioned as immunosuppressive antigen-presenting cells in tumor-draining lymph nodes. During neoantigen vaccination, CCR5 blockade with maraviroc selectively inhibited antigen-bearing moDC migration, enhancing dendritic cell-mediated antitumor immunity. These findings showed how macrophage lineage and spatial compartmentalization govern tumor immunity and identified strategies to preserve protective IM functions, while disrupting macrophage-driven immunosuppression.",
   "abstract_source": "pubmed",
-  "cited_by_count": 11,
+  "cited_by_count": 12,
   "oa_url": "https://doi.org/10.1038/s41590-026-02445-2",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/41872505/",
   "keywords": [
@@ -320,7 +320,7 @@
   "source": "pubmed",
   "note": "An author correction was published in Nat Immunol 27(6):1306 (2026), doi:10.1038/s41590-026-02525-3.",
   "preprint_doi": "10.21203/rs.3.rs-6977440/v1",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "li2026alveolar",
@@ -845,7 +845,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "ontiveros2025antipdl",
@@ -1115,7 +1115,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "mara2024natural",
@@ -1327,7 +1327,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "gainullina2023network",
@@ -1444,7 +1444,7 @@
   "openalex_id": "https://openalex.org/W4318217624",
   "abstract": "The diversity of mononuclear phagocyte (MNP) subpopulations across tissues is one of the key physiological characteristics of the immune system. Here, we focus on understanding the metabolic variability of MNPs through metabolic network analysis applied to three large-scale transcriptional datasets: we introduce (1) an ImmGen MNP open-source dataset of 337 samples across 26 tissues; (2) a myeloid subset of ImmGen Phase I dataset (202 MNP samples); and (3) a myeloid mouse single-cell RNA sequencing (scRNA-seq) dataset (51,364 cells) assembled based on Tabula Muris Senis. To analyze such large-scale datasets, we develop a network-based computational approach, genes and metabolites (GAM) clustering, for unbiased identification of the key metabolic subnetworks based on transcriptional profiles. We define 9 metabolic subnetworks that encapsulate the metabolic differences within MNP from 38 different tissues. Obtained modules reveal that cholesterol synthesis appears particularly active within the migratory dendritic cells, while glutathione synthesis is essential for cysteinyl leukotriene production by peritoneal and lung macrophages.",
   "abstract_source": "pubmed",
-  "cited_by_count": 39,
+  "cited_by_count": 36,
   "oa_url": "http://www.cell.com/article/S2211124723000578/pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/36708514/",
   "keywords": [
@@ -1515,7 +1515,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "rawat2023producing",
@@ -1718,7 +1718,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "rawat2023channeling",
@@ -1909,7 +1909,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "rawat2023immunogenicity",
@@ -2158,7 +2158,7 @@
   "openalex_id": "https://openalex.org/W4285091948",
   "abstract": "Alveolar macrophages (AMs) reside on the luminal surface of the airways and alveoli, ensuring proper gas exchange by ingesting cellular debris and pathogens, and regulating inflammatory responses. Therefore, understanding the heterogeneity and diverse roles played by AMs, interstitial macrophages, and recruited monocytes is critical for treating airway diseases. We performed single-cell RNA sequencing on 113,213 bronchoalveolar lavage cells from four healthy and three uninflamed cystic fibrosis subjects and identified two MARCKS+LGMN+IMs, FOLR2+SELENOP+ and SPP1+PLA2G7+ IMs, monocyte subtypes, DC1, DC2, migDCs, plasmacytoid DCs, lymphocytes, epithelial cells, and four AM superclusters (families) based on the gene expression of IFI27 and APOC2 These four AM families have at least eight distinct functional members (subclusters) named after their differentially expressed gene(s): IGF1, CCL18, CXCL5, cholesterol, chemokine, metallothionein, interferon, and small-cluster AMs. Interestingly, the chemokine cluster further divides with each subcluster selectively expressing a unique combination of chemokines. One of the most striking observations, besides the heterogeneity, is the conservation of AM family members in relatively equal ratio across all AM superclusters and individuals. Transcriptional data and TotalSeq technology were used to investigate cell surface markers that distinguish resident AMs from recruited monocytes. Last, other AM datasets were projected onto our dataset. Similar AM superclusters and functional subclusters were observed, along with a significant increase in chemokine and IFN AM subclusters in individuals infected with COVID-19. Overall, functional specializations of the AM subclusters suggest that there are highly regulated AM niches with defined programming states, highlighting a clear division of labor.",
   "abstract_source": "pubmed",
-  "cited_by_count": 72,
+  "cited_by_count": 71,
   "oa_url": "https://www.life-science-alliance.org/content/lsa/5/11/e202201458.full.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/35820705/",
   "keywords": [
@@ -2221,7 +2221,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "rawat2022natural",
@@ -2350,7 +2350,7 @@
   "openalex_id": "https://openalex.org/W4295745405",
   "abstract": "Tissue-resident alveolar and interstitial macrophages and recruited macrophages are critical players in innate immunity and maintenance of lung homeostasis. Until recently, assessing the differential functional contributions of tissue-resident versus recruited macrophages has been challenging because they share overlapping cell surface markers, making it difficult to separate them using conventional methods. This review describes how scRNA-seq and spatial transcriptomics can separate these subpopulations and help unravel the complexity of macrophage biology in homeostasis and disease. First, we provide a guide to identifying and distinguishing lung macrophages from other mononuclear phagocytes in humans and mice. Second, we outline emerging concepts related to the development and function of the various lung macrophages in the alveolar, perivascular, and interstitial niches. Finally, we describe how different tissue states profoundly alter their functions, including acute and chronic lung disease, cancer, and aging.",
   "abstract_source": "pubmed",
-  "cited_by_count": 634,
+  "cited_by_count": 631,
   "oa_url": "http://www.cell.com/article/S1074761322004034/pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/36103853/",
   "keywords": [
@@ -2416,7 +2416,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "li2021targeting",
@@ -2501,7 +2501,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "rawat2021redefining",
@@ -2794,7 +2794,7 @@
   },
   "date_added": "2026-09-09",
   "source": "old site",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "hume2020localization",
@@ -2835,7 +2835,7 @@
   "openalex_id": "https://openalex.org/W3011720767",
   "abstract": "Rationale: Interstitial macrophages (IMs) and airspace macrophages (AMs) play critical roles in lung homeostasis and host defense, and are central to the pathogenesis of a number of lung diseases. However, the absolute numbers of macrophages and the precise anatomic locations they occupy in the healthy human lung have not been quantified.Objectives: To determine the precise number and anatomic location of human pulmonary macrophages in nondiseased lungs and to quantify how this is altered in chronic cigarette smokers.Methods: Whole right upper lobes from 12 human donors without pulmonary disease (6 smokers and 6 nonsmokers) were evaluated using design-based stereology. CD206 (cluster of differentiation 206)-positive/CD43+ AMs and CD206+/CD43- IMs were counted in five distinct anatomical locations using the optical disector probe.Measurements and Main Results: An average of 2.1 × 109 IMs and 1.4 × 109 AMs were estimated per right upper lobe. Of the AMs, 95% were contained in diffusing airspaces and 5% in airways. Of the IMs, 78% were located within the alveolar septa, 14% around small vessels, and 7% around the airways. The local density of IMs was greater in the alveolar septa than in the connective tissue surrounding the airways or vessels. The total number and density of IMs was 36% to 56% greater in the lungs of cigarette smokers versus nonsmokers.Conclusions: The precise locations occupied by pulmonary macrophages were defined in nondiseased human lungs from smokers and nonsmokers. IM density was greatest in the alveolar septa. Lungs from chronic smokers had increased IM numbers and overall density, supporting a role for IMs in smoking-related disease.",
   "abstract_source": "pubmed",
-  "cited_by_count": 95,
+  "cited_by_count": 94,
   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7233346",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/32197050/",
   "keywords": [
@@ -2907,7 +2907,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "leach2020transcriptome",
@@ -2950,7 +2950,7 @@
   "openalex_id": "https://openalex.org/W3097721739",
   "abstract": "The mononuclear phagocyte (MP) system consists of macrophages, monocytes, and dendritic cells (DCs). MP subtypes play distinct functional roles in steady-state and inflammatory conditions. Although murine MPs are well characterized, their pulmonary and lymph node (LN) human homologs remain poorly understood. To address this gap, we have created a gene expression compendium across 24 distinct human and murine lung and LN MPs, along with human blood and murine spleen MPs, to serve as validation datasets. In-depth RNA sequencing identifies corresponding human-mouse MP subtypes and determines marker genes shared and divergent across species. Unexpectedly, only 13%-23% of the top 1,000 marker genes (i.e., genes not shared across species-specific MP subtypes) overlap in corresponding human-mouse MP counterparts. Lastly, CD88 in both species helps distinguish monocytes/macrophages from DCs. Our cross-species expression compendium serves as a resource for future translational studies to investigate beforehand whether pursuing specific MP subtypes or genes will prove fruitful.",
   "abstract_source": "pubmed",
-  "cited_by_count": 74,
+  "cited_by_count": 72,
   "oa_url": "https://doi.org/10.1016/j.celrep.2020.108337",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/33147458/",
   "keywords": [
@@ -3027,7 +3027,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "ginhoux2020editorial",
@@ -3131,7 +3131,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "mcgettigan2019dietary",
@@ -3402,7 +3402,7 @@
   "openalex_id": "https://openalex.org/W2803700809",
   "abstract": "Interstitial macrophages (IMs) are present in multiple organs. Although there is limited knowledge of the unique functional role IM subtypes play, macrophages, in general, are known for their contribution in homeostatic tissue maintenance and inflammation such as clearing pathogens and debris and secreting inflammatory mediators and growth factors. IM subtypes have been identified in the heart, skin, and gut, and more recently we identified three distinct IMs in the lung. IMs express on their surface high levels of MerTK, CD64, and CD11b, with differences in CD11c, CD206, and MHC II expression, and referred to the three pulmonary IM subtypes as IM1 (CD11cloCD206+MHCIIlo), IM2 (CD11cloCD206+MHCIIhi), and IM3 (CD11chiCD206loMHCIIhi). In this chapter, we highlight how to extract IMs from the lung using three different digestion enzymes: elastase, collagenase D, and Liberase TM. Of these three commonly used enzymes, Liberase TM was the most effective at IM extraction, particularly IM3. Furthermore, alternative staining strategies to identify IMs were examined, which included CD64, MerTK, F4/80, and Tim4. Thus, future studies highlighting the functional role of IM subtypes will help further our understanding of how tissue homeostasis is maintained and inflammatory conditions are induced and resolved.",
   "abstract_source": "pubmed",
-  "cited_by_count": 21,
+  "cited_by_count": 20,
   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6233879",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/29761388/",
   "keywords": [
@@ -3475,7 +3475,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "gibbings2018consistent",
@@ -3579,7 +3579,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "gibbings2018isolation",
@@ -3684,7 +3684,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "mccubbrey2018deletion",
@@ -3848,7 +3848,7 @@
   "openalex_id": "https://openalex.org/W2809971817",
   "abstract": "Early recognition of neoantigen-expressing cells is complex, involving multiple immune cell types. In this study, in vivo, we examined how antigen-presenting cell subtypes coordinate and induce an immunological response against neoantigen-expressing cells, particularly in the absence of a pathogen-associated molecular pattern, which is normally required to license antigen-presenting cells to present foreign or self-antigens as immunogens. Using two reductionist models of neoantigen-expressing cells and two cancer models, we demonstrated that natural IgM is essential for the recognition and initiation of adaptive immunity against neoantigen-expressing cells. Natural IgM antibodies form a cellular immune complex with the neoantigen-expressing cells. This immune complex licenses surveying monocytes to present neoantigens as immunogens to CD4+ T cells. CD4+ T helper cells, in turn, use CD40L to license cross-presenting CD40+ Batf3+ dendritic cells to elicit a cytotoxic T cell response against neoantigen-expressing cells. Any break along this immunological chain reaction results in the escape of neoantigen-expressing cells. This study demonstrates the surprising, essential role of natural IgM as the initiator of a sequential signaling cascade involving multiple immune cell subtypes. This sequence is required to coordinate an adaptive immune response against neoantigen-expressing cells.",
   "abstract_source": "pubmed",
-  "cited_by_count": 36,
+  "cited_by_count": 35,
   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6236687",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/29953261/",
   "keywords": [
@@ -3921,7 +3921,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "jakubzick2017monocyte",
@@ -3952,7 +3952,7 @@
   "openalex_id": "https://openalex.org/W2607819139",
   "abstract": "Monocytes develop in the bone marrow and represent the primary type of mononuclear phagocyte found in the blood. They were long thought of as a source for tissue macrophages, but recent studies indicate more complex roles for monocytes, both within the circulation and after their migration into tissues and lymphoid organs. In this Review, we discuss the newer concepts underlying the maturation of emigrating monocytes into different classes of tissue macrophages, as well as their potential functions, as monocyte-derived cells, in the tissues. In addition, we consider the emerging roles for monocytes in adaptive immunity as antigen-presenting cells.",
   "abstract_source": "pubmed",
-  "cited_by_count": 910,
+  "cited_by_count": 906,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/28436425/",
   "keywords": [
@@ -4007,7 +4007,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "gibbings2017three",
@@ -4054,7 +4054,7 @@
   "openalex_id": "https://openalex.org/W2593148326",
   "abstract": "The current paradigm in macrophage biology is that some tissues mainly contain macrophages from embryonic origin, such as microglia in the brain, whereas other tissues contain postnatal-derived macrophages, such as the gut. However, in the lung and in other organs, such as the skin, there are both embryonic and postnatal-derived macrophages. In this study, we demonstrate in the steady-state lung that the mononuclear phagocyte system is comprised of three newly identified interstitial macrophages (IMs), alveolar macrophages, dendritic cells, and few extravascular monocytes. We focused on similarities and differences between the three IM subtypes, specifically, their phenotype, location, transcriptional signature, phagocytic capacity, turnover, and lack of survival dependency on fractalkine receptor, CX3CR1. Pulmonary IMs were located in the bronchial interstitium but not the alveolar interstitium. At the transcriptional level, all three IMs displayed a macrophage signature and phenotype. All IMs expressed MER proto-oncogene, tyrosine kinase, CD64, CD11b, and CX3CR1, and were further distinguished by differences in cell surface protein expression of CD206, Lyve-1, CD11c, CCR2, and MHC class II, along with the absence of Ly6C, Ly6G, and Siglec F. Most intriguingly, in addition to the lung, similar phenotypic populations of IMs were observed in other nonlymphoid organs, perhaps highlighting conserved functions throughout the body. These findings promote future research to track four distinct pulmonary macrophages and decipher the division of labor that exists between them.",
   "abstract_source": "pubmed",
-  "cited_by_count": 486,
+  "cited_by_count": 476,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/28257233/",
   "keywords": [
@@ -4128,7 +4128,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "mould2017origin",
@@ -4524,7 +4524,7 @@
   "openalex_id": "https://openalex.org/W2155158870",
   "abstract": "The pulmonary mononuclear phagocyte system is a critical host defense mechanism composed of macrophages, monocytes, monocyte-derived cells, and dendritic cells. However, our current characterization of these cells is limited because it is derived largely from animal studies and analysis of human mononuclear phagocytes from blood and small tissue resections around tumors. Phenotypic and morphologic characterization of mononuclear phagocytes that potentially access inhaled antigens in human lungs. We acquired and analyzed pulmonary mononuclear phagocytes from fully intact nondiseased human lungs (including the major blood vessels and draining lymph nodes) obtained en bloc from 72 individual donors. Differential labeling of hematopoietic cells via intrabronchial and intravenous administration of antibodies within the same lobe was used to identify extravascular tissue-resident mononuclear phagocytes and exclude cells within the vascular lumen. Multiparameter flow cytometry was used to identify mononuclear phagocyte populations among cells labeled by each route of antibody delivery. We performed a phenotypic analysis of pulmonary mononuclear phagocytes isolated from whole nondiseased human lungs and lung-draining lymph nodes. Five pulmonary mononuclear phagocytes were observed, including macrophages, monocyte-derived cells, and dendritic cells that were phenotypically distinct from cell populations found in blood. Different mononuclear phagocytes, particularly dendritic cells, were labeled by intravascular and intrabronchial antibody delivery, countering the notion that tissue and blood mononuclear phagocytes are equivalent systems. Phenotypic descriptions of the mononuclear phagocytes in nondiseased lungs provide a precedent for comparative studies in diseased lungs and potential targets for therapeutics.",
   "abstract_source": "pubmed",
-  "cited_by_count": 172,
+  "cited_by_count": 171,
   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/4824940",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/26551758/",
   "keywords": [
@@ -4595,7 +4595,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "larson2016monocyte",
@@ -4638,7 +4638,7 @@
   "openalex_id": "https://openalex.org/W2324691392",
   "abstract": "Recently it was shown that circulating Ly6C(+) monocytes traffic from tissue to the draining lymph nodes (LNs) with minimal alteration in their overall phenotype. Furthermore, in the steady state, Ly6C(+) monocytes are as abundant as classical dendritic cells (DCs) within the draining LNs, and even more abundant during inflammation. However, little is known about the functional roles of constitutively trafficking Ly6C(+) monocytes. In this study we investigated whether Ly6C(+) monocytes can efferocytose (acquire dying cells) and cross-present cell-associated antigen, a functional property particularly attributed to Batf3(+) DCs. We demonstrated that Ly6C(+) monocytes intrinsically efferocytose and cross-present cell-associated antigen to CD8(+) T cells. In addition, efferocytosis was enhanced upon direct activation of the Ly6C(+) monocytes through its corresponding TLRs, TLR4 and TLR7. However, only ligation of TLR7, and not TLR4, enhanced cross-presentation by Ly6C(+) monocytes. Overall, this study outlines two functional roles, among others, that Ly6C(+) monocytes have during an adaptive immune response.",
   "abstract_source": "pubmed",
-  "cited_by_count": 83,
+  "cited_by_count": 84,
   "oa_url": "https://www.nature.com/articles/cdd201624.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/26990659/",
   "keywords": [
@@ -4706,7 +4706,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "jakubzick2016alveolar",
@@ -4789,7 +4789,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "frasch2016signaling",
@@ -4838,7 +4838,7 @@
   "openalex_id": "https://openalex.org/W2475119891",
   "abstract": "Proinflammatory consequences have been described for lysophosphatidylcholine, a lipid product of cellular injury, signaling via the G protein-coupled receptor G2A on myeloid and lymphoid inflammatory cells. This prompted the hypothesis that genetic deletion of G2A would limit intestinal inflammation in a mouse model of colitis induced by dextran sodium sulfate. Surprisingly, G2A(-/-) mice exhibited significantly worsened colitis compared with wild-type mice, as demonstrated by disease activity, colon shortening, histology, and elevated IL-6 and IL-5 in colon tissues. Investigation of inflammatory cells recruited to inflamed G2A(-/-) colons showed significantly more TNF-α(+) and Ly6C(hi)MHCII(-) proinflammatory monocytes and eosinophils than in wild-type colons. Both monocytes and eosinophils were pathogenic as their depletion abolished the excess inflammation in G2A(-/-) mice. G2A(-/-) mice also had less IFN-γ in inflamed colon tissues than wild-type mice. Fewer CD4(+) lymphocytes were recruited to inflamed G2A(-/-) colons, and fewer colonic lymphocytes produced IFN-γ upon ex vivo stimulation. Administration of IFN-γ to G2A(-/-) mice during dextran sodium sulfate exposure abolished the excess colitic inflammation and reduced colonic IL-5 and eosinophil numbers to levels seen in wild-type mice. Furthermore, IFN-γ reduced the numbers of TNF-α(+) monocyte and enhanced their maturation from Ly6C(hi)MHCII(-) to Ly6C(int)MHCII(+) Taken together, the data suggest that G2A signaling serves to dampen intestinal inflammation via the production of IFN-γ, which, in turn, enhances monocyte maturation to a less inflammatory program and ultimately reduces eosinophil-induced injury of colonic tissues.",
   "abstract_source": "pubmed",
-  "cited_by_count": 31,
+  "cited_by_count": 30,
   "oa_url": "https://www.jimmunol.org/content/jimmunol/197/4/1425.full.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/27402702/",
   "keywords": [
@@ -4906,7 +4906,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "janssen2016myeloid",
@@ -4939,7 +4939,7 @@
   "openalex_id": "https://openalex.org/W2594510643",
   "abstract": "Given the dual and intrinsically contradictory roles of myeloid cells in both protective and yet also damaging effects of inflammatory and immunological processes, we suggest that it is important to consider the mechanisms and circumstances by which these cells are removed, either in the normal unchallenged state or during inflammation or disease. In this essay we address these subjects from a conceptual perspective, focusing as examples on four main myeloid cell types (neutrophils, monocytes, macrophages, and myeloid dendritic cells) and their clearance from the circulation or from naive and inflamed tissues. While the primary clearance process appears to involve endocytic uptake into macrophages, various tissue cell types can also recognize and remove dying cells, though their overall quantitative contribution is unclear. In fact, surprisingly, given the wealth of study in this area over the last 30 years, our conclusion is that we are still challenged with a substantial lack of mechanistic and regulatory understanding of when, how, and by what mechanisms migratory myeloid cells come to die and are recognized as needing to be removed, and indeed the precise processes of uptake of either the intact or fragmented cells. This reflects the extreme complexity and inherent redundancy of the clearance processes and argues for substantial investigative effort in this arena. In addition, it leads us to a sense that approaches to significant therapeutic modulation of selective myeloid clearance are still a long way off.",
   "abstract_source": "pubmed",
-  "cited_by_count": 43,
+  "cited_by_count": 45,
   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/5123750",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/27837740/",
   "keywords": [
@@ -5001,7 +5001,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "fernandezboyanapalli2015pioglitazone",
@@ -5048,7 +5048,7 @@
   "openalex_id": "https://openalex.org/W2075633952",
   "abstract": "Deficient production of reactive oxygen species (ROS) by the phagocyte nicotinamide adenine dinucleotide (NADPH) oxidase in patients with chronic granulomatous disease (CGD) results in susceptibility to certain pathogens secondary to impaired oxidative killing and mobilization of other phagocyte defenses. Peroxisome proliferator-activated receptor (PPAR) γ agonists, including pioglitazone, approved for type 2 diabetes therapy alter cellular metabolism and can heighten ROS production. It was hypothesized that pioglitazone treatment of gp91(phox-/-) mice, a murine model of human CGD, would enhance phagocyte oxidant production and killing of Staphylococcus aureus, a significant pathogen in patients with this disorder. We sought to determine whether pioglitazone treatment of gp91(phox-/-) mice enhanced phagocyte oxidant production and host defense. Wild-type and gp91(phox-/-) mice were treated with the PPARγ agonist pioglitazone, and phagocyte ROS and killing of S aureus were investigated. As demonstrated by 3 different ROS-sensing probes, short-term treatment of gp91(phox-/-) mice with pioglitazone enhanced stimulated ROS production in neutrophils and monocytes from blood and neutrophils and inflammatory macrophages recruited to tissues. Mitochondria were identified as the source of ROS. Findings were replicated in human monocytes from patients with CGD after ex vivo pioglitazone treatment. Importantly, although mitochondrial (mt)ROS were deficient in gp91(phox-/-) phagocytes, their restoration with treatment significantly enabled killing of S aureus both ex vivo and in vivo. Together, the data support the hypothesis that signaling from the NADPH oxidase under normal circumstances governs phagocyte mtROS production and that such signaling is lacking in the absence of a functioning phagocyte oxidase. PPARγ agonism appears to bypass the need for the NADPH oxidase for enhanced mtROS production and partially restores host defense in CGD.",
   "abstract_source": "pubmed",
-  "cited_by_count": 58,
+  "cited_by_count": 57,
   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/4331116",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/25498313/",
   "keywords": [
@@ -5123,7 +5123,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "redente2015innate",
@@ -5253,7 +5253,7 @@
   "openalex_id": "https://openalex.org/W1923800096",
   "abstract": "Collecting lymphatic vessels (CLVs), surrounded by fat and endowed with contractile muscle and valves, transport lymph from tissues after it is absorbed into lymphatic capillaries. CLVs are not known to participate in immune responses. In this study, we observed that the inherent permeability of CLVs allowed broad distribution of lymph components within surrounding fat for uptake by adjacent macrophages and dendritic cells (DCs) that actively interacted with CLVs. Endocytosis of lymph-derived Ags by these cells supported recall T cell responses in the fat and also generated Ag-bearing DCs for emigration into adjacent lymph nodes (LNs). Enhanced recruitment of DCs to inflammation-reactive LNs significantly relied on adipose tissue DCs to maintain sufficient numbers of Ag-bearing DCs as the LN expanded. Thus, CLVs coordinate inflammation and immunity within adipose depots and foster the generation of an unexpected pool of APCs for Ag transport into the adjacent LN.",
   "abstract_source": "pubmed",
-  "cited_by_count": 122,
+  "cited_by_count": 119,
   "oa_url": "https://www.jimmunol.org/content/jimmunol/194/11/5200.full.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/25917096/",
   "keywords": [
@@ -5320,7 +5320,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "atif2015cutting",
@@ -5432,7 +5432,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "gibbings2015transcriptome",
@@ -5475,7 +5475,7 @@
   "openalex_id": "https://openalex.org/W1841831106",
   "abstract": "Alveolar macrophages (AMs) reside on the luminal surfaces of the airways and alveoli where they maintain host defense and promote alveolar homeostasis by ingesting inhaled particulates and regulating inflammatory responses. Recent studies have demonstrated that AMs populate the lungs during embryogenesis and self-renew throughout life with minimal replacement by circulating monocytes, except under extreme conditions of depletion or radiation injury. Here we demonstrate that on a global scale, environment appears to dictate AM development and function. Indeed, transcriptome analysis of embryonic host-derived and postnatal donor-derived AMs coexisting within the same mouse demonstrated >98% correlation and overall functional analyses were similar. However, we also identified several genes whose expression was dictated by origin rather than environment. The most differentially expressed gene not altered by environment was Marco, a gene recently demonstrated to have enhancer activity in embryonic-derived but not postnatal-derived tissue macrophages. Overall, we show that under homeostatic conditions, the environment largely dictates the programming and function of AMs, whereas the expression of a small number of genes remains linked to the origin of the cell.",
   "abstract_source": "pubmed",
-  "cited_by_count": 252,
+  "cited_by_count": 244,
   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/4566811",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/26232173/",
   "keywords": [
@@ -5541,7 +5541,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "guilliams2014dendritic",
@@ -5584,7 +5584,7 @@
   "openalex_id": "https://openalex.org/W2036564362",
   "abstract": "The mononuclear phagocyte system (MPS) has historically been categorized into monocytes, dendritic cells and macrophages on the basis of functional and phenotypical characteristics. However, considering that these characteristics are often overlapping, the distinction between and classification of these cell types has been challenging. In this Opinion article, we propose a unified nomenclature for the MPS. We suggest that these cells can be classified primarily by their ontogeny and secondarily by their location, function and phenotype. We believe that this system permits a more robust classification during both steady-state and inflammatory conditions, with the benefit of spanning different tissues and across species.",
   "abstract_source": "pubmed",
-  "cited_by_count": 1827,
+  "cited_by_count": 1802,
   "oa_url": "https://www.nature.com/articles/nri3712.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/25033907/",
   "keywords": [
@@ -5647,7 +5647,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "desch2014dendritic",
@@ -5688,7 +5688,7 @@
   "openalex_id": "https://openalex.org/W1992915380",
   "abstract": "Dendritic cells (DCs) are required for the induction of cytotoxic T cells (CTL). In most tissues, including the lung, the resident DCs fall into two types expressing the integrin markers CD103 and CD11b. The current supposition is that DC function is predetermined by lineage, designating the CD103(+) DC as the major cross-presenting DC able to induce CTL. Here we show that Poly I:C (TLR3 agonist) or R848 (TLR7 agonist) do not activate all endogenous DCs. CD11b(+) DCs can orchestrate a CTL response in vivo in the presence of a TLR7 agonist but not a TLR3 agonist, whereas CD103(+) DCs require ligation of TLR3 for this purpose. This selectivity does not extend to antigen cross-presentation for T-cell proliferation but is required for induction of cytotoxicity. Thus, we demonstrate that the ability of DCs to induce functional CTLs is specific to the nature of the pathogen-associated molecular pattern (PAMP) encountered by endogenous DC.",
   "abstract_source": "pubmed",
-  "cited_by_count": 118,
+  "cited_by_count": 117,
   "oa_url": "https://www.nature.com/articles/ncomms5674.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/25135627/",
   "keywords": [
@@ -5755,7 +5755,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "kedl2014general",
@@ -5888,7 +5888,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "huang2013antigenspecific",
@@ -6002,7 +6002,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "desch2013pulmonary",
@@ -6033,7 +6033,7 @@
   "openalex_id": "https://openalex.org/W1979844768",
   "abstract": "Pulmonary dendritic cells (DCs) constantly sample the tissue and traffic inhaled antigens to the lung-draining lymph node where they normally orchestrate an appropriate immune response. The dynamic ability of these professional antigen-presenting cells to promote tolerance or immunity has been intensively studied by several groups, including ours. Distinct DC subsets in both lymphoid and non-lymphoid tissues have been described based on their surface molecule expression and location. Current efforts to unravel DC development and function are providing insight into the various roles each subset offers the immune system. Elucidating DC functions, particularly in the lung, may then allow use of the inherent ability of these cells for enhanced vaccine strategies and therapeutics for pulmonary infections and diseases.",
   "abstract_source": "pubmed",
-  "cited_by_count": 51,
+  "cited_by_count": 50,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/22968708/",
   "keywords": [
@@ -6090,7 +6090,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "jojic2013identification",
@@ -6229,7 +6229,7 @@
   "openalex_id": null,
   "abstract": "The differentiation of hematopoietic stem cells into cells of the immune system has been studied extensively in mammals, but the transcriptional circuitry that controls it is still only partially understood. Here, the Immunological Genome Project gene-expression profiles across mouse immune lineages allowed us to systematically analyze these circuits. To analyze this data set we developed Ontogenet, an algorithm for reconstructing lineage-specific regulation from gene-expression profiles across lineages. Using Ontogenet, we found differentiation stage-specific regulators of mouse hematopoiesis and identified many known hematopoietic regulators and 175 previously unknown candidate regulators, as well as their target genes and the cell types in which they act. Among the previously unknown regulators, we emphasize the role of ETV5 in the differentiation of γδ T cells. As the transcriptional programs of human and mouse cells are highly conserved, it is likely that many lessons learned from the mouse model apply to humans.",
   "abstract_source": "pubmed",
-  "cited_by_count": 194,
+  "cited_by_count": 190,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/23624555/",
   "keywords": [
@@ -6296,7 +6296,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "mingueneau2013transcriptional",
@@ -6642,7 +6642,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "gautier2012systemic",
@@ -6691,7 +6691,7 @@
   "openalex_id": "https://openalex.org/W2163759464",
   "abstract": "Although peroxisome proliferator-activated receptor γ (PPARγ) has anti-inflammatory actions in macrophages, which macrophage populations express PPARγ in vivo and how it regulates tissue homeostasis in the steady state and during inflammation remains unclear. We now show that lung and spleen macrophages selectively expressed PPARγ among resting tissue macrophages. In addition, Ly-6C(hi) monocytes recruited to an inflammatory site induced PPARγ as they differentiated to macrophages. When PPARγ was absent in Ly-6C(hi)-derived inflammatory macrophages, initiation of the inflammatory response was unaffected, but full resolution of inflammation failed, leading to chronic leukocyte recruitment. Conversely, PPARγ activation favored resolution of inflammation in a macrophage PPARγ-dependent manner. In the steady state, PPARγ deficiency in red pulp macrophages did not induce overt inflammation in the spleen. By contrast, PPARγ deletion in lung macrophages induced mild pulmonary inflammation at the steady state and surprisingly precipitated mortality upon infection with Streptococcus pneumoniae. This accelerated mortality was associated with impaired bacterial clearance and inability to sustain macrophages locally. Overall, we uncovered critical roles for macrophage PPARγ in promoting resolution of inflammation and maintaining functionality in lung macrophages where it plays a pivotal role in supporting pulmonary host defense. In addition, this work identifies specific macrophage populations as potential targets for the anti-inflammatory actions of PPARγ agonists.",
   "abstract_source": "pubmed",
-  "cited_by_count": 167,
+  "cited_by_count": 166,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/22855714/",
   "keywords": [
@@ -6760,7 +6760,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "gautier2012geneexpression",
@@ -6821,7 +6821,7 @@
   "openalex_id": "https://openalex.org/W2136188258",
   "abstract": "We assessed gene expression in tissue macrophages from various mouse organs. The diversity in gene expression among different populations of macrophages was considerable. Only a few hundred mRNA transcripts were selectively expressed by macrophages rather than dendritic cells, and many of these were not present in all macrophages. Nonetheless, well-characterized surface markers, including MerTK and FcγR1 (CD64), along with a cluster of previously unidentified transcripts, were distinctly and universally associated with mature tissue macrophages. TCEF3, C/EBP-α, Bach1 and CREG-1 were among the transcriptional regulators predicted to regulate these core macrophage-associated genes. The mRNA encoding other transcription factors, such as Gata6, was associated with single macrophage populations. We further identified how these transcripts and the proteins they encode facilitated distinguishing macrophages from dendritic cells.",
   "abstract_source": "pubmed",
-  "cited_by_count": 1973,
+  "cited_by_count": 1955,
   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3558276",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/23023392/",
   "keywords": [
@@ -6891,7 +6891,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "desch2011pulmonary",
@@ -6936,7 +6936,7 @@
   "openalex_id": "https://openalex.org/W2164494606",
   "abstract": "Cells undergoing programmed cell death (apoptosis) are removed in situ by macrophages and dendritic cells (DCs) through a specialized form of phagocytosis (efferocytosis). In the lung, there are two primary DC subsets with the potential to migrate to the local lymph nodes (LNs) and initiate adaptive immune responses. In this study, we show that only CD103(+) DCs were able to acquire and transport apoptotic cells to the draining LNs and cross present apoptotic cell-associated antigen to CD8 T cells. In contrast, both the CD11b(hi) and the CD103(+) DCs were able to ingest and traffic latex beads or soluble antigen. CD103(+) DCs selectively exhibited high expression of TLR3, and ligation of this receptor led to enhanced in vivo cytotoxic T cell responses to apoptotic cell-associated antigen. The selective role for CD103(+) DCs was confirmed in Batf3(-/-) mice, which lack this DC subtype. Our findings suggest that CD103(+) DCs are the DC subset in the lung that captures and presents apoptotic cell-associated antigen under homeostatic and inflammatory conditions and raise the possibility for more focused immunological targeting to CD8 T cell responses.",
   "abstract_source": "pubmed",
-  "cited_by_count": 305,
+  "cited_by_count": 303,
   "oa_url": "http://jem.rupress.org/content/jem/208/9/1789.full.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/21859845/",
   "keywords": [
@@ -7005,7 +7005,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "janssen2011determines",
@@ -7044,7 +7044,7 @@
   "openalex_id": "https://openalex.org/W2041189421",
   "abstract": "During acute lung injury (ALI) the macrophage pool expands markedly as inflammatory monocytes migrate from the circulation to the airspaces. As inflammation resolves, macrophage numbers return to preinjury levels and normal tissue structure and function are restored. To determine the fate of resident and recruited macrophages during the resolution of ALI in mice and to elucidate the mechanisms responsible for macrophage removal. ALI was induced in mice using influenza A (H1N1; PR8) infection and LPS instillation. Dye labeling techniques, bone marrow transplantation, and surface immunophenotyping were used to distinguish resident and recruited macrophages during inflammation and to study the role of Fas in determining macrophage fate during resolving ALI. During acute and resolving lung injury from influenza A and LPS, a high proportion of the original resident alveolar macrophages persisted. In contrast, recruited macrophages exhibited robust accumulation in early inflammation, followed by a progressive decline in their number. This decline was mediated by apoptosis with local phagocytic clearance. Recruited macrophages expressed high levels of the death receptor Fas and were rapidly depleted from the airspaces by Fas-activating antibodies. In contrast, macrophage depletion was inhibited in mice treated with Fas-blocking antibodies and in chimeras with Fas-deficient bone marrow. Caspase-8 inhibition prevented macrophage apoptosis and delayed the resolution of ALI. These findings indicate that Fas-induced apoptosis of recruited macrophages is essential for complete resolution of ALI.",
   "abstract_source": "pubmed",
-  "cited_by_count": 345,
+  "cited_by_count": 339,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/21471090/",
   "keywords": [
@@ -7114,7 +7114,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "jakubzick2010methods",
@@ -7201,7 +7201,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "zhang2009regulatory",
@@ -7372,7 +7372,7 @@
   "openalex_id": "https://openalex.org/W2035213168",
   "abstract": "CX(3)CR1(+) and CD103(+) dendritic cells (DCs) in intestinal lamina propria play a key role in mucosal immunity. However, the origin and the developmental pathways that regulate their differentiation in the lamina propria remain unclear. We showed that monocytes gave rise exclusively to CD103(-)CX(3)CR1(+) lamina propria DCs under the control of macrophage-colony-stimulating factor receptor (M-CSFR) and Fms-like thyrosine kinase 3 (Flt3) ligands. In contrast, common DC progenitors (CDP) and pre-DCs, which give rise to lymphoid organ DCs but not to monocytes, differentiated exclusively into CD103(+)CX(3)CR1(-) lamina propria DCs under the control of Flt3 and granulocyte-macrophage-colony-stimulating factor receptor (GM-CSFR) ligands. CD103(+)CX(3)CR1(-) DCs but not CD103(-)CX(3)CR1(+) DCs in the lamina propria constitutively expressed CCR7 and were the first DCs to transport pathogenic Salmonella from the intestinal tract to the mesenteric lymph nodes. Altogether, these results underline the diverse origin of the lamina propria DC network and identify mucosal DCs that arise from pre-DCs as key sentinels of the gut immune system.",
   "abstract_source": "pubmed",
-  "cited_by_count": 859,
+  "cited_by_count": 851,
   "oa_url": "http://www.cell.com/article/S1074761309003689/pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/19733489/",
   "keywords": [
@@ -7443,7 +7443,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "gautier2009regulation",
@@ -7474,7 +7474,7 @@
   "openalex_id": "https://openalex.org/W2123811618",
   "abstract": "Monocytes are central mediators in the advance of atherosclerotic plaque, making them a natural therapeutic target for reducing disease burden. Here, we highlight recent advances in our current understanding of monocyte heterogeneity and its relevance to regulation of monocyte accumulation and function within atherosclerotic plaques. Differences that distinguish monocyte subsets include differential expression of chemokine receptors, especially CCR2 and CX3CR1. Ablation of expression of these 2 receptors (or their ligands) in mice has an additive inhibition on monocyte recruitment to atherosclerotic plaques. Moreover, simultaneously interfering with 3 key pathways--CCR2, CX3CR1, and CCR5--essentially abolishes atherosclerosis in mice. Here, we discuss how these chemokine receptors act at multiple points on at least 1 monocyte subset, regulating their mobilization from bone marrow, survival, or recruitment to plaques. Finally, we discuss how this knowledge may be useful clinically, emphasizing that CX3CR1 may in particular be a viable target for therapeutic manipulation of monocyte-derived cell fate in cardiovascular disease.",
   "abstract_source": "pubmed",
-  "cited_by_count": 216,
+  "cited_by_count": 214,
   "oa_url": "https://www.ahajournals.org/doi/pdf/10.1161/ATVBAHA.108.180505",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/19759373/",
   "keywords": [
@@ -7538,7 +7538,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "randolph2008antigen",
@@ -7673,7 +7673,7 @@
   "openalex_id": "https://openalex.org/W1834820177",
   "abstract": "There are two major myeloid pulmonary dendritic cell (DC) populations: CD103+ DCs and CD11bhigh DCs. In this study, we investigated in detail the origins of both myeloid DC pools using multiple experimental approaches. We show that, in resting lung, Ly-6ChighCCR2high monocytes repopulated CD103+ DCs using a CCR2-dependent mechanism, and these DCs preferentially retained residual CCR2 in the lung, whereas, conversely, Ly-6ClowCCR2low monocytes repopulated CD11bhigh DCs. CX3CR1 was required to generate normal numbers of pulmonary CD11bhigh DCs, possibly because Ly-6Clow monocytes in the circulation, which normally express high levels of CX3CR1, failed to express bcl-2 and may have diminished survival in the circulation in the absence of CX3CR1. Overall, these data demonstrate that the two circulating subsets of monocytes give rise to distinct tissue DC populations.",
   "abstract_source": "pubmed",
-  "cited_by_count": 224,
+  "cited_by_count": 223,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/18292524/",
   "keywords": [
@@ -7737,7 +7737,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "jakubzick2008optimization",
@@ -7770,7 +7770,7 @@
   "openalex_id": "https://openalex.org/W2037990334",
   "abstract": "Dendritic cell migration from the airway to lymph nodes is a key event in the development of airway immunity during infection, allergy, and vaccination. To identify the best approaches to investigate DC migration to lung-draining lymph nodes, we directly compared three methods previously used to track DC migration: airway administration of fluorescent OVA, latex beads, or carboxyfluorescein succinimidyl ester (CFSE). We show that two of the methods employed in optimal conditions-administration of fluorescent OVA or latex particles-have broadly relevant utility in studies of pulmonary DC migration, both in the presence and absence of inflammatory mediators. However, CFSE was of limited value because it induced a robust airway inflammatory response upon instillation. Unexpectedly, antigen-loaded tracers with distinct physical properties differently affected the populations that acquired the tracers and the overall T cell response. Specifically, soluble OVA and OVA formulated as a particulate after conjugation to latex beads were acquired in different proportions in vivo by the two characterized subsets of pulmonary DCs: CD11b(hi)CD103(-) and CD11b(lo)CD103(+)langerin(+) DC populations. Consequently, and in line with recent studies that these two subsets of DCs respectively activate CD4(+) and CD8(+) lymphocyte populations, the physical nature of the antigen delivery vehicle strongly influenced the degree of CD4(+) versus CD8(+) OVA-specific T cell activation. This finding suggests that changes in the physical presentation of the same antigen delivered to the airway during natural immune responses or vaccinations may markedly affect the character of the T cell response that ensues.",
   "abstract_source": "pubmed",
-  "cited_by_count": 98,
+  "cited_by_count": 97,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/18662693/",
   "keywords": [
@@ -7839,7 +7839,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "jakubzick2008lymphmigrating",
@@ -7876,7 +7876,7 @@
   "openalex_id": "https://openalex.org/W2117677609",
   "abstract": "Observations that dendritic cells (DCs) constitutively enter afferent lymphatic vessels in many organs and that DCs in some tissues, such as the lung, turnover rapidly in the steady state have led to the concept that a major fraction of lymph node DCs are derived from migratory DCs that enter the lymph node through upstream afferent lymphatic vessels. We used the lysozyme M-Cre reporter mouse strain to assess the relationship of lymph node and nonlymphoid organ DCs. Our findings challenge the idea that a substantial proportion of lymph node DCs derive from the upstream tissue during homeostasis. Instead, our analysis suggests that nonlymphoid organ DCs comprise a major population of DCs within lymph nodes only after introduction of an inflammatory stimulus.",
   "abstract_source": "pubmed",
-  "cited_by_count": 226,
+  "cited_by_count": 232,
   "oa_url": "https://rupress.org/jem/article-pdf/205/12/2839/1196516/jem_20081430.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/18981237/",
   "keywords": [
@@ -7943,7 +7943,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "tacke2007monocyte",
@@ -8394,7 +8394,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "tacke2006immature",
@@ -8532,7 +8532,7 @@
   "openalex_id": "https://openalex.org/W1535252929",
   "abstract": "We investigated the fate of latex (LX) particles that were introduced into mice intranasally. Macrophages acquired the vast majority of particles and outnumbered LX particle-bearing airway dendritic cells (DCs) by at least two orders of magnitude. Yet alveolar macrophages were refractory to migration to the draining lymph node (DLN), and all transport to the DLN could be ascribed to the few LX(+) airway DCs. Upon macrophage depletion, markedly greater numbers of DCs were recruited into the alveolar space. Consequently, the number of DCs that carried particles to the DLN was boosted by 20-fold. Thus, a so far overlooked aspect of macrophage-mediated suppression of airway DC function stems from the modulation of DC recruitment into the airway. This increase in DC recruitment permitted the development of a robust assay to quantify the subsequent migration of DCs to the DLN. Therefore, we determined whether lung DCs use the same molecules that skin DCs use during migration to DLNs. Like skin DCs, lung DCs used CCR7 ligands and CCR8 for emigration to DLN, but the leukotriene C(4) transporter multidrug resistance-related protein 1 did not mediate lung DC migration as it does in skin, indicating that pathways governing DC migration from different tissues partially differ in molecular regulation.",
   "abstract_source": "pubmed",
-  "cited_by_count": 251,
+  "cited_by_count": 249,
   "oa_url": "https://journals.aai.org/jimmunol/article-pdf/176/6/3578/1214800/3578.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/16517726/",
   "keywords": [
@@ -8596,7 +8596,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "jakubzick2004therapeutic",
@@ -8691,7 +8691,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "kolodsick2004protection",
@@ -8734,7 +8734,7 @@
   "openalex_id": "https://openalex.org/W1506254543",
   "abstract": "Intratracheal injection of FITC results in acute lung injury and progresses to fibrosis by day 21 postchallenge. In response to FITC, BALB/c mice produce IL-4 and IL-13 in the lung. To investigate whether IL-4 and/or IL-13 were important profibrotic mediators in this model, we examined the fibrotic response to FITC in mice that were genetically deficient in IL-4 (IL-4(-/-)), IL-13 (IL-13(-/-)), or IL-4 and IL-13 combined (IL-4/13(-/-)). Baseline levels of collagen were similar in all mice. In response to FITC, both BALB/c and IL-4(-/-) mice developed fibrosis, whereas the IL-13(-/-) and IL-4/13(-/-) mice were significantly protected, as measured by total lung collagen levels and histology. Total leukocyte recruitment to the lung was similar in all four strains of mice when measured on days 7, 14, and 21 post-FITC. BALB/c mice showed prominent eosinophilia on day 7 that was absent in IL-4(-/-), IL-13(-/-), and IL-4/13(-/-) mice, suggesting that eosinophilia is not necessary for development of a fibrotic response. There were no significant differences in the percentages of any other leukocytes analyzed between the genotypes. Similarly, protection in IL-13(-/-) mice was not associated with alterations in cytokine or eicosanoid profiles. Interestingly, TGF-beta1 production was not reduced in IL-13(-/-) mice. Analyses of fibroblasts isolated from the four genotypes demonstrated that although there were similar numbers of fibroblasts present in cultures of lung minces, fibroblasts from IL-13-deficient strains have reduced basal and stimulated levels of collagen production. IL-13Ralpha1 expression increases on fibroblasts during fibrotic responses in vivo, and IL-13 increases collagen synthesis in fibroblasts. Thus, IL-13 mediates its profibrotic actions through direct effects on fibroblast production of extracellular matrix.",
   "abstract_source": "pubmed",
-  "cited_by_count": 185,
+  "cited_by_count": 183,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/15034018/",
   "keywords": [
@@ -8794,7 +8794,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "jakubzick2004augmented",
@@ -8913,7 +8913,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "jakubzick2004pulmonary",
@@ -9030,7 +9030,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "choi2004enhanced",
@@ -9081,7 +9081,7 @@
   "openalex_id": "https://openalex.org/W2112687657",
   "abstract": "Chemokines are increased and may exert effects on both inflammatory and remodeling events in idiopathic pulmonary pneumonia (IIP). Accordingly, we examined the concomitant expression of inflammatory CC chemotactic cytokines or chemokines and their corresponding receptors in surgical lung biopsies obtained at the time of disease diagnosis and pulmonary fibroblasts grown from these biopsies. By gene array analysis, upper and lower lobe biopsies and primary fibroblast lines from patients with usual interstitial pneumonia (UIP), nonspecific interstitial pneumonia, and respiratory bronchiolitis-interstitial lung disease, but not patients without IIP, exhibited CCL7 gene expression. TAQMAN, immunohistochemical, and ELISA analyses confirmed that CCL7 was expressed at significantly higher levels in UIP lung biopsies compared with biopsies from patients with nonspecific interstitial pneumonia, respiratory bronchiolitis-interstitial lung disease, and from patients without IIP. Higher levels of CCL7 were present in cultures of IIP fibroblasts compared with non-IIP fibroblasts, and CCL5, a CCR5 agonist, significantly increased the synthesis of CCL7 by UIP fibroblasts. Together, these data suggest that CCL7 is highly expressed in biopsies and pulmonary fibroblast lines obtained from patients with UIP relative to patients with other IIP and patients without IIP, and that this CC chemokine may have a major role in the progression of fibrosis in this IIP patient group.",
   "abstract_source": "pubmed",
-  "cited_by_count": 61,
+  "cited_by_count": 59,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/15191918/",
   "keywords": [
@@ -9142,7 +9142,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "jakubzick2004ligands",
@@ -9179,7 +9179,7 @@
   "openalex_id": "https://openalex.org/W2158672984",
   "abstract": "Controversy persists pertaining to the role of CCR4 ligands, namely CCL17 (or thymus and activation regulated chemokine; TARC) and CCL22 (or macrophage-derived chemokine; MDC), in Th2-type cytokine-dominated responses in the lung. Accordingly, the present study addressed the relative role of each of these CC chemokines during an evolving pulmonary granulomatous response elicited by the intrapulmonary embolization of live Schistosoma mansoni eggs into S. mansoni-sensitized mice. CCL22 protein expression peaked at day 4, but CCL17 levels were not increased significantly at any time after egg challenge. CCR4 transcript and protein expression were highest at day 8 after egg embolization and CCR4 protein was prominently expressed in macrophages surrounding S. mansoni eggs. Systemic immunoneutralization of CCL22 from the time of egg injection into S. mansoni-sensitized mice for 8 days significantly decreased CCR4 protein expression, the eosinophil content, the overall size of the egg granuloma, and its hydroxyproline content. Whole lung levels of interferon-gamma were also significantly increased at day 8 in anti-CCL22-treated mice. The systemic immunoneutralization of CCL17 had a lesser effect on all of the granuloma parameters listed above, but this antibody treatment significantly decreased granuloma hydroxyproline content to a greater extent than the anti-CCL22 antibody treatment. In addition, the immunoneutralization of CCL17 significantly increased whole lung levels of interleukin (IL)-4, IL-5, IL-13, transforming growth factor-beta, IL-12, and tumor necrosis factor-alpha at day 8 after egg infusion. Thus, these studies demonstrate a major role for CCL22 and a lesser role for CCL17 during an evolving S. mansoni egg granuloma in the lung.",
   "abstract_source": "pubmed",
-  "cited_by_count": 63,
+  "cited_by_count": 64,
   "oa_url": "http://ajp.amjpathol.org/article/S0002944010633810/pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/15466387/",
   "keywords": [
@@ -9248,7 +9248,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "jakubzick2003impact",
@@ -9285,7 +9285,7 @@
   "openalex_id": "https://openalex.org/W2074681456",
   "abstract": "Interleukin-13 (IL-13) has emerged as a major cytokine mediator of fibroblast activation and pulmonary fibrosis. Normal (from noninflamed lung), Th1-type (induced by the pulmonary embolization of purified peptide derivative-coated beads in mice sensitized to purified peptide derivative), and Th2-type (induced by the pulmonary embolization of Schistosoma mansoni egg antigen-coated beads in mice sensitized with S. mansoni eggs) primary fibroblast cell lines all exhibited constitutive gene expression of two receptor chains that bind and signal IL-13-mediated cellular events: IL-4Ralpha and IL-13Ralpha1. However, all three fibroblast cell lines exhibited divergent synthetic and proliferative responses to the exogenous addition of either recombinant IL-13 or a chimeric protein comprised of IL-13 and a truncated version of Pseudomonas exotoxin (IL13-PE), which targets and kills IL-13 receptor overexpressing cells. The exogenous addition of IL-13 to Th1-type and Th2-type fibroblast cultures significantly increased the cellular expression of IL-13Ralpha2, which may function as an IL-13 decoy receptor. After a 24-hour exposure to IL-13, the total collagen generation and cellular proliferation by Th2-type fibroblasts were significantly higher than that observed in similar numbers of normal and Th1-type fibroblasts. In addition IL13-PE, which binds with highest affinity to IL-13Ralpha2, exhibited down-regulatory effects on proliferation and matrix generation expression by Th1- and Th2-type, but not normal, fibroblasts. Thus, these data demonstrate that fibroblasts derived from murine pulmonary granulomas exhibit divergent expression of functional IL-13 receptor and this expression dictates the responsiveness and susceptibility to recombinant IL-13 and IL-13 immunotoxin, respectively.",
   "abstract_source": "pubmed",
-  "cited_by_count": 48,
+  "cited_by_count": 47,
   "oa_url": "http://ajp.amjpathol.org/article/S0002944010642800/pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/12707030/",
   "keywords": [
@@ -9352,7 +9352,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "jakubzick2003therapeutic",
@@ -9453,7 +9453,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "blease2002deficient",
@@ -9563,7 +9563,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "jakubzick2002interleukin",
@@ -9665,7 +9665,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-03"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "blease2001therapeutic",
@@ -9702,7 +9702,7 @@
   "openalex_id": "https://openalex.org/W1507607612",
   "abstract": "IL-13 and IL-4 are key contributors to the asthmatic phenotype. The temporal role of these cytokines in airway function, inflammation, and remodeling were assessed in a chronic murine model of Asperigillus fumigatus-induced allergic asthma. IL-13 and IL-4 protein levels were significantly elevated by 30 days after conidia challenge in A. fumigatus-sensitized mice. Furthermore, IL-13Ralpha1 mRNA expression was significantly elevated 7 days after conidia challenge and remained elevated until day 21. In contrast, IL-13Ralpha2 mRNA expression, although constitutively expressed in naive lung, was absent in the lungs of A. fumigatus-sensitized mice both before and after conidia challenge. Membrane-bound IL-4R mRNA expression was significantly elevated 7 days after conidia challenge; however, soluble IL-4R mRNA expression was increased 30 days after conidia challenge. Immunoneutralization of IL-13 between days 14 and 30 or days 30 and 38 after fungal sensitization and challenge significantly attenuated airway hyperresponsiveness, collagen deposition, and goblet cell hyperplasia at day 38 after conidia challenge; however, the effects of IL-4 immunoneutralization during the same time periods were not as marked. IFN-gamma and IL-12 release after Aspergillus Ag restimulation was elevated from spleen cells isolated from mice treated with IL-4 anti-serum compared with IL-13 anti-serum or normal rabbit serum-treated mice. This study demonstrates a pronounced therapeutic effect of IL-13-immunoneutralization at extended time points following the induction of chronic asthma. Most importantly, these therapeutic effects were not reversed following cessation of treatment, and IL-13 anti-serum treatment did not alter the systemic immune response to Ag restimulation, unlike IL-4 immunoneutralization. Therefore, IL-13 provides an attractive therapeutic target in allergic asthma.",
   "abstract_source": "pubmed",
-  "cited_by_count": 149,
+  "cited_by_count": 147,
   "oa_url": "https://journals.aai.org/jimmunol/article-pdf/166/8/5219/1129247/5219.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/11290806/",
   "keywords": [
@@ -9764,7 +9764,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "blease2001fusion",
@@ -9863,7 +9863,7 @@
   },
   "date_added": "2026-09-09",
   "source": "pubmed",
-  "citations_refreshed": "2026-11-04"
+  "citations_refreshed": "2026-11-05"
  },
  {
   "id": "smith1999carbonic",
